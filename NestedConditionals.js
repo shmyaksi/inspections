@@ -11,3 +11,4 @@ let firstCheck = false,
 secondCheck = false,    
  access = firstCheck ? "Доступ запрещен" : secondCheck ? "Доступ запрещен" : "Доступ разрешен";
       
+let m = !a ?b :c ?v
