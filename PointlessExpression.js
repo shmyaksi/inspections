@@ -1,12 +1,10 @@
-let a = 0, b=123, c=41;
-let sum = b+a; // this inspection doesn't work here
-let a = 1, b=123, c=41;
-let sum = b*a;
+let a1 = 0, b1=123*1, c1=41;
+let sum = b+a; 
 
 
 function checking(){ //doesn't work
-    let  a = 1,b=123
-    return b * a
+    let  aa = 1,bb=123
+    return b * aa
 }
 
 function checking1(){
@@ -16,11 +14,11 @@ checking1()
 
 
 
-for(let i=0; i<10;i++) { //as well
-    let a = 1;
-    if (a > 0) {
-        a--;
-        let sum = a * 5;
+for(let i=0; i<10;i++) { 
+    let abc = 1;
+    if (abc > 0) {
+        abc--;
+        let sum = abc * 1;
         console.log(sum);
     }
 }
