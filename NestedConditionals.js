@@ -12,3 +12,15 @@ secondCheck = false,
  access = firstCheck ? "Доступ запрещен" : secondCheck ? "Доступ запрещен" : "Доступ разрешен";
       
 let m = !a ?b :c ?v
+
+
+
+let bookshit = 20;  //doesn't appear, probably not 'strong' conditionals
+let a=10;
+let res;
+if (a>=bookshit)
+    console.log('you are cool')
+    else
+    if ((a>bookshit-5)&&(a<bookshit))
+        console.log('keep reading!')
+    else console.log('you would better read more');
