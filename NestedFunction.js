@@ -4,3 +4,10 @@ function add() {
     plus();
     return counter;
 }
+
+
+function a(x) {
+    const b = y => x + y;
+    return b;
+}
+console.log(a(3)(4));
