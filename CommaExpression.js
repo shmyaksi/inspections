@@ -20,3 +20,17 @@ let x1, y1, z1;
 
 x1 = (y1 = 5, z1 = 6); 
 console.log(x1); // 6 
+
+
+let m = !a ?b :c //conditional expression
+
+let booksCount = 19;
+let result;
+
+    result = (booksCount > 15) ? 'План на год выполнен!' :
+        (booksCount > 10) ? 'Уже неплохо!' :
+            'Читать и ещё раз читать';
+
+
+
+var userType = userIsYoungerThan18 ? "Minor" : "Adult";
