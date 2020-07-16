@@ -15,7 +15,7 @@ let m = !a ?b :c ?v
 
 
 
-let bookshit = 20;  //doesn't appear, probably not 'strong' conditionals
+let bookshit = 20;  //weird, it doesn't appear
 let a=10;
 let res;
 if (a>=bookshit)
