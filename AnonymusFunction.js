@@ -9,6 +9,7 @@ function NotAnon(){
     let an = function(){
 
     }
+    console.log('I'm nor anonymus')
 
 
 }
