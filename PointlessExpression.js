@@ -14,14 +14,20 @@ checking1()
 
 
 
-for(let i=0; i<10;i++) { 
-    let abc = 1;
-    if (abc > 0) {
-        abc--;
-        let sum = abc * 1;
-        console.log(sum);
+function one() {
+    let sum=1;
+    for (let i = 0; i < 10; i++) { //as well
+        let abc = 1;
+        if (abc > 0) {
+            abc--;
+             sum = abc * 1;
+
+        }
     }
+
+console.log(sum)
 }
+one()
 
 
 function checking2(){ //doesn't work
