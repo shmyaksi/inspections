@@ -1,41 +1,66 @@
-for (let i = 0; i < 10; i++) {
-    if (i === 3) { break; }
-    let text += "The number is " + i + "<br>";
-}
-
-
-let cars = ["BMW", "Volvo", "Saab", "Ford"];
-list: {
-    text += cars[0] + "<br>";
-    text += cars[1] + "<br>";
-    break list;
-    text += cars[2] + "<br>";
-    text += cars[3] + "<br>";
-}
-
-
-let str = ''; //break statement with label
-
-loop1:
-    for (let i = 0; i < 5; i++) {
-        if (i === 1) {
-            break loop1;
+function one() {
+    let text;
+    for (let i = 0; i < 10; i++) {
+        if (i === 3) {
+            break;
         }
-        str = str + i;
+        text += "The number is  " + i+ " ." ;
     }
+    console.log(text);
+}
+
+one()
+
+function two() {
+    let textt;
+    let cars = ["BMW ", "Volvo", "Saab", "Ford"];
+    list: {
+        textt += cars[0]+ '';
+        textt += cars[1]+ '';
+        break list;
+        textt += cars[2]+ '' ;
+        textt += cars[3]+'' ;
+    }
+    console.log(textt);
+}
+two()
 
 
+function three() {
 
+    let str = '';
+    loop1:
+        for (let ii = 0; ii < 5; ii++) {
 
-let k, j;
-
-loop1:
-    for (k = 0; k < 3; k++) {      
-        loop2:
-            for (j = 0; j < 3; j++) {   
-                if (k === 1 && j === 1) {
-                    break loop1;
-                }
-                console.log('k = ' + k + ', j = ' + j);
+            if (ii === 1) {
+                break loop1;
             }
-    }
+            str = str + ii;
+
+        }
+
+    console.log(str);
+}
+
+
+three()
+
+
+
+
+function four() {
+    let k, j;
+
+    loop1:
+        for (k = 0; k < 3; k++) {
+            loop2:
+                for (j = 0; j < 3; j++) {
+                    if (k === 1 && j === 1) {
+                        break loop1;
+                    }
+                     console.log('k = ' + k + ', j = ' + j);
+                }
+        }
+}
+
+four()
