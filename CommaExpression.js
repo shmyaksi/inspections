@@ -22,15 +22,29 @@ x1 = (y1 = 5, z1 = 6);
 console.log(x1); // 6 
 
 
+
+
+function one() {
+    let arr = [4, 0, 2, 5];
+    arr[0]=5,3;
+
+console.log(arr)
+}
+one()
+
+
+
 let m = !a ?b :c //conditional expression
 
-let booksCount = 19;
-let result;
+function Calc() {
+    let booksCount = 19;
+    let result;
 
     result = (booksCount > 15) ? 'План на год выполнен!' :
         (booksCount > 10) ? 'Уже неплохо!' :
             'Читать и ещё раз читать';
+console.log(result)
+}
+Calc()
 
 
-
-var userType = userIsYoungerThan18 ? "Minor" : "Adult";
