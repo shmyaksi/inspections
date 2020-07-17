@@ -1,9 +1,11 @@
-if (a>b){
-    a++;
+function three(a,b) {
+    if (a <= b) {
+    }
+    else {
+        a--;
+    }
+    console.log(a,b)
 }
-else {}
+three(6,5)
 
 
-while(a<b){
-    
-}
