@@ -76,3 +76,26 @@ function foo() {
 }
 foo()
 
+
+function test(fruit, quantity) {
+    const redFruits = ['apple', 'strawberry', 'cherry', 'cranberries'];
+
+
+    if (fruit) {
+        if (redFruits.includes(fruit)) {
+            console.log('red');
+
+            if (quantity > 10) {
+                console.log('big quantity');
+                quantity*=0;
+            }
+            console.log(quantity)
+        }
+    } else {
+        throw new Error('No fruit!');
+    }
+}
+
+
+test('apple'); 
+test('apple', 20); 
