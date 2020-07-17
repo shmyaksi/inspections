@@ -2,7 +2,7 @@ let a1 = 0, b1=123*1, c1=41;
 let sum = b+a; 
 
 
-function checking(){ //doesn't work
+function checking(){ //TODO
     let  aa = 1,bb=123
     return bb * aa
 }
