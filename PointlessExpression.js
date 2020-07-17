@@ -16,11 +16,11 @@ checking1()
 
 function one() {
     let sum=1;
-    for (let i = 0; i < 10; i++) { //as well
+    for (let i = 0; i < 10; i++) { 
         let abc = 1;
         if (abc > 0) {
             abc--;
-             sum = abc * 1;
+             sum = abc * 1; //work
 
         }
     }
@@ -35,7 +35,7 @@ function checking2(){ //doesn't work
     return bb / 0;
 }
 
-
+console.log(checking2())
 
 
 
@@ -46,11 +46,19 @@ function checking3(){ //doesn't work
     let  aa = 1,bb=123
     return bb*s;
 }
+console.log(checking3())
 
 
 function checking4(){ //doesn't work
     let  aa = 1,bb=123
     return bb/s;
 }
+console.log(checking4())
+
+function checking5(){ //doesn't work
+    let  aa = 1,bb=123
+    return bb * aa;
+}
+console.log(checking5())
 
 
