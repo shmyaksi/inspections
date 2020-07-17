@@ -90,3 +90,25 @@ function four() { //continue statement with label
     console.log(str);
 }
 four()
+
+
+
+class Rectangle {
+    constructor(height, width) {
+        this.height = height;
+        this.width = width;
+    }
+
+    square(){
+        return this.height*this.width;
+    }
+
+
+}
+rectangle1 = new Rectangle(0, 50);
+function foo() {
+
+
+    console.log( rectangle1.square())
+}
+foo()
