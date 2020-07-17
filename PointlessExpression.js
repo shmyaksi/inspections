@@ -30,7 +30,7 @@ console.log(sum)
 one()
 
 
-function checking2(){ //doesn't work
+function checking2(){ //TODO
     let  aa = 1,bb=123
     return bb / 0;
 }
@@ -42,20 +42,20 @@ console.log(checking2())
 
 const s=0
 
-function checking3(){ //doesn't work
+function checking3(){ //TODO
     let  aa = 1,bb=123
     return bb*s;
 }
 console.log(checking3())
 
 
-function checking4(){ //doesn't work
+function checking4(){ //TODO
     let  aa = 1,bb=123
     return bb/s;
 }
 console.log(checking4())
 
-function checking5(){ //doesn't work
+function checking5(){ //TODO
     let  aa = 1,bb=123
     return bb * aa;
 }
