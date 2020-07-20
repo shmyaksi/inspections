@@ -30,3 +30,12 @@ class books {
 console.log(book1.present());
 
 
+let foo={
+    name: 'kate',
+    job:'musician',
+    planet: 'russia'
+}
+
+if (foo.name ==='kate'){
+
+}
