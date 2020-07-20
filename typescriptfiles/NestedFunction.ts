@@ -34,3 +34,4 @@ function sayHiBye(firstName, lastName) {
     }
 
 }
+sayHiBye('kate', "middlton");
