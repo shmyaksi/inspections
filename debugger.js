@@ -4,10 +4,6 @@ function potentiallyBuggyCode() {
 }
 
 potentiallyBuggyCode()
-
-
-
-
 function summ(){
 
     let a = 5, b = 0;
@@ -17,9 +13,6 @@ function summ(){
 }
 
 console.log(summ())
-
-
-
 
 class flowers{
     constructor(flower) {
