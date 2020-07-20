@@ -13,3 +13,17 @@ function myFunc() {
 }
 
 console.log(myFunc())
+
+
+function one(){
+
+    function two(){
+
+
+        function three(){
+            return three.caller
+        }
+    }
+}
+
+console.log(one()) //returned undefined 
