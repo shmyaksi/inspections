@@ -10,4 +10,9 @@ function one(assan){
 one(3)
 
 
-
+class goods{
+constructor() {
+    {this.a = a;}
+    
+}    
+}
