@@ -21,3 +21,18 @@ function one(){
     two()
 }
 one()
+
+
+
+function sayHiBye(firstName, lastName) {
+
+    console.log( "Привет, " + getFullName() );
+    console.log( "Пока, " + getFullName() );
+
+    function getFullName() {
+        return firstName + " " + lastName;
+    }
+
+}
+
+sayHiBye("kate", "middlton"); 
