@@ -20,7 +20,7 @@ class Animal {
 }
 
 
-class Person {
+class Person1 {
     private _birthYear: number;  //TODO
     constructor(birthYear: number) {
         this._birthYear = birthYear;

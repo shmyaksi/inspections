@@ -1,4 +1,4 @@
-mport { Pet } from "./CheckAugmentation";
+import { Pet } from "./CheckAugmentation";
 declare module "./pet" {
     interface Pet {
         age: number;
