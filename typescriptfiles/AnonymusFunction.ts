@@ -92,7 +92,7 @@ class Greeter {
     }
 
     greet = function () {
-        return "Hello, " + this.greeting;
+        return "Hello, " + this.greeting; //flipping + causes undesirable result
     }
 }
 
