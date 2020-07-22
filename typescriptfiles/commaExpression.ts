@@ -5,9 +5,6 @@ x = (x++, x);
 console.log(x);
 
 
-//let y = (2, 3);
-
-console.log(x);
 
 
 let a, b, c;

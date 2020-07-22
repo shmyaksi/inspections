@@ -82,7 +82,7 @@ while (i <= 10) {
         break     //exit the loop if the first multiple is found
     }
     i++
-}  //outputs 5 and exits the loop
+}  //outputs 5 and exits the loop hello
 
 
 
