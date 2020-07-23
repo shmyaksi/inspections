@@ -1,8 +1,8 @@
-function identity<T>(arg: T): T {
+function Identity<T>(arg: T): T {
     return arg;
 }
 
-let myIdentity: {<T>(arg: T): null} = identity;
+let myIdentity: {<T>(arg: T): null} = Identity;
 
 
 function two(x:string):number{

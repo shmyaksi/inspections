@@ -103,6 +103,6 @@ let identity = function <T>(arg: T): T {
     return arg;
 }
 
-let myIdentity: <T>(arg: T) => T = identity;
+let myidentity: <T>(arg: T) => T = identity;
 
 
