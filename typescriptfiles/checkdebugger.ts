@@ -17,7 +17,6 @@ console.log(summa())
 
 class flowers {
     greeting: string;
-
     constructor(flower) {
         this.greeting = flower;
     }
@@ -30,3 +29,7 @@ class flowers {
 
 
 }
+
+let myflower = new flowers('sunflower')
+console.log(myflower.greet())
+debugger
