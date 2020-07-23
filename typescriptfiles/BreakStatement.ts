@@ -50,10 +50,13 @@ three()
 function four() {
     let k, j;
 
+
     loop1:
         for (k = 0; k < 3; k++) {
+
             loop2:
                 for (j = 0; j < 3; j++) {
+
                     if (k === 1 && j === 1) {
                         break loop1;
                     }
@@ -79,10 +82,10 @@ let i: number = 1
 while (i <= 10) {
     if (i % 5 == 0) {
         console.log("The first multiple of 5  between 1 and 10 is : " + i)
-        break     //exit the loop if the first multiple is found
+        break
     }
     i++
-}  //outputs 5 and exits the loop hello
+}
 
 
 
