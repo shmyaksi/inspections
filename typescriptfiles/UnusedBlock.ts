@@ -1,4 +1,4 @@
-function one(assan) {
+function oneone(assan) {
     {
         let assan = +1;
     }
@@ -7,10 +7,11 @@ function one(assan) {
 
 }
 
-one(3)
+oneone(3)
 
 
 class goods {
+
     a: string
 
     constructor(a: string) {
@@ -19,4 +20,38 @@ class goods {
         }
 
     }
+}
+
+enum AAA {
+    X,
+    Y,
+    Z
+
+}
+
+console.log(AAA.X)
+{
+    let bra = 'knv'
+}
+
+try {
+
+
+} catch (e) {
+    let error: string;
+    console.error(error)
+
+}
+
+
+{
+    function fu() {
+        {
+
+        }
+    }
+
+    fu()
+
+
 }
