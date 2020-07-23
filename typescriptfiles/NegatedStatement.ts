@@ -1,3 +1,4 @@
+
 function comparison(password) {
 
     if (password.length !== 0) {
@@ -36,10 +37,10 @@ function str() {
 str()
 
 
-let Person = (function () {
+let Person11 = (function () {
     let ageKey :number;
 
-    class Person {
+    class Person11 {
         name: string;
 
         constructor(theName: string) {
@@ -60,8 +61,23 @@ let Person = (function () {
         }
     }
 
-    return Person;
+    return Person11;
 })();
 
-let joe = new Person('Joe');
+let joe = new Person11('Joe');
 joe.greet();
+
+
+interface MyFace {
+    foo: number;
+}
+
+function cc(mynum:MyFace){
+
+    if (!(mynum.foo))
+    console.log(mynum.foo)
+    else return
+}
+
+let my = {foo:10, mynum:'xns'};
+cc(my)
