@@ -2,7 +2,7 @@ let ae =33+11;
 
 
 function comparison(password){
-    if(password.length < 3){ // TODO
+    if(password.length < 2){ // TODO
 
     }
 }
