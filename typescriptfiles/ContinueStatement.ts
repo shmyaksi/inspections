@@ -1,11 +1,12 @@
+export{}
 function one() {
-    let text;
+    let text='';
     for (let i = 0; i < 10; i++) {
         if (i !== 3) {
             continue;
         }
-        text += "The number is " + i + "<br>";
-    }
+        text += "The number is " + i;
+        console.log(text)   }
 }
 
 one()
@@ -13,7 +14,7 @@ one()
 
 
 function two() {
-    let textt = "";
+    let textt = " ";
     let j;
     let cars;
     cars = ['Saab','Volvo','Subaru'];
@@ -93,3 +94,13 @@ function four() { //continue statement with label
     console.log(str);
 }
 four()
+
+let i: number = 1
+while (i <= 10) {
+    if (i % 5 == 0) {
+        console.log("The first multiple of 5  between 1 and 10 is : " + i)
+
+    }
+    else continue
+    i++
+}

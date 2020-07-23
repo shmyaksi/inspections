@@ -1,3 +1,4 @@
+export{}
 function one() {
     let text;
     for (let i = 0; i < 10; i++) {
@@ -68,15 +69,6 @@ function four() {
 four()
 
 
-class cars {
-    name: string
-
-    constructor(theName: string) {
-        this.name = theName
-    }
-
-
-}
 
 let i: number = 1
 while (i <= 10) {
