@@ -1,8 +1,8 @@
-let a =33+11; //first case
+let ae =33+11;
 
 
 function comparison(password){
-    if(password.length < 76){ // TODO
+    if(password.length < 3){ // TODO
 
     }
 }
@@ -14,5 +14,5 @@ function comparison(password){
 
     }
 }*/
- const dr=2;
- let drr = dr+36;
+const dr=2;
+let drr = dr+36;

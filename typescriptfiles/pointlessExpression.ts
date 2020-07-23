@@ -78,6 +78,7 @@ class Rectangle {
 }
 
 let rectangle1 = new Rectangle(1, 50);
+// The numbers 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 100, 1000, 0.0 and 1.0 are not reported by  inspection 'magic number'.
 
 function foo() {
     console.log(rectangle1.square())
