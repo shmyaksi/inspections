@@ -72,7 +72,7 @@ interface MyFace {
     foo: number;
 }
 
-function cc(mynum:MyFace){
+function cccc(mynum:MyFace){
 
     if (!(mynum.foo))
     console.log(mynum.foo)
@@ -80,4 +80,4 @@ function cc(mynum:MyFace){
 }
 
 let my = {foo:10, mynum:'xns'};
-cc(my)
+cccc(my)
