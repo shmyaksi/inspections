@@ -1,7 +1,8 @@
+export{}
 function one() {
     let a, b, c, d
 
-    d = !a ? b : c
+    d = !a ? b : c // inspection 'negated conditionals 'works only for ternary expressions(suggest to add this to description)
     return d
 
 }
@@ -9,7 +10,7 @@ function one() {
 one()
 
 
-function abcdd(b, c) {
+function abcdd(b, c) { //negated if statement
     let bc = 'mother';
     let m: number;
     if (!bc) {
@@ -33,7 +34,7 @@ let Person = (function () {
         }
 
 
-        comparison() {
+        comparison() {   //negated if statement
             if (!this.name) return 'go away'
             else return 'hello';
 
@@ -50,3 +51,25 @@ let Person = (function () {
 
 let joe = new Person('Joe');
 joe.greet();
+
+
+function foo(){
+
+    let s = 5;
+
+    if(!s)
+
+        console.log('ok')
+
+}
+
+foo()
+
+const xx = 4, yy=8
+
+function comp(){
+
+    if (!(xx || yy)) return 'good' //negated IF
+    else return
+}
+comp()
