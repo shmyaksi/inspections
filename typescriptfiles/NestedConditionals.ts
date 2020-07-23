@@ -10,17 +10,32 @@ function book() {
 book()
 
 
-function check() {   //conditional expression
+function check() {
     let firstCheck = false,
         secondCheck = false,
         access = firstCheck ? "Доступ запрещен" : secondCheck ? "Доступ запрещен" : "Доступ разрешен";
 }
 
 check()
-let [a, b, c, v] = [2, 3, 4, 5];
-let m: any;
-if (c) {
-    m = a ? v : c
+let [aa, bb, ccc, v] = [2, 3, 4, 5];
+let mm: any;
+if (ccc) {
+    mm = aa ? v : ccc //conditional expression
 } else {
-    m = a ? b : c
+    mm = aa ? bb : ccc? bb-- : ccc--
 }
+console.log(mm)
+
+
+interface MyFace {
+    foo: number;
+}
+
+function cc(mynum:MyFace){
+let resultt:string;
+    resultt =  (mynum.foo)? 'hello' : !(mynum.foo)? 'goodbye': "ok"
+
+}
+
+let myy = {foo:10, mynum:'xns'};
+cc(myy)
