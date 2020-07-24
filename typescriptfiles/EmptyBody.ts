@@ -61,11 +61,9 @@ console.log(present('red'))
 
 function fooo() {
     let k = 0;
-    if (k > 0) {
-        while (k < 4) {
-            //k++
+    if (k > 0) while (k < 4) {
+        //k++
 
-        }
     }
     return k
 }
