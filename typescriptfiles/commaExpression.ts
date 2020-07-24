@@ -1,6 +1,7 @@
+export{}
 let x = 1
 
-x = (x++, x)
+x = (x++, x) //TODO flipping ',' cause problem
 
 console.log(x)
 
@@ -18,7 +19,7 @@ console.log(x1); // 6
 
 function one() {
     let arr = [4, 0, 2, 5]
-    arr[0] = 5, 3
+    arr[0] = 5, 3  //TODO flipping ',' cause problem
 
     console.log(arr)
 }
@@ -32,7 +33,7 @@ function Calc() {
     let result
 
     result = (booksCount > 15) ? 'План на год выполнен!' :
-        (booksCount > 10) ? 'Уже неплохо!' :
+        (booksCount > 10) ? 'Уже неплохо!' : //TODO double tool tip
             'Читать и ещё раз читать'
     console.log(result)
 }
@@ -49,7 +50,7 @@ function f(obj: { X: number }) {
     let resultt: number;
 
     resultt = (x < 5) ? x * 3 :
-        (x > 1) ? x + 1 :
+        (x > 1) ? x + 1 : //TODO double tool tip
             x - 10? x+2:x=0
     return resultt;
 }
