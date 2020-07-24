@@ -19,7 +19,7 @@ eval('var result = obj.' + propName);
 let myVar;
 
 function myFunction() {
-    myVar = setTimeout(alertFunc, 3000); //TODO
+    myVar = setTimeout(alertFunc, 3000); //TODO inspection should be here( or delete it from description)
 }
 
 function alertFunc() {
@@ -30,7 +30,8 @@ myFunction()
 
 
 function myFunc() {
-    myVar = setTimeout(function () {  //TODO
+    myVar = setTimeout(function () {  //TODO inspection should be here( or delete it from description)
+        // TODO not informative tool tip with arrow function
         console.log(("Hello"))
     }, 3000);
 }
@@ -45,10 +46,11 @@ function free() {
     if (a > 10) console.log(a * a);
 }
 
-setTimeout(free, 2000) //TODO
+setTimeout(free, 2000) //TODO inspection should be here( or delete it from description)
 
 
-let timerId = setInterval(() => console.log(('tick')), 2000); //TODO
+let timerId = setInterval(() => console.log(('tick')), 2000);
+//TODO inspection should be here( or delete it from description)
 
 
 setTimeout(() => {
