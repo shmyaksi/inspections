@@ -31,3 +31,10 @@ function opp(){
 }
 opp()
 
+let ar = [2,3,4,5]
+function om(){
+     ar[0]=ar[0] //TODO
+    return ar[0]
+
+}
+console.log(om())
