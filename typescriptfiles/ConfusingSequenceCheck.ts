@@ -1,7 +1,7 @@
 function ad() {
     let a = 34, b = 4;
     let c: number;
-    c = a++ + b;
+    c = a+++b;
     console.log(c)
 }
 
