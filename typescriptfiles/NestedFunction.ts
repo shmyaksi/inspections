@@ -12,7 +12,7 @@ function add() {
 add()
 
 function ah(x) {
-    const bh = y => x + y;
+    const bh = y => x + y; //TODO not informative tool tip for arrow function
     return bh;
 }
 

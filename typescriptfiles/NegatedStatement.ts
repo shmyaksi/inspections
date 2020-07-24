@@ -1,9 +1,11 @@
-
+export{}
 function comparison(password) {
 
     if (password.length !== 0) {
         return
+
     } else {
+
 
     }
 }
