@@ -1,3 +1,4 @@
+export{}
 let a1 = 0, b1 = 123 * 1, c1 = 41;
 let sum = b1 + a1;
 
@@ -94,7 +95,7 @@ function test(fruit, quantity) {
     if (fruit) {
         if (quantity > 10) {
             console.log('big quantity');
-            quantity *= 1;
+            quantity *= 1; //TODO
         }
         //console.log(quantity)
 
