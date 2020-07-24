@@ -19,8 +19,6 @@ function two() {
         textt += cars[0] + '';
         textt += cars[1] + '';
         break list;
-        textt += cars[2] + '';
-        textt += cars[3] + '';
     }
     console.log(textt);
 }
@@ -34,9 +32,7 @@ function three() {
     loop1:
         for (let ii = 0; ii < 5; ii++) {
 
-            if (ii === 1) {
-                break loop1;
-            }
+            if (ii === 1) break loop1;
             str = str + ii;
 
         }
