@@ -1,11 +1,11 @@
-let anon = function () {
+let anon = function () { //  TODO not informative tool tip
     return 'I am anonymous';
 }
 anon();
 
 
 function NotAnon() {
-    let an = function () {
+    let an = function () { //  TODO not informative tool tip
 
     }
     console.log('Im not anonymus')
@@ -29,7 +29,7 @@ class marks {
     }
 
 
-    arr = function () {
+    arr = function () { //TODO no suggestion to convert
 
         return 2;
     }
@@ -46,7 +46,7 @@ interface LabeledValue {
     label: string;
 }
 
-const printLabel = function (labeledObj: LabeledValue) {
+const printLabel = function (labeledObj: LabeledValue) { //  TODO not informative tool tip
     console.log(labeledObj.label);
 }
 
@@ -63,7 +63,7 @@ interface Square extends Shape {
 
 }
 
-const present = function (color: string) {
+const present = function (color: string) { //  TODO not informative tool tip
     return 'my colour is ' + color;
 }
 
@@ -91,7 +91,7 @@ class Greeter {
         this.greeting = message;
     }
 
-    greet = function () {
+    greet = function () { //TODO no suggestion to convert
         return "Hello, " + this.greeting; //flipping + causes undesirable result
     }
 }
@@ -99,7 +99,7 @@ class Greeter {
 let anna = new Greeter('anna')
 console.log(anna.greet())
 
-let identity = function <T>(arg: T): T {
+let identity = function <T>(arg: T): T { // TODO not informative tool tip
     return arg;
 }
 

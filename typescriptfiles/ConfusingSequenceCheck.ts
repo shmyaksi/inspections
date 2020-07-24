@@ -13,7 +13,7 @@ function ad2() {
 
     for (let i = 0; i < 5; i++) {
         {
-            c = a - +-b; // TODO
+            c = a-+-b; // TODO suggest to add these kind of cases
             console.log(c)
         }
     }
