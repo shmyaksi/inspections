@@ -2,9 +2,7 @@ export{}
 function one() {
     let text='';
     for (let i = 0; i < 10; i++) {
-        if (i !== 3) {
-            continue;
-        }
+        if (i !== 3) continue;
         text += "The number is " + i;
         console.log(text)   }
 }
@@ -48,9 +46,7 @@ function asdf() {
     let cars;
     cars = ['Saab','Volvo','Subaru'];
     for (j = 0; j < cars.length; j++) {
-        if (cars[j] === "Saab") {
-            continue;
-        }
+        if (cars[j] === "Saab") continue;
         textt += cars[j] ;
     }
     console.log(mycar.present())
