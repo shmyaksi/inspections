@@ -1,6 +1,6 @@
 export{}
 function one(){
-    even:                           //unnecessary label
+    even:                           // TODO 'cleanup' and 'remove label' work equally
         for (let i = 1; i <= 10; i++){
             console.log(i);
         }
@@ -41,7 +41,7 @@ myLabel: {
 
 doSomething()
 function three() {
-    myLabell: for (let i = 0; i < 10; i++) {// Compliant
+    myLabell: for (let i = 0; i < 10; i++) {
 
         console.log("Loop");
         break myLabell;
