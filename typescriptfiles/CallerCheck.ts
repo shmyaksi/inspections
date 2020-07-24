@@ -5,17 +5,18 @@ console.log(xe())
 
 
 function myFunc() {
-    if (myFunc.caller == null) { //TODO
+    if (myFunc.caller === null) { //TODO
         return 'Эта функция была вызвана из верхнего уровня!';
     } else {
         return 'Эта функция была вызвана из ' + myFunc.caller;
     }
 }
 
-console.log(myFunc())
+console.log(myFunc()) //TODO
 
 
 function one(){
+  //  console.log('jkfbksf')
 
     function two(){
 
@@ -26,4 +27,4 @@ function one(){
     }
 }
 
-//console.log(one()) //returned undefined
+console.log(one()) //returned undefined
