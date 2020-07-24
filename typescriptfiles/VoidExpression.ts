@@ -7,7 +7,7 @@ void function onon() {
 function threee(){
     let j=void(0);
 
-    if(j===void(0)){ //suggest to change to 'undefined'
+    if(j===void(0)){ // TODO suggest to change to 'undefined'
         console.log('error')
     }
 }
