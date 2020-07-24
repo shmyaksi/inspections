@@ -1,11 +1,12 @@
-function looseJsonParse(obj){
+function looseJsonParse(obj) {
     return eval("(" + obj + ")");
 }
+
 console.log(looseJsonParse(
     "{a:(4-1), b:function(){}, c:new Date()}"
 ))
 
-let obj = { a: 20, b: 30 };
+let obj = {a: 20, b: 30};
 
 function getPropName() {
 
@@ -13,7 +14,7 @@ function getPropName() {
 
 let propName = getPropName();
 
-eval( 'var result = obj.' + propName );
+eval('var result = obj.' + propName);
 
 let myVar;
 
@@ -26,3 +27,32 @@ function alertFunc() {
 }
 
 myFunction()
+
+
+function myFunc() {
+    myVar = setTimeout(function () {  //TODO
+        console.log(("Hello"))
+    }, 3000);
+}
+
+function myStopFunction() {
+    clearTimeout(myVar);
+}
+
+
+function free() {
+    let a = 20;
+    if (a > 10) console.log(a * a);
+}
+
+setTimeout(free, 2000) //TODO
+
+
+let timerId = setInterval(() => console.log(('tick')), 2000); //TODO
+
+
+setTimeout(() => {
+    clearInterval(timerId);
+    console.log('stop');
+}, 5000);
+
