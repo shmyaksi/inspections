@@ -22,13 +22,78 @@ class Cars {
 let m = new Cars(32);
 console.log(m.calc(2))
 
-let ar1=['me','myself','I']
-function B(d){
-    d='nina';
-    result = ar1[0] +' '+d;
-   // result  = toString()
+let ar1 = ['me', 'myself', 'I']
+
+function B(d) {
+    d = 'nina';
+    let result;
+    result = ar1[0] + ' ' + d;
+    // result  = toString()
     return result
 
 
 }
+
 console.log(B())
+
+function mapmap2(n) {
+    let myMap = new Map();
+    myMap.set("foo", {name: "baz", desc: "inga"});
+    n = 10 * n;
+    for (let j = 0; j < 5; j++) {
+        let nameBar = myMap.get("foo")?.name;
+        console.log(nameBar,n)
+        break;
+    }
+
+
+}
+
+mapmap2(2)
+
+function ff(n){
+    let map = new Map([['name','lena'],['age','22']])
+    let obj = Object.fromEntries(map);
+    if(obj.age ==='22')
+    n +=2;
+    console.log(n)
+
+
+}
+ff(4)
+
+function n(name) {
+    let foo = name ?? 'default string';
+    console.log(foo);
+    name = 'jenn'
+
+}
+
+n(null);
+
+function na(num){
+    num = 13n;
+    if (num<10) return true
+    else return false
+
+
+}
+(na(12))
+
+class MyClass1 {
+    #foo;
+    constructor(foo) {
+        this.#foo = foo;
+    }
+    incFoo(n) {
+
+       n=this.#foo
+       return n
+
+        }
+}
+
+let neww = new MyClass1(10)
+console.log(neww.incFoo(3))
+
+
