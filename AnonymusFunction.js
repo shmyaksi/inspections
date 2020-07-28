@@ -35,7 +35,7 @@ console.log(mymark.greeting());
 let someFunc = someFunction('text');
 
 function someFunction(param) {
-    if (param === 'text') return function (value) {
+    if (param === 'text') return function (value) { //should be anonymus
     };
     else if (param === 'test') return function (value) {
     };

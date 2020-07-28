@@ -110,3 +110,34 @@ class MyClass1 {
 
 let neww = new MyClass1(10)
 console.log(neww.incFoo(3))
+
+let foo = ["one", "two", "three"];
+
+let [one, two, three] = foo;
+
+function ob2() {
+
+    foo[one] = foo[0] //TODO no inspection
+}
+ob2()
+
+let options = {
+    title: "Menu",
+    width: 100,
+    height: 200
+};
+
+function on1() {
+    for (let i = 0; i < 3; i++) {
+        let {title, width, height} = options; //TODO Note: no error
+        console.log(i)
+    }
+
+}
+on1()
+
+let key = "z";
+let { [key]: foo1 } = { z: "bar" };
+
+foo1[key]="bar" //TODO probably
+console.log(foo1); // "bar"

@@ -6,22 +6,22 @@ function on() {
 }
 on()
 
-/*
+
 let options = {
     title: "Menu",
     width: 100,
     height: 200
 };
 
-function on() {
+function on1() {
     for (let i = 0; i < 3; i++) {
         let {title, width, height} = options; //TODO Note: no error
         console.log(i)
     }
 
 }
-on()
- */
+on1()
+
 
 class People {
     constructor(age) {
@@ -129,34 +129,22 @@ function isPrime(p) {
 
 console.log(isPrime(3))
 
-class MyClass {
-    #foo;
-    constructor(foo) {
-        this.#foo = foo;
-    }
-    incFoo() {
-
-        for (let j = 0;j<5;j++) {
-            j = 3
-            this.#foo++;
-        }
-    }
-}
-
 function insertion(){
     let x;
-  //  x ??=4;
+    x ??=4;
+    console.log(x)
 }
+insertion()
 
-function f(param) {
+function f1(param) {
     let i;
-    i ||= "default";
+    i ??= "default";
     if (i ==='default') {
         console.log('ok')// warning should be shown that param can't be null here
     }
     else console.log('no')
 }
-f(4)
+f1(4)
 
 const a = { duration: 50, title: '' };
 
@@ -197,16 +185,9 @@ let res = user.name
     |>capitalize
     |>sayHello;
 
-
-
-
-/*const double = (n) => n * 2;
+console.log(res)
+const double = (n) => n * 2;
 const increment = (n) => n + 1;
-
-// without pipeline operator
-double(increment(double(double(5)))); // 42
-
-// with pipeline operator
 5 |> double |> double |> increment |> double; // 42*/
 
 const arr = [
@@ -221,9 +202,9 @@ const withCode = arr.map(function(element) {
     if (element.code) return element;
 });
 
-//const notThere = withCode[3]?.code;
+const notThere = withCode[3]?.code;
 
-//.log(notThere);
+console.log(notThere);
 
 const adventurer = {
     name: 'Alice',
@@ -234,7 +215,7 @@ const adventurer = {
 
 const dogName = adventurer.dog?.name;
 //console.log(dogName);
-// expected output: undefined
+
 
 console.log(adventurer.someNonExistentMethod?.());
 // expected output: undefined

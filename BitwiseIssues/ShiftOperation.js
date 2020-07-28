@@ -23,3 +23,7 @@ const setBit = (num, position) => { // todo tool tip should contain enough info
 console.log(setBit(12, -14)) // todo works for numbers as well( not constants)
 
 
+
+
+
+

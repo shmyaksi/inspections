@@ -1,6 +1,6 @@
 function C() {
     let c;
-    if (c = 9) return c //TODO NOde: duplicated quick-fix
+    if (c = 9) return c //TODO NOde: duplicated quick-fix (== and ===)
 }
 
 C()

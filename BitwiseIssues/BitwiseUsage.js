@@ -10,5 +10,5 @@ function two(a,b){
 }
 two(5,0)
 
-let x=~3;
-console.log(x)
+
+
