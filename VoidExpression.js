@@ -4,10 +4,6 @@ void function life() {
 
 }();
 
-
-
-
-
 void function test() {
     console.log('boo!');
 
@@ -19,7 +15,6 @@ try {
    console.log(e);
 
 }
-
 
 function three(){
     let j=void(0);
