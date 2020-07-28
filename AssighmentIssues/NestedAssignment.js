@@ -61,4 +61,25 @@ function isPrime(p) {
     return true;
 }
 
+//TODO
+let foo = moo = boo = "foo";
+const foo1 = moo1 = boo1 = "foo";
+
+class Foo{
+    propFoo
+}
+let F = new Foo();
+
+class Boo {
+    propBoo
+}
+let B = new Boo();
+
+class Moo{
+    propMoo
+}
+let M = new Moo();
+
+F.propFoo = B.propBoo = M.propMoo = "foo"
+
 console.log(isPrime(3))

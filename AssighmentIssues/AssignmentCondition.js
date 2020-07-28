@@ -1,26 +1,22 @@
 function C() {
     let c;
-    if (c = 9) return c
-
+    if (c = 9) return c //TODO NOde: duplicated quick-fix
 }
 
 C()
 
 function D() {
-
     let d = 3;
     let v;
     while (d = 2)
         break;
-
-
 }
 
 D()
 
 function E() {
     let v;
-    for (v = 0; v = 6; v++) {
+    for (v = 0; v = 6; v++) { //TODO Node: the whole loop is incorrect (without break)
         break;
         console.log(v)
     }
@@ -32,8 +28,6 @@ function F() {
     let f = -2;
     do
         f++;
-
-
     while (f = 0)
 }
 

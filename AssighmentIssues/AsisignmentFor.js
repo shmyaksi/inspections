@@ -1,49 +1,53 @@
 function on() {
-
     for (let i = 0; i < 3; i++) {
-
         i = 10;
+        console.log(i)
+    }
+}
+on()
+
+/*
+let options = {
+    title: "Menu",
+    width: 100,
+    height: 200
+};
+
+function on() {
+    for (let i = 0; i < 3; i++) {
+        let {title, width, height} = options; //TODO Note: no error
         console.log(i)
     }
 
 }
-
 on()
-/*
-class People {
+ */
 
+class People {
     constructor(age) {
         this.age = age;
     }
-
     ager() {
         for (this.age; this.age < 35; this.age++) {
             //this.age++
 
             this.age = 2 // todo спорный момент
-
         }
-        return this.age
-
-
+        return this.age //todo Note:loop
     }
 }
 
 let me = new People(22)
-console.log(me.ager())*/
+/*console.log(me.ager())*/
 
 
-class People1 {
-
+class People1e {
     constructor(age) {
         this.age = age;
     }
-
     ager() {
         for (let j = 9; j < 35; j++) {
             j++
-
-
         }
         return this.age
 

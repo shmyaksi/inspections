@@ -3,18 +3,12 @@ let anon = function() {
 }
 anon();
 
-
-
 function NotAnon(){
     let an = function(){
-
     }
     console.log('Im not anonymus')
-
-
 }
 NotAnon();
-
 
 class marks{
    constructor(mark){
@@ -26,16 +20,23 @@ class marks{
        return 'Hello, you have '+this.mark;
    }
 
-
    arr= function(){
-
        return 2;
    }
-
-
 
 }
 
 mymark = new marks (5)
 
 console.log(mymark.greeting());
+
+
+//TODO
+let someFunc = someFunction('text');
+
+function someFunction(param) {
+    if (param === 'text') return function (value) {
+    };
+    else if (param === 'test') return function (value) {
+    };
+}

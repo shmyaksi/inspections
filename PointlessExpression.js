@@ -26,7 +26,7 @@ function one() {
     }
 
 console.log(sum)
-}
+} //TODO Note: Why marked as test
 one()
 
 
@@ -36,9 +36,6 @@ function checking2(){ //TODO
 }
 
 console.log(checking2())
-
-
-
 
 const s=0
 

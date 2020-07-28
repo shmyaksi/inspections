@@ -1,5 +1,4 @@
 function one(){
-
     let a,b;
     a=a+b;
     a=a/b;
@@ -7,8 +6,6 @@ function one(){
     b=b&a;
 
     return b;
-
-
 }
 one()
 
@@ -17,7 +14,7 @@ let arr = [2,3,4]
 
 function two(){
     arr[1]=arr[1]+1
-    arr[0]=c*arr[0]; //TODO  (works only for arr[0]*c)
+    arr[0]= c * arr[0]; //TODO  (works only for arr[0]*c) //TODO note: 'Introduce array destructuring' produces red code
 console.log(arr[0])
 
 }
