@@ -11,7 +11,7 @@ function two(a,b){
 two(5,0)
 
 function color() {
-    let hex = 'ffaadd';
+    let hex = 'ff';
     let rgb = parseInt(hex, 16); // rgb is 16755421
 
 
