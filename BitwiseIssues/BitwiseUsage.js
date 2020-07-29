@@ -29,11 +29,13 @@ function col(){
 }
 col()
 
-var a = 6;
-var b = 1;
+let a = 6;
+let b = 1;
+
+
 
  //todo
 console.log("A & B = " + (a & b) );
-
+if(a&b) console.log(a)
 
 console.log("A | B = " + (a | b) );
