@@ -40,3 +40,42 @@ function someFunction(param) {
     else if (param === 'test') return function (value) {
     };
 }
+
+
+function firstcase() {
+    let megaCommunistDataFromTheCiaArray = [
+        {name: 'Lenin', id: 1},
+        {name: 'Marx', id: 2},
+        {name: 'Gramsci', id: 3}
+    ];
+
+    let communistNames = megaCommunistDataFromTheCiaArray.map(communist => communist.name);//TODO callback?
+    console.log(communistNames); // Prints: ['Lenin', 'Marx', 'Gramsci']
+}
+
+firstcase()
+
+
+let Arr = [2,3,4,5]
+
+console.log(Arr.map(function(x){ return x+1})); //TODO  callback?
+
+
+function secondcase() {
+    let megaCommunistDataFromTheCiaArray1 = [
+        {name: 'Lenin', id: 1},
+        {name: 'Marx', id: 2},
+        {name: 'Gramsci', id: 3}
+    ];
+
+// function that get the name from a communist model
+    let getCommunistName = communist => communist.name; //todo ^
+
+// Each time that the map function iterates over a communist
+// the function is used from the same memory space.
+    let communistNames1 = megaCommunistDataFromTheCiaArray1.map(getCommunistName);
+
+    console.log(communistNames1); // Prints: ['Lenin', 'Marx', 'Gramsci']
+
+}
+secondcase()
