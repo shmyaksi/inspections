@@ -13,7 +13,7 @@ function ad2() {
 
     for (let i = 0; i < 5; i++) {
         {
-            c = a - +-b; // TODO
+            c = a - +-b;
             console.log(c)
         }
     }
@@ -29,7 +29,7 @@ function ad3() {
 
     for (let i = 0; i < 5; i++) {
         {
-            c = a - +-+b; // TODO
+            c = a - +-+b;
             console.log(c)
         }
     }

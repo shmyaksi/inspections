@@ -4,6 +4,7 @@ function on() {
         console.log(i)
     }
 }
+
 on()
 
 
@@ -20,20 +21,16 @@ function on1() {
     }
 
 }
+
 on1()
 
-
-class cars{
-    constructor(name,tip,age) {
-        this.name=name;
-        this.tip=tip;
-        this.age=age;
+class cars {
+    constructor(name, tip, age) {
+        this.name = name;
+        this.tip = tip;
+        this.age = age;
     }
-
-
-
-
-
+    
 }
 
 
@@ -41,6 +38,7 @@ class People {
     constructor(age) {
         this.age = age;
     }
+
     ager() {
         for (this.age; this.age < 35; this.age++) {
             //this.age++
@@ -52,6 +50,7 @@ class People {
 }
 
 let me = new People(22)
+
 /*console.log(me.ager())*/
 
 
@@ -59,6 +58,7 @@ class People1e {
     constructor(age) {
         this.age = age;
     }
+
     ager() {
         for (let j = 9; j < 35; j++) {
             j++
@@ -70,24 +70,24 @@ class People1e {
 }
 
 
-
 function mapmap() {
     let myMap = new Map();
     myMap.set("foo", {name: "baz", desc: "inga"});
 
-for (let j = 0;j<5;j++) {
-    j=3
-    let nameBar = myMap.get("foo")?.name;
-    console.log(nameBar)
-    break;
-}
+    for (let j = 0; j < 5; j++) {
+        j = 3
+        let nameBar = myMap.get("foo")?.name;
+        console.log(nameBar)
+        break;
+    }
 
 }
+
 mapmap()
 
-const map = new Map([ ['foo', 'bar'], ['baz', 42] ]);
-for(let k=0;k<2;k++) {
-    k=1;
+const map = new Map([['foo', 'bar'], ['baz', 42]]);
+for (let k = 0; k < 2; k++) {
+    k = 1;
     const obj = Object.fromEntries(map);
     console.log(obj);
 }
@@ -102,7 +102,6 @@ for(let k=0;k<2;k++) {
 test()*/
 
 
-
 /*class Product {
     get id() { return this._id; }
     set id(value) { this._id = value ?? throw new Error('Invalid value'); } //Call replace here
@@ -110,10 +109,11 @@ test()*/
 
 
 let setting = process.env.SETTING;
+
 //if (!setting) throw new Error("please set the SETTING environmental variable");
 
 
-function ku1(){
+function ku1() {
     let response = {
         settings: {
             nullValue: null,
@@ -124,11 +124,11 @@ function ku1(){
         }
     }
 
-for(let d=0;d<3;d++) {
-    let undefinedValue = response.settings.undefinedValue ?? 'some other default';
-    d=2;
-    console.log(d)
-}
+    for (let d = 0; d < 3; d++) {
+        let undefinedValue = response.settings.undefinedValue ?? 'some other default';
+        d = 2;
+        console.log(d)
+    }
 
 }
 
@@ -137,7 +137,7 @@ ku1()
 
 function isPrime(p) {
     for (let i = 2n; i * i <= p; i++) {
-        i=3n;
+        i = 3n;
         if (p % i === 0n) return false;
     }
     return true;
@@ -159,22 +159,22 @@ console.log(isPrime(3))
     }
 }*/
 
-function insertion(){
+function insertion() {
     let x;
-  //  x ??=4;
+    //  x ??=4;
 }
 
 function f(param) {
     let i;
     //i ??= "default";
-    if (i ==='default') {
+    if (i === 'default') {
         console.log('ok')// warning should be shown that param can't be null here
-    }
-    else console.log('no')
+    } else console.log('no')
 }
+
 f(4)
 
-const a = { duration: 50, title: '' };
+const a = {duration: 50, title: ''};
 
 //a.duration ||= 10;
 console.log(a.duration);
@@ -185,21 +185,7 @@ console.log(a.title);
 // expected output: "title is empty"
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-let user = { name: 'SuperPaintman' };
+let user = {name: 'SuperPaintman'};
 
 function capitalize(str) {
     return str.toUpperCase();
@@ -214,10 +200,6 @@ let res = user.name
     |>sayHello;
 
 
-
-
-
-
 /*const double = (n) => n * 2;
 const increment = (n) => n + 1;
 
@@ -228,14 +210,14 @@ double(increment(double(double(5)))); // 42
 5 |> double |> double |> increment |> double; // 42*/
 
 const arr = [
-    { code: "a" },
-    { code: "b" },
-    { code: "c" },
-    { name: "Caty" },
-    { name: "Siri" }
+    {code: "a"},
+    {code: "b"},
+    {code: "c"},
+    {name: "Caty"},
+    {name: "Siri"}
 ];
 
-const withCode = arr.map(function(element) {
+const withCode = arr.map(function (element) {
     if (element.code) return element;
 });
 

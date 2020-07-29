@@ -4,7 +4,7 @@ function add() {
     /*function plus() {
         counter += 1;
     }*/
-    let plus = () => {} //TODO Tooltip
+    let plus = () => {}
     plus();
     return counter;
 }
@@ -12,7 +12,7 @@ function add() {
 add()
 
 function a(x) {
-    const b = y => x + y; //TODO Tooltip
+    const b = y => x + y;
     return b;
 }
 

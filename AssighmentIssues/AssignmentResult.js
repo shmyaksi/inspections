@@ -11,7 +11,7 @@ r=e=y;
 a()
 function b(){
     let z,x;
-    if(z=x=1) return 'ok' //todo double tooltip
+    if(z=x=1) return 'ok'
 
 }
 b()

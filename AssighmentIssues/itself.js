@@ -1,6 +1,6 @@
 function inn() {
     let x;
-    x = x; //TODO?
+    x = x;
 }
 
 inn()
@@ -28,9 +28,10 @@ function opp() {
 
 opp()
 
-let ar = [2, 3, 4, 5]
+
 
 function om() {
+    let ar = [2, 3, 4, 5]
     ar[0] = ar[0] //TODO
     return ar[0]
 
@@ -117,7 +118,8 @@ let [one, two, three] = foo;
 
 function ob2() {
 
-    foo[one] = foo[0] //TODO no inspection
+    foo[one] = foo[0]
+    console.log(foo[one])//TODO no inspection
 }
 ob2()
 

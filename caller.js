@@ -1,11 +1,11 @@
 function xe() {
-    return xe.caller //TODO
+    return xe.caller
 }
 console.log(xe())
 
 
 function myFunc() {
-    if (myFunc.caller == null) { //TODO
+    if (myFunc.caller == null) {
         return 'Эта функция была вызвана из верхнего уровня!';
     } else {
         return 'Эта функция была вызвана из ' + myFunc.caller;
@@ -21,7 +21,7 @@ function one(){
 
 
         function three(){
-            return three.caller //TODO (should appear)
+            return three.caller
         }
     }
 }

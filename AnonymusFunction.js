@@ -1,7 +1,5 @@
-let anon = function() {
-    return 'I am anonymous';
-}
-anon();
+let f986 = (a, b) => a + b
+f986();
 
 function NotAnon(){
     let an = function(){

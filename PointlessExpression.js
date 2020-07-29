@@ -2,7 +2,7 @@ let a1 = 0, b1=123*1, c1=41;
 let sum = b+a;
 
 
-function checking(){ //TODO
+function checking(){
     let  aa = 1,bb=123
     return bb * aa
 }
@@ -26,11 +26,11 @@ function one() {
     }
 
     console.log(sum)
-} //TODO Note: Why marked as test
+}
 one()
 
 
-function checking2(){ //TODO
+function checking2(){
     let  aa = 1,bb=123
     return bb / 0;
 }
@@ -39,20 +39,20 @@ console.log(checking2())
 
 const s=0
 
-function checking3(){ //TODO
+function checking3(){
     let  aa = 1,bb=123
     return bb*s;
 }
 console.log(checking3())
 
 
-function checking4(){ //TODO
+function checking4(){
     let  aa = 1,bb=123
     return bb/s;
 }
 console.log(checking4())
 
-function checking5(){ //TODO
+function checking5(){
     let  aa = 1,bb=123
     return bb * aa;
 }
@@ -95,4 +95,4 @@ function test1(fruit, quantity) {
 
 
 //test('apple');
-test1('apple', 20);  //TODO test file here
+test1('apple', 20);

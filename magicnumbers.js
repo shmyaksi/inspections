@@ -2,7 +2,7 @@ let a =33+11; //first case
 
 
 function comparison(password){
-    if(password.length < 76){ // TODO
+    if(password.length < 2){
 
     }
 }

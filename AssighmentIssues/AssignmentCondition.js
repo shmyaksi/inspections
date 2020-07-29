@@ -16,7 +16,7 @@ D()
 
 function E() {
     let v;
-    for (v = 0; v = 6; v++) { //TODO Node: the whole loop is incorrect (without break)
+    for (v = 0; v = 6; v++) {
         break;
         console.log(v)
     }

@@ -14,7 +14,7 @@ let arr = [2,3,4]
 
 function two(){
     arr[1]=arr[1]+1
-    arr[0]= c * arr[0]; //TODO  (works only for arr[0]*c) //TODO note: 'Introduce array destructuring' on left arr[0] produces red code
+    arr[0]= c * arr[0];
 console.log(arr[0])
 
 }

@@ -80,7 +80,7 @@ class Moo{
 }
 let M = new Moo();
 
-F.propFoo = B.propBoo = M.propMoo = "foo" // TODO double tooltip
+F.propFoo = B.propBoo = M.propMoo = "foo"
 
 console.log(isPrime(3))
 
@@ -101,6 +101,6 @@ let b3={
     age:"10"
 }
 
-b3.name=b2.name=b1.name="hello" //todo tooltip
+b3.name=b2.name=b1.name="hello"
 
 

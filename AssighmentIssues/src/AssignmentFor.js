@@ -22,7 +22,7 @@ function on1() {
 }
 on1()
 
-
+on
 class People {
     constructor(age) {
         this.age = age;
