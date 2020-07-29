@@ -4,7 +4,7 @@ let x=y=z+1;
 e=d=e;
 
 r=e=y;
-//e=(r=y)
+
 
 
 }

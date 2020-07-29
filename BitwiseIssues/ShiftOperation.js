@@ -19,7 +19,7 @@ const setBit = (num, position) => { // todo tool tip should contain enough info
     return num | mask
 }
 
-// Set the bit at position 1
+
 console.log(setBit(12, -14)) // todo works for numbers as well( not constants)
 
 
