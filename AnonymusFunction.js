@@ -56,9 +56,11 @@ function firstcase() {
 firstcase()
 
 
-let Arr = [2,3,4,5]
+let Arr = [2, 3, 4, 5]
 
-console.log(Arr.map(function(x){ return x+1})); //TODO  callback?
+console.log(Arr.map(function (x) {
+    return x + 1
+})); //TODO  callback?
 
 
 function secondcase() {
@@ -68,11 +70,10 @@ function secondcase() {
         {name: 'Gramsci', id: 3}
     ];
 
-// function that get the name from a communist model
+
     let getCommunistName = communist => communist.name; //todo ^
 
-// Each time that the map function iterates over a communist
-// the function is used from the same memory space.
+
     let communistNames1 = megaCommunistDataFromTheCiaArray1.map(getCommunistName);
 
     console.log(communistNames1); // Prints: ['Lenin', 'Marx', 'Gramsci']

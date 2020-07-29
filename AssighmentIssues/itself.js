@@ -136,8 +136,28 @@ function on1() {
 }
 on1()
 
-let key = "z";
-let { [key]: foo1 } = { z: "bar" };
+function on2() {
+    let key = "z";
+    let {[key]: foo1} = {z: "bar"};
 
-foo1[key]="bar" //TODO probably
-console.log(foo1); // "bar"
+    foo1[key] = "bar" //TODO probably
+    console.log(foo1);
+}
+
+on2()
+
+const obj = {
+    a: 1,
+    b: 2,
+    c: 3,
+    d: 4,
+    e: 5
+};
+let {
+    b,
+    d
+} = obj;
+ b=obj.b //TODO
+
+console.log(b); // 2
+console.log(d); // 4

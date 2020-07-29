@@ -83,3 +83,7 @@ let M = new Moo();
 F.propFoo = B.propBoo = M.propMoo = "foo" // TODO double tooltip
 
 console.log(isPrime(3))
+
+
+
+

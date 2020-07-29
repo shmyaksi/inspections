@@ -1,5 +1,5 @@
 let a1 = 0, b1=123*1, c1=41;
-let sum = b+a; 
+let sum = b+a;
 
 
 function checking(){ //TODO
@@ -74,7 +74,7 @@ function foo() {
 foo()
 
 
-function test(fruit, quantity) {
+function test1(fruit, quantity) {
     const redFruits = ['apple', 'strawberry', 'cherry', 'cranberries'];
 
 
@@ -94,5 +94,5 @@ function test(fruit, quantity) {
 }
 
 
-test('apple'); 
-test('apple', 20); 
+//test('apple');
+test1('apple', 20);  //TODO test file here
