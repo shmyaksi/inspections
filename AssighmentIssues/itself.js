@@ -159,5 +159,5 @@ let {
 } = obj;
  b=obj.b //TODO
 
-console.log(b); // 2
-console.log(d); // 4
+console.log(b);
+console.log(d);

@@ -84,6 +84,23 @@ F.propFoo = B.propBoo = M.propMoo = "foo" // TODO double tooltip
 
 console.log(isPrime(3))
 
+let b1={
+    name:"first",
+    age:"30"
 
+
+}
+
+let b2={
+    name:"sec",
+    age:"22"
+}
+
+let b3={
+    name:"three",
+    age:"10"
+}
+
+b3.name=b2.name=b1.name="hello" //todo tooltip
 
 
