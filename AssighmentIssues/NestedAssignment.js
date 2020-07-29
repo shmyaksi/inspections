@@ -61,7 +61,7 @@ function isPrime(p) {
     return true;
 }
 
-//TODO
+//Consider something like this:
 let foo = moo = boo = "foo";
 const foo1 = moo1 = boo1 = "foo";
 

@@ -15,17 +15,17 @@ checking1()
 
 
 function one() {
-    let sum=1;
-    for (let i = 0; i < 10; i++) { 
+    let sum = 1;
+    for (let i = 0; i < 10; i++) {
         let abc = 1;
         if (abc > 0) {
             abc--;
-             sum = abc * 1; //work
+            sum = abc * 1; //work
 
         }
     }
 
-console.log(sum)
+    console.log(sum)
 } //TODO Note: Why marked as test
 one()
 
