@@ -199,16 +199,6 @@ let res = user.name
     |>capitalize
     |>sayHello;
 
-
-/*const double = (n) => n * 2;
-const increment = (n) => n + 1;
-
-// without pipeline operator
-double(increment(double(double(5)))); // 42
-
-// with pipeline operator
-5 |> double |> double |> increment |> double; // 42*/
-
 const arr = [
     {code: "a"},
     {code: "b"},
@@ -222,7 +212,6 @@ const withCode = arr.map(function (element) {
 });
 
 //const notThere = withCode[3]?.code;
-
 
 
 

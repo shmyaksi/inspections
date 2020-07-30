@@ -55,3 +55,20 @@ setTimeout(() => {
     clearInterval(timerId);
     console.log('stop');
 }, 5000);
+
+
+//setTimeout("console.log(123)", 3000)//TODO typerror  [ERR_INVALID_CALLBACK]: Callback must be a function. Received 'console.log(123)'
+
+
+function tree() {
+    const user1 = {
+        admin() {
+            console.log("I am admin");
+        }
+
+    }
+    const user2 = {};
+    eval('user1.admin?.();')
+    user2.admin?.()
+}
+

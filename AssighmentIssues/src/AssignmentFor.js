@@ -219,3 +219,13 @@ const dogName = adventurer.dog?.name;
 
 console.log(adventurer.someNonExistentMethod?.());
 // expected output: undefined
+
+
+function f(param) {
+    let i;
+    i ??= [2,3];
+    while (i === 'default') {
+        console.log('ok')
+        break
+    }
+}

@@ -91,6 +91,39 @@ function four() { //continue statement with label
 }
 four()
 
+function five(d) {
+    const user1 = {
+        admin() {
+            console.log("I am admin");
+        }
 
+    }
 
+    const user2 = {};
+    for (let i = 0; i < 3; i++) {
+        if (i === 2)
+            user1.admin?.();
+        user2.admin?.();
+        continue;
+
+    }
+
+}
+
+function six() {
+    const name = "charles"
+
+    const greet = name => `Hello, ${name}`
+
+    const capitalize = str => str.toUpperCase()
+
+    const exclaim = str => `${str}!!!`
+for (let i=0;i<3;i++) {
+
+        if(i===2) continue;
+    const loudGreeting = name
+        |> greet
+        |> capitalize
+        |> exclaim
+}}
 

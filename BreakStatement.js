@@ -160,13 +160,14 @@ function f(param) {
 
 f(4)
 
+
 function func() {
     let a = {duration: 50, title: ''};
     let k=0
     while(k<3) {
-        a.duration ||= 10;
+      //  a.duration ||= 10;
         console.log(a.duration);
-        a.title ||= 'title is empty.';
+      //  a.title ||= 'title is empty.';
         console.log(a.title);
         break
     }
