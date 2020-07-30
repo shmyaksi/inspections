@@ -223,20 +223,6 @@ const withCode = arr.map(function (element) {
 
 //const notThere = withCode[3]?.code;
 
-//.log(notThere);
 
-const adventurer = {
-    name: 'Alice',
-    cat: {
-        name: 'Dinah'
-    }
-};
 
-const dogName = adventurer.dog?.name;
-//console.log(dogName);
-// expected output: undefined
 
-console.log(adventurer.someNonExistentMethod?.());
-// expected output: undefined
-
-// "@babel/cli": "^7.2.3",
