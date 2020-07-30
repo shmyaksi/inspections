@@ -1,7 +1,5 @@
 void function life() {
-
     console.log("Executed!");
-
 }();
 
 void function test() {
@@ -10,7 +8,7 @@ void function test() {
 }();
 
 try {
-   test();
+   floating_test();
 } catch (e) {
    console.log(e);
 

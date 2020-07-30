@@ -1,4 +1,4 @@
-function one() {
+function f89() {
     let a, x, y;
     let r = 10;
 
@@ -9,14 +9,14 @@ function one() {
     }
     console.log(x)
 }
-one()
+f89()
 
 
 
-function f(foo, values) {
+function f88(foo, values) {
     with (foo) {
         console.log(values);
     }
 }
 
-f('ann','kate')
+f88('ann','kate')

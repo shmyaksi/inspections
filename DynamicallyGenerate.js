@@ -28,7 +28,6 @@ function alertFunc() {
 
 myFunction()
 
-
 function myFunc() {
     myVar = setTimeout(function () {
         console.log(("Hello"))
@@ -40,12 +39,12 @@ function myStopFunction() {
 }
 
 
-function free() {
+function f65() {
     let a = 20;
     if (a > 10) console.log(a * a);
 }
 
-setTimeout(free, 2000)
+setTimeout(f65, 2000)
 
 
 let timerId = setInterval(() => console.log(('tick')), 2000);
@@ -60,7 +59,7 @@ setTimeout(() => {
 //setTimeout("console.log(123)", 3000)
 
 
-function tree() {
+function f66() {
     const user1 = {
         admin() {
             console.log("I am admin");

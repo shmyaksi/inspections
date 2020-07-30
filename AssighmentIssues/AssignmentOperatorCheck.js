@@ -18,7 +18,6 @@ function two(){
 console.log(arr[0])
 
 }
-
 two()
 
 

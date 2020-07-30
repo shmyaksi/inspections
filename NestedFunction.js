@@ -1,10 +1,10 @@
 function add() {
     var counter = 0;
 
-    /*function plus() {
+    function plus() {
         counter += 1;
-    }*/
-    let plus = () => {}
+    }
+
     plus();
     return counter;
 }

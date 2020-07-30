@@ -20,7 +20,7 @@ function one() {
         let abc = 1;
         if (abc > 0) {
             abc--;
-            sum = abc * 1; //work
+            sum = abc * 1;
 
         }
     }

@@ -4,8 +4,6 @@ function one() {
     console.log(sum);
 }
 
-
-
 one()
 
 function two(){

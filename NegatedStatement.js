@@ -1,5 +1,4 @@
 function comparison(password){
-
     if (password.length !== 0) {
         return
     }
@@ -10,9 +9,7 @@ function comparison(password){
 comparison(3)
 
 
-
 function numeric(adda){
-
     if (adda !== 0) {
         return;
     } else {
@@ -26,7 +23,7 @@ function numeric(adda){
 numeric(5)
 
 
-function str(){
+function str67(){
     let name = 'anna'
     if(!name){
         name='another'
@@ -34,7 +31,7 @@ function str(){
     else return
 
 }
-str()
+str67()
 
 
 let Person = (function () {
@@ -46,8 +43,6 @@ let Person = (function () {
             this.name = name; 
             this[ageKey] = 20; 
         }
-
-
 
         comparison(){
             if (!this.name) return 'go away'

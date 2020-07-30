@@ -2,8 +2,8 @@ function potentiallyBuggyCode() {
     debugger;
     
 }
-
 potentiallyBuggyCode()
+
 function summ(){
 
     let a = 5, b = 0;
@@ -19,7 +19,6 @@ class flowers{
 
         this.flower = flower;
     }
-
 
    greet(){
         debugger;

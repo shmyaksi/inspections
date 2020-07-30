@@ -1,4 +1,4 @@
-function one() {
+function f145() {
     let text;
     for (let i = 0; i < 10; i++) {
         if (i === 3) {
@@ -9,9 +9,9 @@ function one() {
     console.log(text);
 }
 
-one()
+f145()
 
-function two() {
+function f146() {
     let textt;
     let cars = ["BMW ", "Volvo", "Saab", "Ford"];
     list: {
@@ -23,10 +23,9 @@ function two() {
     }
     console.log(textt);
 }
-two()
+f146()
 
-
-function three() {
+function f147() {
 
     let str = '';
     loop1:
@@ -36,19 +35,13 @@ function three() {
                 break loop1;
             }
             str = str + ii;
-
         }
-
     console.log(str);
 }
 
+f147()
 
-three()
-
-
-
-
-function four() {
+function f148() {
     let k, j;
 
     loop1:
@@ -63,7 +56,7 @@ function four() {
         }
 }
 
-four()
+f148()
 
 const user1 = {
     admin() {
@@ -97,10 +90,10 @@ for (let i=0;i<3;i++) {
 }
 */
 
-const map = new Map([['foo', 'bar'], ['baz', 42]]);
+const map87 = new Map([['foo', 'bar'], ['baz', 42]]);
 
 for (let k = 0; k < 2; k++) {
-    const obj = Object.fromEntries(map);
+    const obj = Object.fromEntries(map87);
     console.log(obj);
     break
 }

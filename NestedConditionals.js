@@ -9,8 +9,6 @@ function book() {
 }
 
 book()
-        
-        
 
 function check() {   //conditional expression
     let firstCheck = false,

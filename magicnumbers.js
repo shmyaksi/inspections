@@ -1,5 +1,4 @@
-let a =33+11; //first case
-
+let a =33+11;
 
 function comparison(password){
     if(password.length < 2){

@@ -38,7 +38,6 @@ function mapmap1() {
     myMap.set("foo", {name: "baz", desc: "inga"});
 
     for (let j = 0;j=5;j++) {
-
         let nameBar = myMap.get("foo")?.name;
         console.log(nameBar)
         break
@@ -93,14 +92,12 @@ function bin() {
 }
 bin()
 
-
 class MyClass1 {
     #foo;
     constructor(foo) {
         this.#foo = foo;
     }
     incFoo() {
-
         if (this.#foo = 3) {
             this.#foo++;
             return this.#foo

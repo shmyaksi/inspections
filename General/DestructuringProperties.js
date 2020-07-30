@@ -1,6 +1,5 @@
 const  {
     target: {
-
             value: a,
             type:b,
             value: c
@@ -24,4 +23,4 @@ let options = {
 };
 
 
-var {x: {y: a, z: b, y: t}} = {x: {y: 7, z: 8}}
+var {x: {y: a, z: b, y: t}} = {x: {y: 7, z: 8}} //WEB-37903

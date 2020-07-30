@@ -1,4 +1,3 @@
-
 let x = 1;
 
 x = (x++, x);
@@ -13,31 +12,32 @@ console.log(x);
 
 let a, b, c;
 
-a = b = 3, c = 4; 
-console.log(a); 
+a = b = 3, c = 4;
+console.log(a);
 
 let x1, y1, z1;
 
-x1 = (y1 = 5, z1 = 6); 
+x1 = (y1 = 5, z1 = 6);
 console.log(x1); // 6 
 
 
-
-
-function one() {
+function f989() {
     let arr = [4, 0, 2, 5];
-    arr[0]=5,3;
+    arr[0] = 5, 3;
 
-console.log(arr)
+    console.log(arr)
 }
-one()
-function oneone() {
+
+f989()
+
+function f988() {
     let foo = () => 3;
     let bar = () => 2;
     let result = x ? (foo(), bar()) : 1;
     console.log(result)
 }
-oneone()
+
+f988()
 
 const user1 = {
     admin() {
@@ -47,27 +47,28 @@ const user1 = {
 }
 
 const user2 = {};
-for (let i=0;i<3;i++) {
-    user1.admin?.(),user2.admin;
+for (let i = 0; i < 3; i++) {
+    user1.admin?.(), user2.admin;
     user2.admin?.();
 }
 
 // Array:
-let arr = [1,2,3,]; // length 3 //TODO? trailing commas :
-let arr1 = [1, 2, 3,,,]; // length 5
+let arr = [1, 2, 3,]; // length 3 //TODO? trailing commas :
+let arr1 = [1, 2, 3, , ,]; // length 5
 
 //Objects
-
 let obj1 = {
     foo: 'string',
-bar:'baz', //TODO?
+    bar: 'baz', //TODO?
 }
 let obj2 = {
-    one(a,) {},
-    two (a, b,) {}, //TODO?
+    one(a,) {
+    },
+    two(a, b,) {
+    }, //TODO?
 };
 
-const map = new Map([['foo','bar'], ['baz', 42]]);
+const map = new Map([['foo', 'bar'], ['baz', 42]]);
 
 for (let k = 0; k < 2; k++) {
     const obj = Object.fromEntries(map);
@@ -75,10 +76,9 @@ for (let k = 0; k < 2; k++) {
 }
 
 
-
 //conditional expressions:
 
-let m = !a ?b :c //conditional expression
+let m = !a ? b : c //conditional expression
 
 function Calc() {
     let booksCount = 19;
@@ -87,8 +87,9 @@ function Calc() {
     result = (booksCount > 15) ? 'План на год выполнен!' :
         (booksCount > 10) ? 'Уже неплохо!' :
             'Читать и ещё раз читать';
-console.log(result)
+    console.log(result)
 }
+
 Calc()
 
 
@@ -100,14 +101,13 @@ const user3 = {
 }
 
 const user4 = {};
-for (let i=0;i<3;i++) {
-    result1 = ( user3.admin!==null) ? user3.admin?.() :
-        (user4.admin!==null) ? user4.admin?.():console.log('sorry')
+for (let i = 0; i < 3; i++) {
+    result1 = (user3.admin !== null) ? user3.admin?.() :
+        (user4.admin !== null) ? user4.admin?.() : console.log('sorry')
 
 
 }
 const name = "charles"
-
 
 
 /*function k(i) {
@@ -129,17 +129,19 @@ k(4)*/
 function kk() {
     const map = new Map([['foo', 'bar'], ['baz', 42]]);
 
-        const obj =(map.entries()!==null) ?Object.fromEntries(map) : console.log('fill it')
-        console.log(obj);
+    const obj = (map.entries() !== null) ? Object.fromEntries(map) : console.log('fill it')
+    console.log(obj);
 
-    }
+}
+
 kk()
 
-function square(width,height,i) {
-     areaa =(i<9) ? ((height ?? 100) * (width ?? 50)): console.log('!')
+function square(width, height, i) {
+    areaa = (i < 9) ? ((height ?? 100) * (width ?? 50)) : console.log('!')
     console.log(areaa)
 }
-square(null,null,8)
+
+square(null, null, 8)
 
 function f(param) {
     let i;

@@ -1,4 +1,4 @@
-function one() {
+function f44() {
     let text;
     for (let i = 0; i < 10; i++) {
         if (i !== 3) {
@@ -8,14 +8,12 @@ function one() {
     }
 }
 
-one()
+f44()
 
-
-
-function two() {
+function f45() {
     let textt = "";
     let j;
-    cars = ['Saab','Volvo','Subaru'];
+    let cars = ['Saab', 'Volvo', 'Subaru'];
     for (j = 0; j < cars.length; j++) {
         if (cars[j] === "Saab") {
             continue;
@@ -24,7 +22,7 @@ function two() {
     }
     console.log(textt)
 }
-two()
+f45()
 
 
 
