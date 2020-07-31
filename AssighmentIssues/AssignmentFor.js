@@ -223,11 +223,6 @@ const withCode = arr.map(function (element) {
 });
 
 //const notThere = withCode[3]?.code;
-
-
-
-
 console.log(adventurer.someNonExistentMethod?.());
-// expected output: undefined
 
-// "@babel/cli": "^7.2.3",
+
