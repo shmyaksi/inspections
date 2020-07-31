@@ -8,7 +8,7 @@ const  {
 } = {
     target : {
         value: 2,
-        type:'first'
+        type:'second'
     }
 
 }
