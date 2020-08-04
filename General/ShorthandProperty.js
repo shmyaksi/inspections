@@ -11,18 +11,15 @@ function animal() {
 }
 
 function o2() {
-    let o = {}
-    let op = {a: 'foo', b: 42, c: {}}
-
-    let a = 'foo', b = 42, c = {}
-    let opp = {a: a, b: b, c: c}
-
     let oppp = {
         property: function (parameters) {
         },
-        get property() {
+        get propert() {
         },
-        set property(value) {
+        set proper(value) {
         }
     }
 }
+
+
+

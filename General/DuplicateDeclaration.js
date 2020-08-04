@@ -17,7 +17,7 @@ function one()
 
 function two(a,b,a){
     let aa = 10;
-     aa = 2; //TODO?
+     aa = 2;
 
  console.log(aa)
 
@@ -25,6 +25,7 @@ function two(a,b,a){
 
 
 class Person1 {
+
     constructor(firstName, lastName) {
         this.firstName = firstName;
         this.firstName = firstName; //todo?

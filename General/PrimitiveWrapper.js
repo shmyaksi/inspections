@@ -15,7 +15,7 @@ let symObj = new Object()
 //let xws = new Symbol();
 
 
-class String { // todo :should be forbidden to use this name 'string'
+class String { // todo :should be forbidden to use this reserved name 'string'? suggest to add
     constructor(s) {
         this.s = s
     }

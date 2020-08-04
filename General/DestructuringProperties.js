@@ -51,7 +51,7 @@ let options = {
     height: 200
 };
 
-//let { title,width,width } = options; // todo ( inspection works but code - no)
+let { title,width,width} = options; // todo ( inspection works but code - no)
 
 //console.log(title); // Menu
 

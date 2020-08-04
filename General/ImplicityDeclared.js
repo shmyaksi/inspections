@@ -1,4 +1,4 @@
-ddd = 4; //with a tick in settings
+ddd = 4; // todo 'insert var declaration'
 
 function i() {
     ad = 3; //TODO?
@@ -48,7 +48,7 @@ hh()
 
 
 
-namename = "charles"
+let namename = "charles"
 
  greet1 = namename => `Hello, ${namename}` // todo 'Insert var declaration for 'greet1' into previous var statement' produces red code
 

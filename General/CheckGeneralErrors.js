@@ -17,6 +17,7 @@ let func = x => {
 class ClassWithStaticMethod {
     private someMethod() { //method can be static
         //todo quick-fix ''make public' doesn't work (if 'private' is used)
+        //todo:suggest to add 'make #'
         return 'static method has been called.';
     }
 }
