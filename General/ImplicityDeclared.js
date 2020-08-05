@@ -1,7 +1,7 @@
 ddd = 4; // todo 'insert var declaration'
 
 function i() {
-    ad = 3; //TODO?
+    ade = 3;
     console.log(ad)
 }
 
@@ -38,8 +38,8 @@ aGlobal(3)
 const map88 = new Map([['foo', 'bar'], ['baz', 42]])
 function hh() {
     for (let k = 0; k < 2; k++) {
-        obj = Object.fromEntries(map88); //todo?
-        console.log(obj);
+        objg = Object.fromEntries(map88);
+        console.log(objg);
         break
     }
 }

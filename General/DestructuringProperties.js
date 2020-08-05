@@ -44,16 +44,16 @@ function abcd() {
 }
 abcd()
 
-let options = {
+let optionss = {
     title: "Menu",
-    width: 100,
-   width:3,
+    width3: 100,
+   width3:3,
     height: 200
 };
 
-let { title,width,width} = options; // todo ( inspection works but code - no)
+let { title,width3:width33,width3,height} = optionss;
 
-//console.log(title); // Menu
+//console.log(title);
 
 function abcde() {
     let robotA = {name: "Bender", name: 'Ben'};

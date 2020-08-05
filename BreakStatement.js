@@ -74,7 +74,7 @@ for (let i=0;i<3;i++) {
 
 const name = "charles"
 
-const greet = name => `Hello, ${name}`
+let greet = name => `Hello, ${name}`
 
 const capitalize = str => str.toUpperCase()
 

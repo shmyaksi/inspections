@@ -15,7 +15,7 @@ let myCar2 = {
 }
 
 
-console.log(myCar2.yearr) //todo undeclared property
+console.log(myCar2.yearr) //todo undeclared property should be error(a tick)
 
 if (myCar2.hasOwnProperty('yearr')) {
     console.log(myCar2.yearr);
