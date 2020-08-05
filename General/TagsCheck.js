@@ -17,7 +17,7 @@ let Documents = {
      * @private
      */
     Diary: 2
-};
+}
 
 console.log(Documents.Diary) // todo?
 
