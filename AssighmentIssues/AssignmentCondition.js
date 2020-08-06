@@ -1,3 +1,9 @@
+//ON/OFF by default
+//If file includes examples for 2 inspections => separate
+//Add cases comments; fix formatting
+//Surround loops to functions where it's possible
+
+//Case1
 function C() {
     let c;
     if (c = 9) return c
@@ -5,6 +11,7 @@ function C() {
 
 C()
 
+//Case2
 function D() {
     let d = 3;
     let v;
@@ -14,6 +21,7 @@ function D() {
 
 D()
 
+//Case3
 function E() {
     let v;
     for (v = 0; v = 6; v++) {
@@ -24,6 +32,7 @@ function E() {
 
 E()
 
+//Case4
 function F() {
     let f = -2;
     do
@@ -33,6 +42,7 @@ function F() {
 
 F()
 
+//Case5
 function mapmap1() {
     let myMap = new Map();
     myMap.set("foo", {name: "baz", desc: "inga"});
