@@ -22,7 +22,7 @@ class A2 {
 }
 
 
-let asd ; //todo incorrect quick-fix
+let asd ; //todo incorrect quick-fix (should be *=e, but here only =)
 function k3(e){
    return asd*=e
 }

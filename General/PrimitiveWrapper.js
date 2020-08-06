@@ -1,4 +1,4 @@
-let x = new Number("0"); //todo quick-fix: two acts are equal
+let x = new Number("0");
 if (x) {
     console.log('hi');
 }

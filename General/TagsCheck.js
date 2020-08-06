@@ -19,5 +19,5 @@ let Documents = {
     Diary: 2
 }
 
-console.log(Documents.Diary) // todo?
+console.log(Documents.Diary) // todo(inspection doesn't work)
 

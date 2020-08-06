@@ -1,6 +1,6 @@
 class ClassWithStaticMethod {
   //   #someMethod() { //method can be static
-           //todo quick-fix ''make public' doesn't work (if 'private' is used)
+           //
   //      return 'static method has been called.';
    // }
 }
