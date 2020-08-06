@@ -1,3 +1,4 @@
+//Inspection is ON
 function s(){
 
     let z = 1<<1000000
@@ -14,13 +15,13 @@ function s1(){
 s1()
 
 
-const setBit = (num, position) => { // todo tool tip should contain enough info
+const setBit = (num, position) => {
     let mask = 1 << position
     return num | mask
 }
 
 
-console.log(setBit(12, -14)) // todo works for numbers as well( not constants)
+console.log(setBit(12, -14))
 
 
 

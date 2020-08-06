@@ -1,31 +1,27 @@
+//'Duplicate declaration' is ON
 function one()
 {
     let e = {
         target: {
-                value: 'abc',
-                value: 'kjdv'
-            },
-            password: {
-                value: 'xyz'
-
+            value: 'abc',
+            value: 'kjdv'
+        },
+        password: {
+            value: 'xyz'
         }
     }
     console.log(e)
 
 }
 
-
-function two(a,b,a){
+function two(a, b, a){
     let aa = 10;
-     aa = 2;
-
- console.log(aa)
-
+    aa = 2;
+    console.log(aa)
 }
 
 
 class Person1 {
-
     constructor(firstName, lastName) {
         this.firstName = firstName;
         this.firstName = firstName;
@@ -39,6 +35,7 @@ function abcde1() {
     let {name: nameA} = robotA;
     console.log(nameA);
 }
+
 let capitalize = str => str.toUpperCase()
 let newName = abcde1()
 // |>capitalize
@@ -59,6 +56,7 @@ func1()
 
 class Counter  {
     get x() { return this.xValue; }
+
     set x(value) {
         this.xValue = value;
     }
@@ -73,6 +71,7 @@ class Counter  {
     }
 
     connectedCallback() { this.render(); }
+
     connectedCallback() {  this.onclick}
 
     render() {

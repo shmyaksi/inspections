@@ -1,3 +1,6 @@
+//Inspection is ON
+
+//Case1
 class s1 {
     constructor(greet2) {
         this.greet2 = this.n2 // it doesn't work in methods
@@ -21,9 +24,9 @@ class A2 {
     }
 }
 
-
+//Case3
 let asd ; //todo incorrect quick-fix (should be *=e, but here only =)
 function k3(e){
-   return asd*=e
+    return asd*=e
 }
 k3(3)

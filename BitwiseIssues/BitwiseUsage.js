@@ -1,3 +1,4 @@
+//'Bitwise operator usage' is ON
 function one(x, y) {
     if (x & y) console.log('ok')
 
@@ -28,19 +29,21 @@ color()
 function col() {
     let x = 5, y = 9;
     let z = x | y; //todo
-    if(x|y) return; //todo note
+    if (x | y) return; //todo : it isn't reported here
     console.log(z)
 
 }
 
 col()
 
-let a = 6;
-let b = 1;
+function g4() {
+    let a = 6;
+    let b = 1;
 
 
-//todo
-console.log("A & B = " + (a & b));
-if (a & b) console.log(a)
+//todo and here too
+    console.log("A & B = " + (a & b));
+    if (a & b) console.log(a)
 
-console.log("A | B = " + (a | b));
+    console.log("A | B = " + (a | b));
+}

@@ -1,3 +1,4 @@
+//Inspection is OFF by default
 function h(a) {
     let b
     let z = a & 0;

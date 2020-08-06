@@ -1,13 +1,15 @@
+//Inspection is ON
+//Case1
 /**
  @function {myfunction}
  * @param  {proto}[proto]
  * @returns {proto}
  */
-function myfunc(){
+function myfunc() {
 
 }
 
-
+//Case2 //TODO разобраться
 function My(name) {
     this.name = name;
 }
@@ -32,15 +34,16 @@ const createMy = factorize(My);
 
 createMy('name');
 
- // WEB-7959
+//Case3
+// WEB-7959
 /**
-  @param target
+ @param target
  */
 function fn(obj) {
     return obj;
 }
 
-
+//Case4
 /**
  * @param {string} somebody
  * @param {string} somehow

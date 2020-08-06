@@ -3,6 +3,8 @@
 //Add cases comments; fix formatting
 //Surround loops to functions where it's possible
 
+//**'Assignment condition' ON by default**
+
 //Case1
 function C() {
     let c;
@@ -57,44 +59,50 @@ function mapmap1() {
 }
 mapmap1()
 
+//Case6
 function m(){
     let map = new Map([['name','lena'],['age','22']])
  let obj = Object.fromEntries(map);
     console.log(obj);
-    let k=0;
-    while(obj.name ='anna') {
+    let k = 0;
+    while (obj.name = 'anna') {
         k++;
         break;
     }
     console.log(k)
 }
+
 m()
 
-const response = {
-    settings: {
-        nullValue: null,
-        height: 400,
-        animationDuration: 0,
-        headerText: '',
-        showSplashScreen: false
+//Case7
+function m3() {
+    const response = {
+        settings: {
+            nullValue: null,
+            height: 400,
+            animationDuration: 0,
+            headerText: '',
+            showSplashScreen: false
+        }
     }
-};
+    let undefinedValue = response.settings.undefinedValue ?? 'some other default'; // result: 'some other default'
+    if (undefinedValue = 'dfhdh') console.log('ok');
+    const nullValue = response.settings.nullValue ?? 'some other default'; // result: 'some other default'
 
+    console.log(undefinedValue);
+    console.log(nullValue);
+}
 
-let undefinedValue = response.settings.undefinedValue ?? 'some other default'; // result: 'some other default'
-if (undefinedValue ='dfhdh') console.log('ok') ;
-const nullValue = response.settings.nullValue ?? 'some other default'; // result: 'some other default'
+m3()
 
-console.log(undefinedValue);
-console.log(nullValue);
-
+//Case8
 function bin() {
     const view = new BigInt64Array(4);
     const max = 2n ** (64n - 1n) - 1n;
     const bigInt = 42n;
 
     view[0] = 42n;
-    while (view[0]=41n) break;
+    while (view[0] = 41n) break;
     view[1] = max;
     view[2] = bigInt;
     console.log(view[0])
@@ -102,6 +110,7 @@ function bin() {
 }
 bin()
 
+//Case9
 class MyClass1 {
     #foo;
     constructor(foo) {

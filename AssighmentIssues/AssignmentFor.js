@@ -1,3 +1,6 @@
+//'Assignment to for loop parameter' OFF by default
+
+//Case1
 function on() {
     for (let i = 0; i < 3; i++) {
         i = 10;
@@ -7,14 +10,13 @@ function on() {
 
 on()
 
-
-let options = {
-    title: "Menu",
-    width: 100,
-    height: 200
-};
-
+//Case2:object
 function on1() {
+    let options = {
+        title: "Menu",
+        width: 100,
+        height: 200
+    };
     for (let i = 0; i < 3; i++) {
         let {title, width, height} = options; //TODO Note: no error
         console.log(i)
@@ -24,36 +26,24 @@ function on1() {
 
 on1()
 
-class cars {
-    constructor(name, tip, age) {
-        this.name = name;
-        this.tip = tip;
-        this.age = age;
-    }
-    
-}
-
-
-class People {
+//Case3: method
+class People123 {
     constructor(age) {
         this.age = age;
     }
 
     ager() {
         for (this.age; this.age < 35; this.age++) {
-            //this.age++
-
             this.age = 2 // todo спорный момент
         }
         return this.age //todo Note:loop
     }
 }
 
-let me = new People(22)
-
-/*console.log(me.ager())*/
+let me = new People123(22)
 
 
+//Case4
 class People1e {
     constructor(age) {
         this.age = age;
@@ -64,12 +54,10 @@ class People1e {
             j++
         }
         return this.age
-
-
     }
 }
 
-
+//Case5
 function mapmap() {
     let myMap = new Map();
     myMap.set("foo", {name: "baz", desc: "inga"});
@@ -85,34 +73,19 @@ function mapmap() {
 
 mapmap()
 
-const map = new Map([['foo', 'bar'], ['baz', 42]]);
-for (let k = 0; k < 2; k++) {
-    k = 1;
-    const obj = Object.fromEntries(map);
-    console.log(obj);
+//Case6
+function a2() {
+    const map = new Map([['foo', 'bar'], ['baz', 42]]);
+    for (let k = 0; k < 2; k++) {
+        k = 1;
+        const obj = Object.fromEntries(map);
+        console.log(obj);
+    }
 }
 
+a2()
 
-/*function test(param = throw new Error('required!')) {
-    const test = param === true || throw new Error('Falsy!');
-}
-
-
-
-test()*/
-
-
-/*class Product {
-    get id() { return this._id; }
-    set id(value) { this._id = value ?? throw new Error('Invalid value'); } //Call replace here
-}*/
-
-
-let setting = process.env.SETTING;
-
-//if (!setting) throw new Error("please set the SETTING environmental variable");
-
-
+//Case7
 function ku1() {
     let response = {
         settings: {
@@ -134,7 +107,7 @@ function ku1() {
 
 ku1()
 
-
+//Case8
 function isPrime(p) {
     for (let i = 2n; i * i <= p; i++) {
         i = 3n;
@@ -145,25 +118,14 @@ function isPrime(p) {
 
 console.log(isPrime(3))
 
-/*class MyClass {
-    #foo;
-    constructor(foo) {
-        this.#foo = foo;
-    }
-    incFoo() {
 
-        for (let j = 0;j<5;j++) {
-            j = 3
-            this.#foo++;
-        }
-    }
-}*/
-
+//Case9
 function insertion() {
     let x;
     //  x ??=4;
 }
 
+//Case10
 function f(param) {
     let i;
     //i ??= "default";
@@ -174,6 +136,7 @@ function f(param) {
 
 f(4)
 
+//Case11
 const a = {duration: 50, title: ''};
 
 //a.duration ||= 10;
@@ -185,6 +148,7 @@ console.log(a.title);
 // expected output: "title is empty"
 
 
+//Case12
 let user = {name: 'SuperPaintman'};
 
 function capitalize(str) {
@@ -198,31 +162,5 @@ function sayHello(name) {
 let res = user.name
     |>capitalize
     |>sayHello;
-
-
-/*const double = (n) => n * 2;
-const increment = (n) => n + 1;
-
-// without pipeline operator
-double(increment(double(double(5)))); // 42
-
-// with pipeline operator
-5 |> double |> double |> increment |> double; // 42*/
-
-
-const arr = [
-    {code: "a"},
-    {code: "b"},
-    {code: "c"},
-    {name: "Caty"},
-    {name: "Siri"}
-];
-
-const withCode = arr.map(function (element) {
-    if (element.code) return element;
-});
-
-//const notThere = withCode[3]?.code;
-console.log(adventurer.someNonExistentMethod?.());
 
 

@@ -1,3 +1,4 @@
+//Inspection is ON
 function Thingy() {
     /** @private */
     this._barr = 1;
