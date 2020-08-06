@@ -1,3 +1,4 @@
+//Case1: variable
 function inn() {
     let x;
     x = x;
@@ -5,6 +6,7 @@ function inn() {
 
 inn()
 
+//Case2: constructor
 class People2 {
     constructor(age) {
         this.age = this.age;
@@ -15,31 +17,25 @@ class People2 {
     }
 }
 
-let me = new People2(22)
-console.log(me.ager())
-
-let maxlength = 2
-
-function opp() {
-    let j = 3;
-    if (j > maxlength) j = j;
-
+//Case3: Object
+let myObject = {
+    a: 5,
+    b: 4
 }
 
-opp()
+myObject.a = myObject.a
 
-
-
+//Case4: Array
 function om() {
     let ar = [2, 3, 4, 5]
     ar[0] = ar[0] //TODO
     return ar[0]
 
 }
-
 console.log(om())
 
 
+//Case5
 function ty11(){
     let arr = [4,6,2,3,5,7,8]
     for(let i = 0;i<3;i++) {
@@ -163,3 +159,17 @@ let {
 
 console.log(b);
 console.log(d);
+
+
+let me = new People2(22)
+console.log(me.ager())
+
+let maxlength = 2
+
+function opp() {
+    let j = 3;
+    if (j > maxlength) j = j;
+
+}
+
+opp()
