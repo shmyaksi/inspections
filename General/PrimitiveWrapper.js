@@ -11,8 +11,8 @@ if (xw) {
 let symObj = new Object()
 
 
-//let bv = new BigInt() //todo:  should be triggered ?
-//let xws = new Symbol();
+let bv = new BigInt() //todo:  should be triggered ?
+let xws = new Symbol();
 
 
 class String { // todo :should be forbidden to use this reserved name 'string'? suggest to add

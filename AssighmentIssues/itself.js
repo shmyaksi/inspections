@@ -28,7 +28,7 @@ myObject.a = myObject.a
 //Case4: Array
 function om() {
     let ar = [2, 3, 4, 5]
-    ar[0] = ar[0] //TODO
+    ar[0] = ar[0]
     return ar[0]
 
 }
@@ -115,7 +115,7 @@ let [one, two, three] = foo;
 function ob2() {
 
     foo[one] = foo[0]
-    console.log(foo[one])//TODO no inspection
+    console.log(foo[one])
 }
 ob2()
 
@@ -138,7 +138,7 @@ function on2() {
     let key = "z";
     let {[key]: foo1} = {z: "bar"};
 
-    foo1[key] = "bar" //TODO probably
+    foo1[key] = "bar"
     console.log(foo1);
 }
 

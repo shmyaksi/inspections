@@ -16,4 +16,5 @@ let az ;
 let ah=3;
 console.log(az+ah)
 
-//todo :
+let bv = new BigInt() //todo:  should be triggered ?
+let xws = new Symbol();

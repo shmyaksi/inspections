@@ -28,7 +28,7 @@ class Person1 {
 
     constructor(firstName, lastName) {
         this.firstName = firstName;
-        this.firstName = firstName; //todo?
+        this.firstName = firstName;
         this.lastName = lastName;
     }
 }

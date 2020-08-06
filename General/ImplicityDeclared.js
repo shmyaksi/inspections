@@ -1,4 +1,5 @@
-ddd = 4; // todo 'insert var declaration'
+ddd = 4;
+
 
 function i() {
     ade = 3;
@@ -9,7 +10,7 @@ i()
 
 
 class person23 {
-    greet = ''; //todo?
+    greet23 = '';
     constructor(name) {
         this.name = name
     }
@@ -50,11 +51,11 @@ hh()
 
 let namename = "charles"
 
- greet1 = namename => `Hello, ${namename}` // todo 'Insert var declaration for 'greet1' into previous var statement' produces red code
+ greet1 = namename => `Hello, ${namename}`
 
  capitalize1 = str => str.toUpperCase()
 
- exclaim1 = str => `${str}!!!`  //todo 'convert to name function' behaves strange?
+ exclaim1 = str => `${str}!!!`
 
 
 for (let i=0;i<3;i++) {
