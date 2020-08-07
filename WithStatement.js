@@ -1,4 +1,5 @@
-function f89() {
+//Inspection is ON
+function f899() {
     let a, x, y;
     let r = 10;
 
@@ -9,14 +10,14 @@ function f89() {
     }
     console.log(x)
 }
-f89()
+
+f899()
 
 
-
-function f88(foo, values) {
+function f889(foo, values) {
     with (foo) {
         console.log(values);
     }
 }
 
-f88('ann','kate')
+f889('ann', 'kate')

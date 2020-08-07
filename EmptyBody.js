@@ -1,3 +1,5 @@
+//Inspection is ON
+
 function emptyBodyOne(a, b) {
     if (a <= b) {
     } else {
@@ -8,10 +10,9 @@ function emptyBodyOne(a, b) {
 
 emptyBodyOne(6, 5)
 
-
-let i;
-
 class Books {
+    i;
+
     constructor(name, author, year) {
         this.name = name;
         this.author = author;
@@ -25,20 +26,17 @@ class Books {
     present() {
         return 'my favourite book is ' + this.name;
     }
-
 }
 
-book1 = new Books('love', 'smith', '2005');
+let book1 = new Books('love', 'smith', '2005');
 console.log(book1.present());
 
-
-let foo = {
-    name: 'kate',
-    job: 'musician',
-    planet: 'russia'
-}
-
 function emptyBodyTwo() {
+    let foo = {
+        name: 'kate',
+        job: 'musician',
+        planet: 'russia'
+    }
     if (foo.name === 'kate') {
 
     }

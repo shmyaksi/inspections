@@ -1,20 +1,23 @@
-let a1 = 0, b1=123*1, c1=41;
-let sum = b+a;
+//Inspection is ON by default
+
+function e3() {
+    let a1 = 0, b1 = 123 * 1, c1 = 41;
+    let sum = b + a;
+}
 
 
-function checking(){
-    let  aa = 1,bb=123
+function checking() {
+    let aa = 1, bb = 123
     return bb * aa
 }
 
-function checking1(){
-   return checking()
+function checking1() {
+    return checking()
 }
 checking1()
 
 
-
-function one() {
+function one9() {
     let sum = 1;
     for (let i = 0; i < 10; i++) {
         let abc = 1;
@@ -27,7 +30,8 @@ function one() {
 
     console.log(sum)
 }
-one()
+
+one9()
 
 
 function checking2(){
@@ -58,6 +62,7 @@ function checking5(){
 }
 console.log(checking5())
 
+//Case: class
 class Rectangle {
     constructor(height, width) {
         this.height = height;
@@ -74,6 +79,7 @@ function foo() {
 foo()
 
 
+//Case:array
 function test1(fruit, quantity) {
     const redFruits = ['apple', 'strawberry', 'cherry', 'cranberries'];
 
@@ -93,6 +99,4 @@ function test1(fruit, quantity) {
     }
 }
 
-
-//test('apple');
 test1('apple', 20);

@@ -1,3 +1,5 @@
+//Inspection is OFF
+
 void function life() {
     console.log("Executed!");
 }();
@@ -7,11 +9,13 @@ void function test() {
 
 }();
 
-try {
-   floating_test();
-} catch (e) {
-   console.log(e);
+function h5() {
+    try {
+        floating_test();
+    } catch (e) {
+        console.log(e);
 
+    }
 }
 
 function three(){

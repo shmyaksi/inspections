@@ -1,3 +1,5 @@
+//'Confusing sequence of '+' or '-'' is OFF
+
 function ad() {
     let a = 34, b = 4;
     let c;
@@ -10,7 +12,6 @@ ad()
 function ad2() {
     let a = 34, b = 4;
     let c;
-
     for (let i = 0; i < 5; i++) {
         {
             c = a - +-b;
@@ -26,7 +27,6 @@ console.log('------------------------------')
 function ad3() {
     let a = 34, b = 4;
     let c;
-
     for (let i = 0; i < 5; i++) {
         {
             c = a - +-+b;

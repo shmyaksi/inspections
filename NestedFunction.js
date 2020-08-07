@@ -1,3 +1,5 @@
+//Inspection is OFF
+
 function add() {
     var counter = 0;
 

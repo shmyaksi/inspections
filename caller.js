@@ -1,6 +1,9 @@
+//Inspection is ON
+
 function xe() {
     return xe.caller
 }
+
 console.log(xe())
 
 
@@ -16,10 +19,7 @@ console.log(myFunc())
 
 
 function one(){
-
     function two(){
-
-
         function three(){
             return three.caller
         }

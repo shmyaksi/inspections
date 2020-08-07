@@ -1,3 +1,4 @@
+//Inspection is OFF
 function one(assan) {
     {
         let assan = +1;

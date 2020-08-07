@@ -1,12 +1,13 @@
-function comparison(password){
+//Inspection is OFF
+function comparison2(password) {
     if (password.length !== 0) {
         return
-    }
-    else {
+    } else {
 
     }
 }
-comparison(3)
+
+comparison2(3)
 
 
 function numeric(adda){
@@ -25,39 +26,36 @@ numeric(5)
 
 function str67(){
     let name = 'anna'
-    if(!name){
-        name='another'
-    }
-    else return
+    if (!name) {
+        name = 'another'
+    } else return
 
 }
+
 str67()
 
 
-let Person = (function () {
+//Case:class
+let Person22 = (function () {
     let ageKey = Symbol();
 
-    class Person {
+    class Person22 {
 
         constructor(name) {
-            this.name = name; 
-            this[ageKey] = 20; 
+            this.name = name;
+            this[ageKey] = 20;
         }
 
-        comparison(){
+        comparison() {
             if (!this.name) return 'go away'
             else return 'hello';
 
         }
 
         greet() {
-          
             console.log(`name: ${this.name}, age: ${this[ageKey]}`);
         }
     }
-
-    return Person;
 })();
 
-let joe = new Person('Joe');
-joe.greet();
+

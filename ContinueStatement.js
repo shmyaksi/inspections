@@ -1,3 +1,6 @@
+//Inspection is OFF
+
+//Case1
 function f44() {
     let text;
     for (let i = 0; i < 10; i++) {
@@ -10,6 +13,7 @@ function f44() {
 
 f44()
 
+//Case2
 function f45() {
     let textt = "";
     let j;
@@ -24,19 +28,19 @@ function f45() {
 }
 f45()
 
-
-
-
+//Case3:class
 class Car {
     constructor(brand) {
         this.carname = brand;
     }
+
     present() {
         return "I have a " + this.carname;
     }
 }
 mycar = new Car("Ford");
 
+//Case4:array
 function asdf() {
     let textt = "";
     let j;
@@ -50,15 +54,13 @@ function asdf() {
     console.log(mycar.present())
 }
 
-
 asdf()
 
 
-
+//Case5
 function three() {
     let k = 0;
     let n = 0;
-
     while (k < 5) {
         k++;
 
@@ -73,22 +75,7 @@ function three() {
 
 three()
 
-
-function four() { //continue statement with label
-    let str = '';
-
-    loop1:
-        for (let i = 0; i < 5; i++) {
-            if (i === 1) {
-                continue loop1;
-            }
-            str = str + i;
-        }
-
-    console.log(str);
-}
-four()
-
+//Case6
 function five(d) {
     const user1 = {
         admin() {
@@ -108,6 +95,7 @@ function five(d) {
 
 }
 
+//Case7
 function six() {
     const name = "charles"
 
@@ -116,12 +104,13 @@ function six() {
     const capitalize = str => str.toUpperCase()
 
     const exclaim = str => `${str}!!!`
-for (let i=0;i<3;i++) {
+    for (let i = 0; i < 3; i++) {
 
-        if(i===2) continue;
-    const loudGreeting = name
-        |> greet
-        |> capitalize
-        |> exclaim
-}}
+        if (i === 2) continue;
+        const loudGreeting = name
+            |> greet
+            |> capitalize
+            |> exclaim
+    }
+}
 
