@@ -67,6 +67,7 @@ function n(name) {
     let foo = name ?? 'default string';
     console.log(foo);
     name = 'jenn'
+    console.log(name);
 }
 n(null);
 
@@ -94,5 +95,5 @@ class MyClass1 {
     }
 }
 
-let neww = new MyClass1(10)
-console.log(neww.incFoo(3))
+let var748 = new MyClass1(10)
+console.log(var748.incFoo(3))
