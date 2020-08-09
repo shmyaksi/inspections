@@ -1,8 +1,3 @@
-//ON/OFF by default
-//If file includes examples for 2 inspections => separate
-//Add cases comments; fix formatting
-//Surround loops to functions where it's possible
-
 //**'Assignment condition' ON by default**
 
 //Case1
