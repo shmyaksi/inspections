@@ -18,7 +18,7 @@ function on1() {
         height: 200
     };
     for (let i = 0; i < 3; i++) {
-        let {title, width, height} = options; //TODO Note: no error
+        i = options.width;
         console.log(i)
     }
 
