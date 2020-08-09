@@ -30,9 +30,8 @@ myObject.a = myObject.a
 //Case4: Array
 function om() {
     let ar = [2, 3, 4, 5]
-    ar[0] = ar[0]
+    ar[0] = ar[0] //WEB-46844
     return ar[0]
-
 }
 console.log(om())
 
@@ -41,13 +40,9 @@ console.log(om())
 function ty11(){
     let arr = [4,6,2,3,5,7,8]
     for(let i = 0; i<3; i++) {
-
         let arrayItem =arr[3]= arr?.[0];
         arrayItem=arrayItem;
-
         console.log(arrayItem,arr[3])
-        //console.log(array)
-        break
     }
 }
 ty11()
@@ -88,7 +83,7 @@ function nan(n){
 nan(12)
 
 //Case9
-class MyClass1 {
+class ClassItself {
     #foo;
 
     constructor(foo) {
@@ -102,8 +97,8 @@ class MyClass1 {
     }
 }
 
-let neww = new MyClass1(10)
-console.log(neww.incFoo(3))
+let f98876 = new ClassItself(10)
+console.log(f98876.incFoo(3))
 
 
 //Case10
@@ -116,55 +111,8 @@ function ob2() {
 
 ob2()
 
+
 //Case11
-function on1() {
-    let options = {
-        title: "Menu",
-        width: 100,
-        height: 200
-    };
-    for (let i = 0; i < 3; i++) {
-        let {title, width, height} = options; //TODO Note: no error
-        console.log(i)
-    }
-
-}
-
-on1()
-
-//Case12
-function on2() {
-    let key = "z";
-    let {[key]: foo1} = {z: "bar"};
-
-    foo1[key] = "bar"
-    console.log(foo1);
-}
-
-on2()
-
-//Case13
-function on34() {
-    const obj = {
-        a: 1,
-        b: 2,
-        c: 3,
-        d: 4,
-        e: 5
-    };
-    let {
-        b,
-        d
-    } = obj;
-    b = obj.b //TODO
-
-    console.log(b);
-    console.log(d);
-}
-
-on34()
-
-//Case14
 function opp() {
     let maxlength = 2
     let j = 3;

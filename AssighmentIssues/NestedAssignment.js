@@ -69,7 +69,6 @@ function isPrime1(p) {
 isPrime1(5)
 
 //Case7
-//Consider something like this:
 let foo = moo = boo = "foo";
 const foo1 = moo1 = boo1 = "foo";
 

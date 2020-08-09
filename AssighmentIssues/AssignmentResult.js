@@ -74,7 +74,7 @@ function nan(n) {
 nan(12)
 
 //Case7
-class MyClass1 {
+class ClassAResult {
     #foo;
     constructor(foo) {
         this.#foo = foo;
@@ -86,5 +86,5 @@ class MyClass1 {
     }
 }
 
-let neww = new MyClass1(10)
-console.log(neww.incFoo(3))
+let f98 = new ClassAResult(10)
+console.log(f98.incFoo(3))
