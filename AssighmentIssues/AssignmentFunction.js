@@ -31,7 +31,6 @@ function B(d) {
     d = 'nina';
     let result;
     result = ar1[0] + ' ' + d;
-    // result  = toString()
     return result
 
 
