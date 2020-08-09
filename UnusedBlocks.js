@@ -1,5 +1,5 @@
 //Inspection is OFF
-function one(assan) {
+function block_one(assan) {
     {
         let assan = +1;
     }
@@ -11,7 +11,7 @@ function one(assan) {
 one(3)
 
 
-class goods {
+class block_two {
     constructor() {
         {
             this.a = a;
