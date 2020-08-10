@@ -1,6 +1,7 @@
-export {}
+//Inspection is ON
 
-function three(a, b) {
+//Case1
+function three3(a, b) {
     if (a <= b) {
     } else {
         a--;
@@ -8,9 +9,10 @@ function three(a, b) {
     console.log(a, b)
 }
 
-three(6, 5)
+three3(6, 5)
 
 
+//Case2
 let i;
 
 class books {
@@ -37,18 +39,23 @@ class books {
 let book1 = new books('love', 'smith', '2005');
 console.log(book1.present());
 
+//Case3
+function der4() {
+    let foo = {
+        name: 'kate',
+        job: 'musician',
+        planet: 'russia'
+    }
 
-let foo = {
-    name: 'kate',
-    job: 'musician',
-    planet: 'russia'
+    if (foo.name === 'kate') {
+
+    }
 }
 
-if (foo.name === 'kate') {
+der4()
 
-}
-
-function present(color: string) {
+//Case4
+function present3(color: string) {
     if (color === 'green') {
 
     }
@@ -57,16 +64,16 @@ function present(color: string) {
 
 }
 
-console.log(present('red'))
+console.log(present3('red'))
 
-function fooo() {
+//Case5
+function foo3() {
     let k = 0;
     if (k > 0) while (k < 4) {
-        //k++
 
     }
     return k
 }
 
-console.log(fooo())
+console.log(foo3())
 

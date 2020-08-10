@@ -1,46 +1,50 @@
-export{}
-function one(){
+//inspection is OFF
+
+//Case1
+function one0() {
     even:                           // TODO 'cleanup' and 'remove label' work equally
-        for (let i = 1; i <= 10; i++){
+        for (let i = 1; i <= 10; i++) {
             console.log(i);
         }
-
-
-
-
 }
-one()
-function two() {
-    let j:number;
+
+one0()
+
+//Case2
+function two0() {
+    let j: number;
 
     myLabel:  // label is used
         if (j % 2 == 0) {
-        if (j == 12) {
-            console.log("12");
-            break myLabel;
+            if (j == 12) {
+                console.log("12");
+                break myLabel;
+            }
+            console.log("Odd number, but not 12");
         }
-        console.log("Odd number, but not 12");
-    }
 }
 
-two()
+two0()
 
-function doSomething():any {
+//Case3
+function doSomething0(): any {
 
 }
 
 myLabel: {
-    let x = doSomething();
+    let x = doSomething0();
 
     if (x > 0) {
         break myLabel;
     }
 
     console.log(x)
-    }
+}
 
-doSomething()
-function three() {
+doSomething0()
+
+//Case4
+function three0() {
     myLabell: for (let i = 0; i < 10; i++) {
 
         console.log("Loop");
@@ -48,4 +52,4 @@ function three() {
     }
 }
 
-three()
+three0()

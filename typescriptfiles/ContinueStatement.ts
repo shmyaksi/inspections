@@ -1,63 +1,66 @@
-export{}
-function one() {
-    let text='';
+//Inspection is OFF
+
+//Case1
+function one99() {
+    let text = '';
     for (let i = 0; i < 10; i++) {
         if (i !== 3) continue;
         text += "The number is " + i;
-        console.log(text)   }
+        console.log(text)
+    }
 }
 
-one()
+one99()
 
-
-
-function two() {
+//Case2
+function two99() {
     let textt = " ";
     let j;
     let cars;
-    cars = ['Saab','Volvo','Subaru'];
+    cars = ['Saab', 'Volvo', 'Subaru'];
     for (j = 0; j < cars.length; j++) {
         if (cars[j] === "Saab") {
             continue;
         }
-        textt += cars[j] ;
+        textt += cars[j];
     }
     console.log(textt)
 }
-two()
 
+two99()
 
+//Case3
+class Car99 {
+    carname: string;
 
-
-class Car {
-    carname:string;
     constructor(brand) {
         this.carname = brand;
     }
+
     present() {
         return "I have a " + this.carname;
     }
 }
-let mycar = new Car("Ford");
 
+let mycar99 = new Car99("Ford");
+
+//Case4
 function asdf() {
     let textt = "";
     let j;
     let cars;
-    cars = ['Saab','Volvo','Subaru'];
+    cars = ['Saab', 'Volvo', 'Subaru'];
     for (j = 0; j < cars.length; j++) {
         if (cars[j] === "Saab") continue;
-        textt += cars[j] ;
+        textt += cars[j];
     }
     console.log(mycar.present())
 }
 
-
 asdf()
 
-
-
-function three() {
+//Case5
+function three99() {
     let k = 0;
     let n = 0;
 
@@ -73,30 +76,16 @@ function three() {
     console.log(n);
 }
 
-three()
+three99()
 
+//Case6
+function five99() {
+    let i: number = 1
+    while (i <= 10) {
+        if (i % 5 == 0) {
+            console.log("The first multiple of 5  between 1 and 10 is : " + i)
 
-function four() { //continue statement with label
-    let str = '';
-
-    loop1:
-        for (let i = 0; i < 5; i++) {
-            if (i === 1) {
-                continue loop1;
-            }
-            str = str + i;
-        }
-
-    console.log(str);
-}
-four()
-
-let i: number = 1
-while (i <= 10) {
-    if (i % 5 == 0) {
-        console.log("The first multiple of 5  between 1 and 10 is : " + i)
-
+        } else continue
+        i++
     }
-    else continue
-    i++
 }

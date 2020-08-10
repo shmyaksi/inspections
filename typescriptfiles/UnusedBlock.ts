@@ -1,3 +1,5 @@
+//Inspection is OFF
+//Case1
 function oneone(assan) {
     {  // TODO (suggest to delete unnecessary block statement)
         let assan = +1;
@@ -9,7 +11,7 @@ function oneone(assan) {
 
 oneone(3)
 
-
+//Case2
 class goods {
 
     a: string
@@ -22,14 +24,7 @@ class goods {
     }
 }
 
-enum AAA {
-    X,
-    Y,
-    Z
-
-}
-
-console.log(AAA.X)
+//Case3
 {
     let bra = 'knv'
 }
@@ -43,7 +38,7 @@ try {
 
 }
 
-
+//Case4
 {
     function fu() {
         {
@@ -52,6 +47,5 @@ try {
     }
 
     fu()
-
 
 }

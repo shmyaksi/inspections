@@ -1,21 +1,28 @@
-export{}
-let a1 = 0, b1 = 123 * 1, c1 = 41;
-let sum = b1 + a1;
+//Inspection is ON by default
 
+//Case1
+function ad23() {
+    let a1 = 0, b1 = 123 * 1, c1 = 41;
+    let sum = b1 + a1;
+}
 
+ad23()
+
+//Case2
 function checking() {
     let aa = 1, bb = 123
     return bb * aa
 }
 
+//Case3
 function checking1() {
     return checking()
 }
 
 checking1()
 
-
-function one() {
+//Case4
+function one66() {
     let sum = 1;
     for (let i = 0; i < 10; i++) {
         let abc = 1;
@@ -29,9 +36,9 @@ function one() {
     console.log(sum)
 }
 
-one()
+one66()
 
-
+//Case5
 function checking2() {
     let aa = 1, bb = 123
     return bb / 0;
@@ -42,6 +49,7 @@ console.log(checking2())
 
 const s = 0
 
+//Case6
 function checking3() {
     let aa = 1, bb = 123
     return bb * s;
@@ -49,7 +57,7 @@ function checking3() {
 
 console.log(checking3())
 
-
+//Case7
 function checking4() {
     let aa = 1, bb = 123
     return bb / s;
@@ -57,6 +65,7 @@ function checking4() {
 
 console.log(checking4())
 
+//Case8
 function checking5() {
     let aa = 1, bb = 123
     return bb * aa;
@@ -64,6 +73,7 @@ function checking5() {
 
 console.log(checking5())
 
+//Case9:class
 class Rectangle {
     height: number;
     width: number;
@@ -79,7 +89,6 @@ class Rectangle {
 }
 
 let rectangle1 = new Rectangle(1, 50);
-// The numbers 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 100, 1000, 0.0 and 1.0 are not reported by  inspection 'magic number'.
 
 function foo() {
     console.log(rectangle1.square())
@@ -87,23 +96,20 @@ function foo() {
 
 foo()
 
-
+//Case10
 function test34(fruit, quantity) {
     const redFruits = ['apple', 'strawberry', 'cherry', 'cranberries'];
-
 
     if (fruit) {
         if (quantity > 10) {
             console.log('big quantity');
             quantity *= 1;
         }
-        //console.log(quantity)
 
     } else {
 
     }
 }
-
 
 test34('apple', 100);
 test34('apple', 20);

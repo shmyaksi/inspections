@@ -1,6 +1,7 @@
-export{}
-function comparison(password) {
+//Inspection is OFF
 
+//Case1
+function comparison1(password) {
     if (password.length !== 0) {
         return
 
@@ -10,9 +11,9 @@ function comparison(password) {
     }
 }
 
-comparison(3)
+comparison1(3)
 
-
+//Case2
 function numeric(adda) {
 
     if (adda !== 0) {
@@ -24,10 +25,9 @@ function numeric(adda) {
 
 
 }
-
 numeric(5)
 
-
+//Case3
 function str() {
     let name = 'anna'
     if (!name) {
@@ -35,10 +35,10 @@ function str() {
     } else return
 
 }
-
 str()
 
 
+//Case4
 let Person11 = (function () {
     let ageKey :number;
 
@@ -49,7 +49,6 @@ let Person11 = (function () {
             this.name = theName;
             this[ageKey] = 20;
         }
-
 
         comparison() {
             if (!this.name) return 'go away'
@@ -66,18 +65,18 @@ let Person11 = (function () {
     return Person11;
 })();
 
-let joe = new Person11('Joe');
-joe.greet();
+let joe1 = new Person11('Joe');
+joe1.greet();
 
 
+//Case5
 interface MyFace {
     foo: number;
 }
 
-function cccc(mynum:MyFace){
-
+function cccc(mynum: MyFace) {
     if (!(mynum.foo))
-    console.log(mynum.foo)
+        console.log(mynum.foo)
     else return
 }
 

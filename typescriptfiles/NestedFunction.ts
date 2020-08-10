@@ -1,3 +1,6 @@
+//Inspection is OFF
+
+//Case1
 function add() {
     let counter = 0;
 
@@ -11,6 +14,7 @@ function add() {
 
 add()
 
+//Case2
 function ah(x) {
     const bh = y => x + y;
     return bh;
@@ -18,7 +22,7 @@ function ah(x) {
 
 console.log(ah(3)(4));
 
-
+//Case3
 function on() {
     function two() {
         console.log("hello");
@@ -30,7 +34,7 @@ function on() {
 
 on()
 
-
+//Case4
 function sayHiBye(firstName, lastName) {
 
     console.log("Привет, " + getFullName());
@@ -44,17 +48,17 @@ function sayHiBye(firstName, lastName) {
 
 sayHiBye('kate', "middlton");
 
+//Case5
 function abba() {
     console.log('hello')
     let babba = function () {
-
-
     }
     return babba
 }
 
 abba()
 
+//Case6
 function jdbv() {
     function kdjgkgj() {
         function kjd() {
@@ -67,12 +71,11 @@ function jdbv() {
 
 console.log(jdbv())
 
+//Case7
 enum computers {
     one,
     two,
     tree
-
-
 }
 
 function ker(one: computers) {
