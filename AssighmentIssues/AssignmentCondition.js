@@ -80,9 +80,9 @@ function m3() {
             showSplashScreen: false
         }
     }
-    let undefinedValue = response.settings.undefinedValue ?? 'some other default'; // result: 'some other default'
+    let undefinedValue = response.settings.undefinedValue ?? 'some other default';
     if (undefinedValue = 'dfhdh') console.log('ok');
-    const nullValue = response.settings.nullValue ?? 'some other default'; // result: 'some other default'
+    const nullValue = response.settings.nullValue ?? 'some other default';
 
     console.log(undefinedValue);
     console.log(nullValue);

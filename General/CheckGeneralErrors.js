@@ -1,28 +1,41 @@
 //'General errors' is ON
-function h34(){
-    let a:number;
-    a *=3
+
+//Case1: SyntaxError: Unexpected token ':'
+function h34() {
+    let a: number;
+    a *= 3
 }
 
-function h7(){
+//Case2:SyntaxError: Illegal break statement
+function h7() {
     break;
 }
 
-
+//Case3:SyntaxError: Illegal continue statement: no surrounding iteration statement
 continue
 
+//Case4 : no error
 let func = x => {
     yield //keywords
     x * x
 }
+
+//Case4:SyntaxError: Unexpected identifier
 class ClassWithStaticMethod {
     private someMethod() { //method can be static
         return 'static method has been called.';
     }
 }
 
-var o1 = { get p(a, b, c, d, e, f, g) {  } };
-var o3 = { set p(a, b, c) {  } };
+//Case5:SyntaxError: Getter must not have any formal parameters.
+var o1 = {
+    get p(a, b, c, d, e, f, g) {
+    }
+};
+var o3 = {
+    set p(a, b, c) {
+    }
+}; //SyntaxError: Setter must have exactly one formal parameter.
 
 //todo (incompatible numeric format left)
 

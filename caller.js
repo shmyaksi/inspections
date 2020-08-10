@@ -26,5 +26,5 @@ function one(){
     }
 }
 
-console.log(one()) //returned undefined
+console.log(one())
 

@@ -18,7 +18,6 @@ function test1() { //WEB-40325
 
 function fru() {
     let fruits = ["Banana", "Orange", "Apple", "Mango"];
-
     fruits.push("Kiwi", "Lemon", "Pineapple");
     return 'f'
 }

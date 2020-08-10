@@ -24,7 +24,6 @@ class flowers{
     greet(){
         debugger;
         return 'give me ,'+this.flower+', please';
-        //debugger;
     }
 
 
@@ -32,7 +31,6 @@ class flowers{
 
 debugger;
 let sunflower = new flowers('sunflower')
-
 console.log(sunflower.greet())
 
 
@@ -41,13 +39,11 @@ function deb() {
         admin() {
             console.log("I am admin");
         }
-
     }
     const user2 = {};
     for (let i = 0; i < 3; i++) {
         debugger
         user1.admin?.();
         user2.admin?.();
-        break
     }
 }

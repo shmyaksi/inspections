@@ -1,5 +1,5 @@
 //Inspection is ON
-
+//Case1
 function emptyBodyOne(a, b) {
     if (a <= b) {
     } else {
@@ -10,9 +10,9 @@ function emptyBodyOne(a, b) {
 
 emptyBodyOne(6, 5)
 
+//Case:class
 class Books {
     i;
-
     constructor(name, author, year) {
         this.name = name;
         this.author = author;
@@ -31,6 +31,7 @@ class Books {
 let book1 = new Books('love', 'smith', '2005');
 console.log(book1.present());
 
+//Case3
 function emptyBodyTwo() {
     let foo = {
         name: 'kate',

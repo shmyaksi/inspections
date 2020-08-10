@@ -26,7 +26,7 @@ function d3() {
 function d4() {
     //let object123 = {}
     for (let namename in object123) {
-        console.log(namename); //todo suggest to convert to if statement "if (object123.hasOwnProperty(name)) "
+        console.log(namename);
     }
 }
 
@@ -34,13 +34,10 @@ function d4() {
 const actionList = [];
 
 function foo1() {
-
     for (let i in actionList) {
         if (actionList[i] !== undefined) {
             actionList[i] = "";
         }
-
     }
 }
-
 console.log(actionList)

@@ -35,7 +35,7 @@ const name = "charles"
 let greet = name => `Hello, ${name}`
 const capitalize = str => str.toUpperCase()
 const exclaim = str => `${str}!!!`
-/*
+
 
 for (let i=0;i<3;i++) {
     const loudGreeting = name
@@ -44,7 +44,7 @@ for (let i=0;i<3;i++) {
         |> exclaim
     break
 }
-*/
+
 
 //Case4
 function d3() {
@@ -58,14 +58,14 @@ function d3() {
 }
 
 //Case5
-/*function test1(param = throw new Error('required!')) {
+function test1(param = throw new Error('required!')) {
     const test = param === true ?? throw new Error('Falsy!');
-    while(test!==true){
-        if (param===true) break;
+    while (test !== true) {
+        if (param === true) break;
     }
 }
 
-test1(2)*/
+test1(2)
 
 //Case6
 function square(width, height) {

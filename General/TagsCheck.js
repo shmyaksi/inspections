@@ -1,9 +1,10 @@
-//Inspection is ON
+//Inspection '@private and @protected members accessibility' is ON
+
 function Thingy() {
     /** @private */
     this._barr = 1;
-
 }
+
 let th = new Thingy()
 console.log(th._barr)
 
@@ -20,5 +21,5 @@ let Documents = {
     Diary: 2
 }
 
-console.log(Documents.Diary) // todo(inspection doesn't work)
+console.log(Documents.Diary)
 

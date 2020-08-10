@@ -9,30 +9,34 @@ function myfunc() {
 
 }
 
-//Case2 //TODO разобраться
+//Case2
+/**
+ * @function
+ * @param {string} name
+ * @returns {My}
+ */
 function My(name) {
     this.name = name;
 }
+
 My.prototype = {
-    drive () {
+    drive() {
         return "driving";
     }
 };
 
+/**
+ * @function
+ * @param {string} name
+ */
 function factorize (ctr) {
     return function (arg) {
         return new ctr(arg);
     };
 }
 
-/**
- * @function
- * @param {string} name
- * @returns {My}
- */
 const createMy = factorize(My);
-
-createMy('name');
+createMy();
 
 //Case3
 // WEB-7959
@@ -49,7 +53,7 @@ function fn(obj) {
  * @param {string} somehow
  */
 function sayHello(somebody) {
-    alert('Hello ' + somebody);
+    console.log('Hello ' + somebody);
 }
 
 sayHello('froa')

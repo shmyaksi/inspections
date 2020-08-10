@@ -17,15 +17,16 @@ function w3() {
 
 let symObj = new Object()
 
-
-let bv = new BigInt() //todo:  should be triggered ?
-let xws = new Symbol();
+const alsoHuge = BigInt(9007199254740991)
+/*let bv = new BigInt() //todo:  should be triggered ?
+let xws = new Symbol();*/
 
 //Case:class
-class String { // todo :should be forbidden to use this reserved name 'string'? suggest to add
+class String {
     constructor(s) {
         this.s = s
     }
+
     greet() {
         return 'hello' + this.s
     }
@@ -37,3 +38,4 @@ console.log(xwa.greet())
 //Case3
 let me = ("Angus");
 me.length = 2;
+

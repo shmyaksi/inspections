@@ -1,6 +1,5 @@
 //inspection is ON
 
-//todo : add samples
 function sa() {
     let bv = new BigInt()
 

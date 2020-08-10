@@ -107,7 +107,6 @@ function obj6() {
         name: "three",
         age: "10"
     }
-
     b3.name = b2.name = b1.name = "hello"
 }
 

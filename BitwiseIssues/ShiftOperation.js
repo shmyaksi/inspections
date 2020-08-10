@@ -9,22 +9,24 @@ function s(){
 s()
 
 //Case2
-function s1(){
+function s1() {
 
-    let z = 1<<-14
+    let z = 1 << -14
     console.log(z)
 
 }
+
 s1()
 
 //Case3
-const setBit = (num, position) => {
+let position = -14
+const setBit = (num) => {
     let mask = 1 << position
     return num | mask
 }
 
 
-console.log(setBit(12, -14))
+console.log(setBit(12))
 
 
 

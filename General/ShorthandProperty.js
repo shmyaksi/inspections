@@ -7,7 +7,7 @@ function animal() {
     let someObject = {
         cat: cat,
         dog: dog,
-        bird: bird //todo why it isn't highlighted?(only on the right)
+        bird: bird
     }
 }
 
@@ -22,5 +22,4 @@ function o2() {
     }
 }
 
-//todo find more samples
 

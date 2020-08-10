@@ -35,21 +35,18 @@ function two2() {
 //Case4
 const name = "charles"
 
-/*function k(i) {
+function k(i) {
     const greet = name => `Hello, ${name}`
-
     const capitalize = str => str.toUpperCase()
-
     const exclaim = str => `${str}!!!`
-
     const loudGreeting = name
-    result2 = (i>2) ? name |> greet
-                             |> capitalize
-                                 |> exclaim :
-        (i>1) ? console.log('ok') : console.log('sorry')
+    result2 = (i > 2) ? name |> greet
+            |> capitalize
+            |> exclaim :
+        (i > 1) ? console.log('ok') : console.log('sorry')
 }
 
-k(4)*/
+k(4)
 
 function kk() {
     const map = new Map([['foo', 'bar'], ['baz', 42]]);

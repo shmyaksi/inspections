@@ -60,20 +60,20 @@ function one5() {
 //Objects
 let obj1 = {
     foo: 'string',
-    bar: 'baz', //trailing comma
+    bar: 'baz'
 }
 let obj2 = {
-    one(a,) {
+    one(a) {
     },
-    two(a, b,) {
-    },
+    two(a, b) {
+    }
 };
 
 function one6() {
     const map = new Map([['foo', 'bar'], ['baz', 42]]);
     for (let k = 0; k < 2; k++) {
         const obj = Object.fromEntries(map);
-        console.log(obj,); //TODO  trailing comma?
+        console.log(obj);
     }
 }
 

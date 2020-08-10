@@ -1,4 +1,4 @@
-//Inspection is ON
+//Inspection 'Redundant nesting in template literal' is ON
 function one1() {
     let colorr = "red";
     let countt = 3;

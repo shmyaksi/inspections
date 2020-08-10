@@ -35,10 +35,10 @@ console.log(mymark.greeting());
 
 
 //
-let someFunc = someFunction('text');
 
+let someFunc = someFunction('text');
 function someFunction(param) {
-    if (param === 'text') return function (value) { //todo should be anonymous
+    if (param === 'text') return function (value) {
     };
     else if (param === 'test') return function (value) {
     };

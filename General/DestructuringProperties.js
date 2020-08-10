@@ -1,4 +1,5 @@
 //'Destructuring properties with the same key can be merged' is ON
+
 function k2() {
     const {
         target: {
@@ -61,7 +62,7 @@ function abcde() {
 
 let capitalize = str => str.toUpperCase()
 let newName = abcde()
-// |>capitalize
+    |>capitalize
 
 
 

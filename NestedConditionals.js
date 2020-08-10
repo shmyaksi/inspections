@@ -10,7 +10,7 @@ function book() {
 
 book()
 
-function check() {   //conditional expression
+function check() {
     let firstCheck = false,
         secondCheck = false,
         access = firstCheck ? "Доступ запрещен" : secondCheck ? "Доступ запрещен" : "Доступ разрешен";
