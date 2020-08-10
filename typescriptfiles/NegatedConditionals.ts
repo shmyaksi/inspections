@@ -3,7 +3,7 @@ export {}
 function one() {
     let a, b, c, d
 
-    d = !a ? b : c //TODO inspection 'negated conditionals' works only for ternary expressions(suggest to add this to description)
+    d = !a ? b : c
     return d
 
 }

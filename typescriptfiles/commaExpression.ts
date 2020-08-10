@@ -1,14 +1,16 @@
-export{}
-let x = 1
-
-x = (x++, x) //TODO flipping ',' cause problem
-
-console.log(x)
+//Inspection is ON by default
 
 
-let a, b, c
+let x65 = 1
 
-a = b = 3, c = 4
+x65 = (x65++, x65) //TODO flipping ',' produces red code
+
+console.log(x65)
+
+
+let a65, b65, c65
+
+a65 = b65 = 3, c65 = 4
 console.log(a)
 
 let x1, y1, z1
@@ -17,23 +19,23 @@ x1 = (y1 = 5, z1 = 6)
 console.log(x1); // 6
 
 
-function one() {
+function one65() {
     let arr = [4, 0, 2, 5]
     arr[0] = 5, 3  //TODO flipping ',' cause problem
 
     console.log(arr)
 }
 
-one()
+one65()
 
-let m = !a ? b : c //conditional expression
+let m = !a65 ? b65 : c65 //conditional expression
 
 function Calc() {
     let booksCount = 19
     let result
 
     result = (booksCount > 15) ? 'План на год выполнен!' :
-        (booksCount > 10) ? 'Уже неплохо!' : //TODO double tool tip
+        (booksCount > 10) ? 'Уже неплохо!' :
             'Читать и ещё раз читать'
     console.log(result)
 }
@@ -45,17 +47,17 @@ enum E {
     X, Y, Z
 }
 
-function f(obj: { X: number }) {
+function f65(obj: { X: number }) {
 
     let resultt: number;
 
-    resultt = (x < 5) ? x * 3 :
-        (x > 1) ? x + 1 : //TODO double tool tip
-            x - 10? x+2:x=0
+    resultt = (x65 < 5) ? x65 * 3 :
+        (x65 > 1) ? x65 + 1 :
+            x65 - 10 ? x65 + 2 : x65 = 0
     return resultt;
 }
 
-console.log(f(E))
+console.log(f())
 
 
 interface ClockInterface {

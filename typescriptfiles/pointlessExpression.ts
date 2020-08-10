@@ -3,7 +3,7 @@ let a1 = 0, b1 = 123 * 1, c1 = 41;
 let sum = b1 + a1;
 
 
-function checking() { //TODO
+function checking() {
     let aa = 1, bb = 123
     return bb * aa
 }
@@ -32,7 +32,7 @@ function one() {
 one()
 
 
-function checking2() { //TODO
+function checking2() {
     let aa = 1, bb = 123
     return bb / 0;
 }
@@ -42,7 +42,7 @@ console.log(checking2())
 
 const s = 0
 
-function checking3() { //TODO
+function checking3() {
     let aa = 1, bb = 123
     return bb * s;
 }
@@ -50,14 +50,14 @@ function checking3() { //TODO
 console.log(checking3())
 
 
-function checking4() { //TODO
+function checking4() {
     let aa = 1, bb = 123
     return bb / s;
 }
 
 console.log(checking4())
 
-function checking5() { //TODO
+function checking5() {
     let aa = 1, bb = 123
     return bb * aa;
 }
@@ -88,14 +88,14 @@ function foo() {
 foo()
 
 
-function test(fruit, quantity) {
+function test34(fruit, quantity) {
     const redFruits = ['apple', 'strawberry', 'cherry', 'cranberries'];
 
 
     if (fruit) {
         if (quantity > 10) {
             console.log('big quantity');
-            quantity *= 1; //TODO
+            quantity *= 1;
         }
         //console.log(quantity)
 
@@ -105,5 +105,5 @@ function test(fruit, quantity) {
 }
 
 
-test('apple', 100);
-test('apple', 20);
+test34('apple', 100);
+test34('apple', 20);

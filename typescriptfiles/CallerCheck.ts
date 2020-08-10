@@ -1,31 +1,31 @@
-export{}
+//Inspection is ON
 /*function xe() {
-    return xe.caller //TODO (should appear inspection but TypeError)
+    return xe.caller
 }
 console.log(xe())*/
 
 
 function myFunc1() {
-    if (myFunc1.caller === null) { //TODO (should appear inspection but TypeError)
+    if (myFunc1.caller === null) {
         return 'Эта функция была вызвана из верхнего уровня!';
     } else {
         return 'Эта функция была вызвана из ' + myFunc1.caller;
     }
 }
 
-console.log(myFunc1()) //TODO (should appear inspection but TypeError)
+console.log(myFunc1())
 
 
-function one(){
-  //  console.log('jkfbksf')
+function one12() {
+    //  console.log('jkfbksf')
 
-    function two(){
+    function two() {
 
 
-        function three(){
-            return three.caller //TODO (should appear inspection but TypeError)
+        function three() {
+            return three.caller
         }
     }
 }
 
-console.log(one()) //returned undefined
+console.log(one12()) //returned undefined
