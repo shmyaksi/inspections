@@ -46,6 +46,7 @@ function g5() {
     }
 }
 
+//WEB-13752
 //Case6
 function g6() {
 
@@ -56,13 +57,13 @@ function g6() {
 //Case7
 function g7() {
     if (a1 & b1 && a1 & c1) {
-    } // Only generated warning for the second bitwise operation
+    } // todo: Only generated warning for the second bitwise operation
 
 }
 
 //Case8
 function g8() {
     if (a1 & b1 && (a1 & c1)) {
-    } // Still generates a warning for the second bitwise operation, even if enclosed with ()
+    } //todo Still generates a warning for the second bitwise operation, even if enclosed with ()
 
 }
