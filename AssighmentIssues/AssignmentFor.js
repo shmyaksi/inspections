@@ -96,7 +96,6 @@ function ku1() {
             showSplashScreen: false
         }
     }
-
     for (let d = 0; d < 3; d++) {
         let undefinedValue = response.settings.undefinedValue ?? 'some other default';
         d = 2;
@@ -115,52 +114,7 @@ function isPrime(p) {
     }
     return true;
 }
-
 console.log(isPrime(3))
 
-
-//Case9
-function insertion() {
-    let x;
-    //  x ??=4;
-}
-
-//Case10
-function f(param) {
-    let i;
-    //i ??= "default";
-    if (i === 'default') {
-        console.log('ok')// warning should be shown that param can't be null here
-    } else console.log('no')
-}
-
-f(4)
-
-//Case11
-const a = {duration: 50, title: ''};
-
-//a.duration ||= 10;
-console.log(a.duration);
-// expected output: 50
-
-//a.title ||= 'title is empty.';
-console.log(a.title);
-// expected output: "title is empty"
-
-
-//Case12
-let user = {name: 'SuperPaintman'};
-
-function capitalize(str) {
-    return str.toUpperCase();
-}
-
-function sayHello(name) {
-    return 'Hello, ' + name + '!';
-}
-
-let res = user.name
-    |>capitalize
-    |>sayHello;
 
 
