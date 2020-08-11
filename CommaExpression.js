@@ -1,4 +1,4 @@
-//Inspection is ON bt default
+//Inspection is ON by default
 
 function one1() {
     let x = 1;
