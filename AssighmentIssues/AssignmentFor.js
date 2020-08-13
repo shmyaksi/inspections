@@ -34,9 +34,9 @@ class People123 {
 
     ager() {
         for (this.age; this.age < 35; this.age++) {
-            this.age = 2 // todo спорный момент
+            this.age = 2
         }
-        return this.age //todo Note:loop
+        return this.age
     }
 }
 

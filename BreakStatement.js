@@ -111,7 +111,7 @@ console.log(me.incFoo())
 //Case9
 function f(param) {
     let i;
-    //i ??= "default";
+    i ??= "default";
     while (i === 'default') {
         console.log('ok')
         break
@@ -125,9 +125,9 @@ function func() {
     let a = {duration: 50, title: ''};
     let k = 0
     while (k < 3) {
-        //  a.duration ||= 10;
+        a.duration ||= 10;
         console.log(a.duration);
-        //  a.title ||= 'title is empty.';
+        a.title ||= 'title is empty.';
         console.log(a.title);
         break
     }
