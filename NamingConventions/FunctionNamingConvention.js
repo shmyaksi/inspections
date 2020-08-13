@@ -21,7 +21,7 @@ function qwertyuioplkjhgfdsazxcvbnmqwertyu() {
 }
 
 //Case5
-function *gaksl() { //todo , why * isn't marked as error?
+function* gaksl() {
 
 }
 
