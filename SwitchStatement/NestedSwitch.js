@@ -29,3 +29,19 @@ function hj2() {
 hj2()
 
 
+function hj3() {
+    let a = {duration: 50, title: ''};
+    let k = 0
+    switch (a.duration) {
+        case 40:
+            a.duration ||= 40;
+            switch (k) {
+                case 0:
+            }
+        case 30:
+            a.duration ||= 30;
+    }
+}
+
+hj3()
+

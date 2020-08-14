@@ -15,6 +15,6 @@ const fn = (s: RuleLevel) => {
 type Numbers = 0 | 1 | 2;
 const fn1 = (s: Numbers) => { //todo: the same problem like in an above case
     switch (s) {
-        case 0: //todo: case 0 exists but was suggested to add again
+        case 0: //todo: case 0 exists but is suggested to be added again
     }
 }
