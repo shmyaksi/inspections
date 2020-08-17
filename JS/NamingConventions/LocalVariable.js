@@ -1,21 +1,21 @@
 //inspection 'Local variable naming convention' is OFF by default
 //Case1
-function barra() {
+function check1() {
     let a = 10;
 }
 
 //Case2
-function barra1() {
+function check2() {
     let Mark = 10;
 }
 
 //Case3
-function barra2() {
+function check3() {
     let mark23 = 'la'
 }
 
 //Case4
-function barra3() {
-    const mark23 = 'la'
+function check4() {
+    const Mark23 = 'la'
 }
 

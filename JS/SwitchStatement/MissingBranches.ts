@@ -1,5 +1,4 @@
-// inspection  'switch statement has missing branches' is ON
-//Language version - Flow
+//inspection  'switch statement has missing branches' is ON
 
 //WEB-44273
 type Severity = 0 | 1 | 2;

@@ -2,7 +2,7 @@
 
 //Case1
 //WEB-44273
-type Severity = 0 | 1 | 2;
+/*type Severity = 0 | 1 | 2;
 type RuleLevel = Severity | 'off' | 'warn' | 'error';
 
 const fn = (s: RuleLevel) => {
@@ -10,10 +10,10 @@ const fn = (s: RuleLevel) => {
         case 'off':
 
     }
-}
+}*/
 
 //Case2
-type Cars = 'ford' | 'suzuki' | 'mazda'
+/*type Cars = 'ford' | 'suzuki' | 'mazda'
 
 function comp(ss: Cars) {
     switch (ss) {
@@ -23,7 +23,7 @@ function comp(ss: Cars) {
             return 'i am ford';
 
     }
-}
+}*/
 
 //Case3
 function has() {

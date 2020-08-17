@@ -1,5 +1,4 @@
 // inspection "Exception used for local control-flow" is ON
-//todo cases!
 //Case1
 function sawq(n) {
     try {

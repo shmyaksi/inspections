@@ -17,11 +17,12 @@ function testAll2() {
     try {
         return func11();
     } catch (error) {
+
     }
     try {
         return func22();
-    } catch (e) {
-        return e.message
+    } catch (ignore) {
+
     }
 
 }

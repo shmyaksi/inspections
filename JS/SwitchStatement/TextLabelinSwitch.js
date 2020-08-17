@@ -1,7 +1,7 @@
 //Inspection ' Text label in 'switch' statement' is OFF by default
 
 //Case1
-function txt1() {
+function CaseWithFor() {
     switch (x) {
         case 1:
             case2: for (let i = 0; i < 4; i++) {
@@ -14,7 +14,7 @@ function txt1() {
 }
 
 //case2
-function txt2(i9) {
+function caseTwo(i9) {
     i9 ??= "default";
     switch (i9) {
         case 'default':
@@ -26,7 +26,7 @@ function txt2(i9) {
 }
 
 //case3
-function s24() {
+function caseWithObject() {
     const user1 = {
         admin() {
             console.log("I am admin");

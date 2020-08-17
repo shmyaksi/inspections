@@ -1,7 +1,7 @@
 //'Fallthrough in 'switch' statement' is ON
 
 //Case1
-function fall1() {
+function CheckFall1() {
     const map87 = new Map([['foo', 'bar'], ['baz', 42]]);
     const obj25 = Object.fromEntries(map87);
     switch (obj25.foo) {
@@ -16,7 +16,7 @@ function fall1() {
 }
 
 //case2
-function fall2() {
+function CheckFall2() {
     let a = {duration: 50, title: ''};
     let k = 0
     switch (a.duration) {
@@ -30,7 +30,7 @@ function fall2() {
 fall2()
 
 //case3
-function myFunction(opt) {
+function CheckFall3(opt) {
     switch (opt) {
         case 1:
             ;//todo empty 'case' isn't triggered by this inspection(but if insert ';' - ok
@@ -39,4 +39,5 @@ function myFunction(opt) {
     }
 }
 
-myFunction(4)
+CheckFall3(4)
+
