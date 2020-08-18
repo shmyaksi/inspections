@@ -1,5 +1,6 @@
 //Inspection is OFF by default
 
+//WEB-46709
 function s2() {
     let f986 = (a, b) => a + b
     f986();
@@ -8,7 +9,7 @@ function s2() {
 function NotAnon() {
     let an = function () {
     }
-    console.log('Im not anonymus')
+    console.log('Im not anonymous')
 }
 
 NotAnon();
@@ -34,8 +35,7 @@ mymark = new marks(5)
 console.log(mymark.greeting());
 
 
-//
-
+//WEB-46910
 let someFunc = someFunction('text');
 function someFunction(param) {
     if (param === 'text') return function (value) {
@@ -79,3 +79,5 @@ function secondcase() {
 }
 
 secondcase()
+
+

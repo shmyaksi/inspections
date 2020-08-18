@@ -6,7 +6,7 @@ function xe() {
 
 console.log(xe())
 
-
+//WEB-46702
 function myFunc() {
     if (myFunc.caller == null) {
         return 'Эта функция была вызвана из верхнего уровня!';
