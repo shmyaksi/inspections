@@ -52,18 +52,10 @@ function g6() {
 
     if ((a1 & b1)) {
     }
-}
-
-//Case7
-function g7() {
     if (a1 & b1 && a1 & c1) {
-    } // todo: Only generated warning for the second bitwise operation
-
-}
-
-//Case8
-function g8() {
+    }
     if (a1 & b1 && (a1 & c1)) {
-    } //todo Still generates a warning for the second bitwise operation, even if enclosed with ()
+    }
 
 }
+

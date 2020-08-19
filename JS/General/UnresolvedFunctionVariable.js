@@ -19,12 +19,12 @@ function e3() {
         // yearr : 1969
 
     }
-    console.log(myCar2['yearr'])//todo :it isn't reported as unresolved property
-    console.log(myCar2.yearr) // todo (put the tick in inspection's description 'report undeclared property', but there is no error
+    console.log(myCar2['yearr'])
+    console.log(myCar2.yearr)
 
 
     if (myCar2.hasOwnProperty('yearr')) {
-        console.log(myCar2.yearr);
+        console.log(myCar2.yearr)
     }
 }
 

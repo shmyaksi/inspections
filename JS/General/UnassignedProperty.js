@@ -21,7 +21,7 @@ class A2 {
     }
 }
 //Case3
-let asd ; //todo incorrect quick-fix (should be *=e, but here only =)
+let asd
 function k3(e){
     return asd*=e
 }

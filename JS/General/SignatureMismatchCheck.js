@@ -1,6 +1,6 @@
 //Inspection is ON(optionality of parameters - tick)
-function doSomething(a,b) { // todo: a is unused ,should it proposed to be deleted?
-    return (b);
+function doSomething(a, b) {
+    return (a)
 }
 
 doSomething(3)
@@ -24,7 +24,7 @@ fun(1,5);
 //WEB-32145
 class HeroDetailComponent {
     save(p) {
-        this.another('', '') //todo second quick-fix change nothing
+        this.another('', '')
     }
 
     another(p) {

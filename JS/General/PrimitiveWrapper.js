@@ -8,9 +8,9 @@ function w2() {
 }
 
 function w3() {
-    let xw = new Boolean('true');
+    let xw = new Boolean('true')
     if (xw) {
-        console.log('hi');
+        console.log('hi')
     }
 }
 
@@ -18,8 +18,8 @@ function w3() {
 let symObj = new Object()
 
 const alsoHuge = BigInt(9007199254740991)
-/*let bv = new BigInt() //todo:  should be triggered ?
-let xws = new Symbol();*/
+let bv = new BigInt()
+let xws = new Symbol()
 
 //Case:class
 class String {
