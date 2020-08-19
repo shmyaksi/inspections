@@ -1,17 +1,5 @@
 //Inspection is ON
 
-//Case1
-ghr()
-
-//Case2
-const compiler = webpack(config);
-
-//Case3
-function getData(data) {
-    console.log(data.someVar);
-}
-
-//Case4
 function e3() {
     let myCar2 = {
         make: 'Ford',
@@ -30,10 +18,4 @@ function e3() {
 
 e3()
 
-//Case5
-function t6() {
-    if (typeof undeclared !== 'undefined') {
-        undeclared();
-    }
-}
-
+//todo: add cases

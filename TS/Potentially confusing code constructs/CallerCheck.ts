@@ -1,8 +1,9 @@
 //Inspection is ON
-/*function xe() {
+function xe() {
     return xe.caller
 }
-console.log(xe())*/
+
+console.log(xe())
 
 
 function myFunc1() {
@@ -17,8 +18,6 @@ console.log(myFunc1())
 
 
 function one12() {
-    //  console.log('jkfbksf')
-
     function two() {
 
 
@@ -28,4 +27,4 @@ function one12() {
     }
 }
 
-console.log(one12()) //returned undefined
+console.log(one12())

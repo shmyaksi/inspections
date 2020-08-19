@@ -23,12 +23,12 @@ let arr4 = []
 
 //WEB-44177
 class Pqr {
-    static* t() { //todo: still no inspection
-        let x = 5;
+    * t() { //todo: still no inspection
+        let x = 5
     }
 
-    static* t2() {
-        let x = 5;
+    * t2() {
+        let x = 5
     }
 }
 
