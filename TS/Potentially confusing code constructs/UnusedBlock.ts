@@ -1,7 +1,7 @@
 //Inspection is OFF
 //Case1
 function oneone(assan) {
-    {  // TODO (suggest to delete unnecessary block statement)
+    {
         let assan = +1;
     }
     console.log(assan)

@@ -80,5 +80,70 @@ function cccc(mynum: MyFace) {
     else return
 }
 
-let my = {foo:10, mynum:'xns'};
+let my = {foo: 10, mynum: 'xns'};
 cccc(my)
+
+
+//Case6
+function abcdd(b, c) {
+    let bc = 'mother';
+    let m: number;
+    if (!bc) {
+        let m = b;
+        console.log('access denied');
+    } else m = c;
+}
+
+abcdd(2, 3)
+
+
+//Case7
+let Person45 = (function () {
+    let ageKey: number;
+
+    class Person {
+        name: string;
+
+        constructor(theName: string) {
+            this.name = theName;
+            this[ageKey] = 20;
+        }
+
+        comparison() {   //negated if statement
+            if (!this.name) return 'go away'
+            else return 'hello';
+
+        }
+
+        greet() {
+
+            console.log(`name: ${this.name}, age: ${this[ageKey]}`);
+        }
+    }
+
+    return Person;
+})();
+
+let joe = new Person45('Joe');
+joe.greet();
+
+//Case8
+function foor() {
+    let s = 5;
+    if (!s)
+        console.log('ok')
+
+}
+
+foor()
+
+const xx = 4, yy = 8
+
+//Case9
+function comp() {
+
+    if (!(xx || yy)) return 'good' //negated IF
+    else return
+}
+
+comp()

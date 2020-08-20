@@ -35,9 +35,13 @@ var o1 = {
 var o3 = {
     set p(a, b, c) {
     }
-}; //SyntaxError: Setter must have exactly one formal parameter.
+} //SyntaxError: Setter must have exactly one formal parameter.
 
 //todo (incompatible numeric format left)
 
+var number = 'hello'
+
+// Запрашиваем формат валюты
+console.log(new Intl.NumberFormat('de-DE', {style: 'currency', currency: 'EUR'}).format(number))
 
 

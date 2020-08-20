@@ -33,9 +33,11 @@ fall2()
 function CheckFall3(opt) {
     switch (opt) {
         case 1:
-             //todo empty 'case' isn't triggered by this inspection(but if insert ';' - ok
+        //todo empty case isn't triggered by this inspection(but if insert ';' - ok
         case 2:
             return "Two"
+        default:
+            break
     }
 }
 
