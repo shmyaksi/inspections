@@ -23,8 +23,8 @@ var arr4 = []
 
 //WEB-44177
 public class Pqr {
-    public static function t() { //todo: still no inspection
-        var x = 5;
+    public static function t() {
+        var x = 5
     }
 
     public static function t2() {

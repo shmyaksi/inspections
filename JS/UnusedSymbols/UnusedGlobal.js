@@ -23,7 +23,7 @@ let arr4 = []
 
 //WEB-44177
 class Pqr {
-    * t() { //todo: still no inspection
+    * z() {
         let x = 5
     }
 

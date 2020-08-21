@@ -25,12 +25,13 @@ console.log(mersmers.ag)
 //Case3
 function e4() {
     let save = JSON.parse(localStorage.getItem('save000'))
-    let playerLocation = save[1].playerLocation //todo: call 'create field' on playerLocation. Result : red code
+    let playerLocation = save[1].playerLocation
 }
 
 e4()
 
 //Case4
+
 function e5() {
     const json = '{"result":true, "count":42}'
     const obj6 = JSON.parse(json)

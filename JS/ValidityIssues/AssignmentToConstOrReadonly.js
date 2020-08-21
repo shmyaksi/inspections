@@ -4,27 +4,31 @@
 //Case1
 const kok = 10
 
-function checkThree(m) {
+/*function checkThree(m) {
     kok += m
-}
+}*/
 
 //Case2
 function checkFour() {
-    let obj234 = Object.freeze({name: 'Elsa', score: 157});
-    obj234.score = 0;
+    let obj234 = Object.freeze({name: 'Elsa', score: 157})
+    obj234.score = 0
 }
 
 //Case3
-function checkFive() {
-    let array123 = [0];
-    Object.freeze(array123);
-    array123[0] = 1; //todo: why it isn't highlighted like in case2?
+
+function check999() {
+    let array444 = Object.freeze([4, 5, 6])
+    array444.push(5)
+    console.log(array444)
 }
 
+check999()
+
 //Case4
+
 function checkSix() {
     let arr = [1, 2, 3]
-    const [first] = arr;
-    first = 2 * arr[0];
+    const [first] = arr
+    first = 2 * arr[0]
 
 }

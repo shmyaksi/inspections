@@ -4,7 +4,7 @@
 function d3() {
     let x65 = 1
 
-    x65 = (x65++, x65) //TODO flipping ',' produces red code
+    x65 = (x65++, x65)
 
     console.log(x65)
 }
@@ -16,7 +16,7 @@ function d4() {
     let a66, b66, c66
 
     a66 = b66 = 3, c66 = 4
-    console.log(a)
+    console.log(a66)
 }
 
 d4()

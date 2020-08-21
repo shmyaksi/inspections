@@ -20,7 +20,6 @@ threee()
 //Case3
 function lala():void{
 
-    //console.log('dsdgsg')
 }
 lala()
 

@@ -3,7 +3,6 @@
 //Case1: SyntaxError: Unexpected token ':'
 function h34() {
     let a: number;
-    a *= 3
 }
 
 //Case2:SyntaxError: Illegal break statement
@@ -22,8 +21,8 @@ let func = x => {
 
 //Case4:SyntaxError: Unexpected identifier
 class ClassWithStaticMethod {
-    private someMethod() { //method can be static
-        return 'static method has been called.';
+    private someMethod() {
+        return 'static method has been called.'
     }
 }
 
@@ -38,10 +37,5 @@ var o3 = {
 } //SyntaxError: Setter must have exactly one formal parameter.
 
 //todo (incompatible numeric format left)
-
-var number = 'hello'
-
-// Запрашиваем формат валюты
-console.log(new Intl.NumberFormat('de-DE', {style: 'currency', currency: 'EUR'}).format(number))
 
 

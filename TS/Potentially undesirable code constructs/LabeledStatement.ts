@@ -2,7 +2,7 @@
 
 //Case1
 function one0() {
-    even:                           // TODO 'cleanup' and 'remove label' work equally
+    even:
         for (let i = 1; i <= 10; i++) {
             console.log(i);
         }
@@ -14,7 +14,7 @@ one0()
 function two0() {
     let j: number;
 
-    myLabel:  // label is used
+    myLabel:
         if (j % 2 == 0) {
             if (j == 12) {
                 console.log("12");
