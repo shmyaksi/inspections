@@ -42,6 +42,9 @@ function implements() {
 
 }
 
+//case10
+const let
+
 
 let arguments = 10
 
@@ -51,10 +54,7 @@ class boolean {
 
 }
 
-class
-
-break
-{
+class break{
 
 }
 
@@ -62,11 +62,7 @@ function byte() {
 
 }
 
-function
-
-case
-()
-{
+function case (){
 
 }
 
@@ -74,32 +70,19 @@ const catch
 
 const char
 
-class
-
-class {
+class class {
 
 }
 
-function
-
-const (
-)
-{
+function const (){
 
 }
 
-function
-
-continue
-()
-{
+function continue(){
 
 }
 
-class
-
-debugger
-{
+class debugger{
 
 }
 
@@ -110,18 +93,11 @@ let double
 
 const do
 
-class
-
-else
-{
+class else{
 
 }
 
-function
-
-enum
-()
-{
+function enum(){
 
 }
 
@@ -135,10 +111,7 @@ function exends() {
 
 }
 
-class
-
-false
-{
+class false{
 
 }
 
@@ -150,11 +123,9 @@ class float {
 
 }
 
-class
+class for{}
 
-for{}
-
-    let function;
+let function;
 
 let if
 
@@ -162,38 +133,27 @@ function goto() {
 
 }
 
-class
-
-import {}
+class import {}
 
 
 let in
 
-class
-
-instanceof
-{
+class instanceof{
 
 }
 let int
 
 
-const let
+
 
 const long
 const native
 
-function
-
-new ()
-{
+function new (){
 
 }
 
-function
-
-null()
-{
+function null(){
 
 }
 
@@ -201,10 +161,7 @@ const return
 
 let short
 
-class
-
-super
-{
+class super{
 
 }
 const switch
@@ -213,10 +170,7 @@ const synchronized
 
 const this
 
-function
-
-throw()
-{
+function throw(){
 }
 
 function throws() {
@@ -226,10 +180,7 @@ class transient {
 
 }
 
-class
-
-true
-{
+class true {
 
 }
 
