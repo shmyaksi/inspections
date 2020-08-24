@@ -27,13 +27,14 @@ function CheckFall2() {
     }
 }
 
-fall2()
+CheckFall2()
 
 //case3
 //WEB-8350
 function CheckFall3(opt) {
     switch (opt) {
         case 1:
+
 
         case 2:
             return "Two"

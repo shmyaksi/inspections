@@ -4,23 +4,23 @@
 function CaseWithFor() {
     switch (x) {
         case 1:
-            case2: for (let i = 0; i < 4; i++) {
-                x += i;
+            for (let i = 0; i < 4; i++) {
+                x += i
             }
         case 3:
-            break;
+            break
 
     }
 }
 
 //case2
 function caseTwo(i9) {
-    i9 ??= "default";
+    i9 ??= "default"
     switch (i9) {
         case 'default':
-            break;
+            break
         case 'notdefault':
-            case3: console.log('notdefault');
+            console.log('notdefault')
     }
 
 }
@@ -29,16 +29,16 @@ function caseTwo(i9) {
 function caseWithObject() {
     const user1 = {
         admin() {
-            console.log("I am admin");
+            console.log("I am admin")
         }
 
     }
-    const user2 = {};
+    const user2 = {}
 
     switch (user1.admin) {
         case 'notadmin':
-            case1:user1.admin?.();
+            user1.admin?.()
         case 'user2':
-            user2.admin?.();
+            user2.admin?.()
     }
 }

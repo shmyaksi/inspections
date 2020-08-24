@@ -1,4 +1,5 @@
 // 'Reserved word used as name' is ON by default
+//TS 3.9.5
 
 // List of reserved names: https://www.tektutorialshub.com/typescript/identifiers-keywords-in-typescript/
 

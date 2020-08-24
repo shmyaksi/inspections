@@ -1,5 +1,5 @@
 // inspection 'Unreachable 'case' branch of a 'switch' statement' is ON by default
-
+//TS 3.9.5
 
 //Case1
 enum Boo123 {
@@ -26,16 +26,13 @@ enum AnimalJournalDetailValueType {
 
 }
 
-
 let parseValue = (detail: AnimalJournalDetailValueType.PLAIN | AnimalJournalDetailValueType.DATE | AnimalJournalDetailValueType.I18N) => {
     switch (detail) {
         case AnimalJournalDetailValueType.I18N:
-
             break;
         case AnimalJournalDetailValueType.DATE:
             break;
         case AnimalJournalDetailValueType.PLAIN:
-
             break;
         case AnimalJournalDetailValueType.DATEDATE:
             break;
@@ -43,3 +40,6 @@ let parseValue = (detail: AnimalJournalDetailValueType.PLAIN | AnimalJournalDeta
 
     }
 }
+
+
+
