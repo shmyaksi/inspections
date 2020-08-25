@@ -24,9 +24,23 @@ const x = 0
 //Case3
 function h2(a) {
     return a << 0;
-
 }
 
 h2(7)
 
-//todo:add cases
+//Case4
+function h3() {
+    let value: string | undefined;
+    console.log(`value is ${(value!.length << 0)} characters long`);
+}
+
+//case4
+function h4() {
+    const getSthSymbol = Number(1000);
+
+    class SampleClass {
+        [getSthSymbol]() {
+            return getSthSymbol & 0;
+        }
+    }
+}

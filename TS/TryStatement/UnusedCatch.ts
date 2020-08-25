@@ -1,10 +1,11 @@
 //Inspection 'Unused catch parameter' is OFF by default
+//TS 3.9.5
 
 //Case1
 function testAll() {
     try {
-        return func1();
-    } catch (a) {
+        return;
+    } catch (a) { //todo: this inspection doesn't work here
 
     }
 
@@ -15,16 +16,16 @@ testAll()
 //Case2
 function testAll2(n) {
     try {
-        return n
+        return n;
     } catch (error) {
 
     }
     try {
-        return n * n
+        return n * n;
     } catch (ignore) {
 
     }
 
 }
 
-testAll2()
+testAll2(2)
