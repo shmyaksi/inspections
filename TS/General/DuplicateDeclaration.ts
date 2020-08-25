@@ -44,7 +44,7 @@ function func143() {
     while (k < 1) {
         console.log(a.duration);
         k++
-        a.title ||= 'title is empty.'; //todo: if delete this string - red code
+        //a.title ||= 'title is empty.'; //todo: if delete this string - red code
         console.log(a.title);
 
     }
@@ -55,19 +55,12 @@ func143()
 //Case6
 class Counter2 {
     xValue;
-
     get x() {
         return this.xValue;
     }
-
     set x(value) {
         this.xValue = value;
     }
-
-    clicked() {
-        this.x++;
-    }
-
 
     connectedCallback() {
     }
@@ -78,5 +71,19 @@ class Counter2 {
 
 }
 
+//Case7
+enum UserResponse {
+    No = 0,
+    Yes = 1,
+    Yes
+}
 
-
+//Case8
+enum FileAccess {
+    None,
+    Read = 1 << 1,
+    Write = 1 << 2,
+    ReadWrite = Read | Write,
+    G = "123".length,
+    G = 10
+}

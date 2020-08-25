@@ -2,6 +2,7 @@
 //TS 3.9.5
 
 //case1
+
 class ClassWithStaticMethod {
     someMethod() {
         return 'static method has been called.';
@@ -50,4 +51,29 @@ class Greeter<T> {
 }
 
 let greeter = new Greeter<string>('Hello, world')
+
+//case5
+interface IFoo {
+    bar(): boolean;
+}
+
+abstract class FooBase {
+    abstract baz(value): IFoo;
+}
+
+class Foo1234 extends FooBase {
+    constructor(private qux) {
+        super();
+    }
+
+    bar(): boolean {
+        return;
+    }
+
+    baz(value): IFoo {
+        return undefined;
+    }
+}
+
+
 

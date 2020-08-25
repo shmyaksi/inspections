@@ -2,11 +2,11 @@
 //TS 3.9.5
 
 //Case1
-function* example() {
-    const collection: number [] = [] //WEB-36813
-    collection.push(1);
-    yield collection;
-}
+ function* example() {
+     const collection: number [] = [] //WEB-36813
+     collection.push(1);
+     yield collection;
+ }
 
 //Case2
 function test1() { //WEB-40325

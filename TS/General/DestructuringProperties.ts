@@ -80,6 +80,23 @@ function propcheck() {
     console.log(w, xw, remaining);
 }
 
+//case9
+enum first {
+    value123,
+    type
 
+}
 
+const {value123: type1, value123} = first
+
+//Case10
+const person = {first: 'John', last: 'Doe'};
+
+interface Person {
+    first: string;
+    last: string;
+}
+
+const hello = ({first: string, first, last}: Person) =>
+    `Hello ${first} ${last}!`;
 

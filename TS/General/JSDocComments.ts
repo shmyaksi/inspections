@@ -64,7 +64,7 @@ sayHello('froa')
 //Case5
 /**
  * @template T
- * @param {T} x - A generic parameter that flows through to the return type
+ * @param {T} x
  * @return {T} : number
  */
 function id(a) {
@@ -74,7 +74,6 @@ function id(a) {
 //Case6
 class C {
     name
-
     /**
      * @param {number} data
      */
