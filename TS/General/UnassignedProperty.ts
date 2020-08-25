@@ -1,12 +1,15 @@
 //Inspection 'Use of possibly unassigned property in a static initializer' is ON
+//TS 3.9.5
 
 //Case1
 class s1 {
-
     constructor(greet2) {
-        this.greet2 = this.n2
-        let n2 = this.n2
+        greet2 = this.n2
+
     }
+
+    greet2 = this.n2;
+    n2 = this.greet2
 
 }
 
@@ -14,16 +17,9 @@ class s1 {
 class A2 {
     a = this.b;
     b = this.a;
-    c = this.m;
-    q = this.q;
     s = () => this.s;
-    f = function () {
-        return this.f
-    }
+
 }
-//Case3
-let asd
-function k3(e){
-    return asd*=e
-}
-k3(3)
+
+//todo:cases
+

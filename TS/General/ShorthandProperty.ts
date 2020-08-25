@@ -1,4 +1,6 @@
 // Inspection  'Property can be replaced with shorthand' is On
+//TS 3.9.5
+
 function animal() {
     let cat = 'Miaow';
     let dog = 'Woof';
@@ -15,11 +17,5 @@ function o2() {
     let oppp = {
         property: function (parameters) {
         },
-        get propert() {
-        },
-        set proper(value) {
-        }
     }
 }
-
-

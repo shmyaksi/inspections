@@ -7,4 +7,6 @@ var obj2 = {
     age: 3,
 }
 
-var cssClasses = ["bold", "red",]
+var cssClasses = ["bold", "red",];
+
+//todo: this inspection doesn't work for TS

@@ -1,4 +1,5 @@
 //'Destructuring properties with the same key can be merged' is ON
+//TS 3.9.5
 
 //case1
 function k2() {
@@ -38,7 +39,7 @@ var {x: {y: a, z: b, y: t}} = {x: {y: 7, z: 8}} //WEB-37903
 
 //case4
 function abcd() {
-    let robotA = {name: "Bender", name: 'kjdkdj'};
+    let robotA = {name: "Bender"};
     let robotB = {name: "Flexo"};
     let {name: nameA, name} = robotA;
     let {name: nameB} = robotB;
@@ -53,7 +54,6 @@ function k4() {
     let optionss = {
         title: "Menu",
         width3: 100,
-        width3: 3,
         height: 200
     };
     let {title, width3: width33, width3, height} = optionss;
@@ -61,14 +61,24 @@ function k4() {
 
 //case6
 function abcde() {
-    let robotA = {name: "Bender", name: 'Ben'};
+    let robotA = {name: "Bender"};
     let {name: nameA, name} = robotA;
     console.log(nameA);
 }
 
-let capitalize = str => str.toUpperCase()
-let newName = abcde()
-    |>capitalize
+//case7
+function abcdef() {
+    var rect = {x: 0, y: 10, width: 15, height: 20};
+
+    var {x, y, width, height, height} = rect;
+    console.log(x, y, width, height);
+}
+
+//case8
+function propcheck() {
+    var {w, xw, xw, ...remaining} = {w: 1, xw: 2, y: 3, z: 4};
+    console.log(w, xw, remaining);
+}
 
 
 

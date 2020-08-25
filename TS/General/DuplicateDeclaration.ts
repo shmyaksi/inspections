@@ -1,0 +1,82 @@
+//'Duplicate declaration' is ON
+//TS 3.9.5
+
+//Case1
+function one() {
+    let e = {
+        target: {
+            value: 'abc',
+            value: 'kjdv'
+        },
+        password: {
+            value: 'xyz'
+        }
+    }
+    console.log(e)
+
+}
+
+
+//Case3
+class Person1 {
+    firstName
+    lastName
+
+    constructor(firstName, lastName) {
+        this.firstName = firstName;
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+}
+
+//Case4
+function abcde1() {
+    let robotA = {name: "Bender", name: 'Ben'};
+    let {name: nameA} = robotA;
+    console.log(nameA);
+}
+
+
+//Case5
+function func143() {
+    let a = {duration: 50, title: '', duration: 3};
+    let k = 0
+    while (k < 1) {
+        console.log(a.duration);
+        k++
+        a.title ||= 'title is empty.'; //todo: if delete this string - red code
+        console.log(a.title);
+
+    }
+}
+
+func143()
+
+//Case6
+class Counter2 {
+    xValue;
+
+    get x() {
+        return this.xValue;
+    }
+
+    set x(value) {
+        this.xValue = value;
+    }
+
+    clicked() {
+        this.x++;
+    }
+
+
+    connectedCallback() {
+    }
+
+    connectedCallback() {
+
+    }
+
+}
+
+
+
