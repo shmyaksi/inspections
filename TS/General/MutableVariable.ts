@@ -29,3 +29,13 @@ function init() {
 }
 
 init();
+
+//Case3
+function mute2(n) {
+    while (n < 5) {
+        var name = 'masha' //todo: inspection works only for 'var' declaration, if i change to 'let' - inspection isn't shown
+        function check() {
+            console.log(name);
+        }
+    }
+}

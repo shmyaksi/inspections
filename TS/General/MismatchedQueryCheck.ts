@@ -2,8 +2,9 @@
 //TS 3.9.5
 
 //Case1
+//WEB-36813
  function* example() {
-     const collection: number [] = [] //WEB-36813
+     const collection: number [] = []
      collection.push(1);
      yield collection;
  }
@@ -39,3 +40,24 @@ class MyClass {
     }
 
 }
+
+//Case5
+function MissCheck() {
+    let variable1: any[];
+    return variable1[''];
+
+}
+
+//Case6
+abstract class MissCheck2 {
+}
+
+class MissCheck3 extends MissCheck2 {
+    private myArr: Array<string>;
+
+    constructor() {
+        super();
+        this.myArr = [''];
+    }
+}
+

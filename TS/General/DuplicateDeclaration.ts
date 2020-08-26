@@ -2,7 +2,7 @@
 //TS 3.9.5
 
 //Case1
-function one() {
+function onelow() {
     let e = {
         target: {
             value: 'abc',
@@ -87,3 +87,28 @@ enum FileAccess {
     G = "123".length,
     G = 10
 }
+
+//Case9
+enum bad {a, b} //todo:duplicate declaration should works here
+
+enum bad {
+
+}
+
+//Case10
+interface face1 { //todo: here too
+
+}
+
+interface face1 {
+
+}
+
+//Case11
+function func143() {
+
+}
+
+
+
+

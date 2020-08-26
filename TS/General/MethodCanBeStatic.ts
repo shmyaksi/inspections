@@ -75,5 +75,20 @@ class Foo1234 extends FooBase {
     }
 }
 
+//Case6
+class Person90 {
+    private readonly _age: number;
+
+    constructor(public firstName: string, public lastName: string, age: number) {
+        this._age = age;
+    }
+
+    private log(message) {
+        console.log(message);
+    }
+}
+
+const cory = new Person90('Cory', 'Rylan', 100);
+
 
 

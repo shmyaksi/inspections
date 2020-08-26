@@ -1,1 +1,1 @@
-//examples are only for TS
+//examples are only for JS

@@ -31,6 +31,9 @@ class String1 {
 
 let xwa = new String('a');
 
+//Case5
+let list = new Array
+
 
 
 

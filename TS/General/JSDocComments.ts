@@ -68,12 +68,13 @@ sayHello('froa')
  * @return {T} : number
  */
 function id(a) {
-    return 'a';
+    return a;
 }
 
 //Case6
 class C {
     name
+
     /**
      * @param {number} data
      */
@@ -82,6 +83,14 @@ class C {
 
 
     }
+}
+
+//Case7
+/**
+ * @param  text
+ */
+function DocCheck(target: any, text: string) {
+
 }
 
 

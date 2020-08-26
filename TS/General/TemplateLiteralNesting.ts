@@ -14,3 +14,6 @@ function one2() {
     let gr1 = `${`greet the new `}${`intern`} `
     console.log(gr1)
 }
+
+
+
