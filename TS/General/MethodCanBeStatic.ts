@@ -90,5 +90,24 @@ class Person90 {
 
 const cory = new Person90('Cory', 'Rylan', 100);
 
+//Case7
+type Actions = 'qwe' | 'asd' | 'zxc';
+
+interface TestProps {
+    action: Actions;
+}
+
+class ActionCheck {
+    action: TestProps
+    ap: Actions = 'asd';
+
+    prom() {
+        return 'qwe';
+    }
+}
+
+
+
+
 
 

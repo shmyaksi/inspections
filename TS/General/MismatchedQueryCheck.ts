@@ -3,11 +3,11 @@
 
 //Case1
 //WEB-36813
- function* example() {
-     const collection: number [] = []
-     collection.push(1);
-     yield collection;
- }
+function* example() {
+    const collection: number [] = []
+    collection.push(1);
+    yield collection;
+}
 
 //Case2
 function test1() { //WEB-40325
@@ -28,7 +28,7 @@ function fru() {
     fruits.shift();
     fruits.slice();
     fruits.unshift();
-    fruits.add('ja'); //todo: obsolete syntax
+    fruits.add('ja');
     fruits.insert() // like 'slice'
     fruits.remove()
     fruits.reverse()
@@ -70,6 +70,35 @@ class MissCheck3 extends MissCheck2 {
     constructor() {
         super();
         this.myArr = [''];
+    }
+}
+
+//Case7
+type Actions1 = 'qwe' | 'asd' | 'zxc';
+
+interface TestProps1 {
+    action: Actions1;
+}
+
+class ActionCheck1 {
+    action: TestProps1
+    ap: Actions1 = 'asd';
+    private myarr2: Array<string>
+
+    constructor() {
+        this.myarr2.push('value')
+        this.myarr2.sort();
+        this.myarr2.pop();
+        this.myarr2.shift();
+        this.myarr2.slice(); //todo: doesn't work with this method
+        this.myarr2.unshift();
+        this.myarr2.add('ja');
+        this.myarr2.insert() // like 'slice'
+        this.myarr2.remove()
+        this.myarr2.reverse()
+        this.myarr2.copyWithin(0, 1, 2);
+        this.myarr2.fill('Banana', 1, 2)
+        this.myarr2.sort();
     }
 }
 

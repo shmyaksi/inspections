@@ -80,10 +80,34 @@ interface Person34 {
 
 class person34 {
     #key: Person34;
-    #key = 10
 }
 
-//todo: cases with extends
+
+class person35 extends person34 {
+    #name
+
+    greet() {
+        return #name + ',hello'
+    }
+}
+
+//Case8
+type Easing1 = "ease-in" | "ease-out" | "ease-in-out";
+
+class UIElement1 {
+    animate(dx: number, dy: number, easing: Easing1) {
+
+    }
+
+    #one: Easing1;
+
+    promAnimate() {
+        #one = 'sa'
+    }
+
+}
+
+
 
 
 
