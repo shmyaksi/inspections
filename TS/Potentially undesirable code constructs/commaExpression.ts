@@ -34,7 +34,7 @@ d5()
 //Case4
 function one65() {
     let arr = [4, 0, 2, 5]
-    arr[0] = 5, 3  //TODO flipping ',' cause problem
+    arr[0] = 5, 3
 
     console.log(arr)
 }

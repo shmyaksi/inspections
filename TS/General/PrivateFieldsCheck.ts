@@ -83,6 +83,7 @@ class person34 {
     #key = 10
 }
 
+//todo: cases with extends
 
 
 

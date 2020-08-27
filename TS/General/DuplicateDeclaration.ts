@@ -38,13 +38,13 @@ function abcde1() {
 
 
 //Case5
-function func143() {
+function func1435() {
     let a = {duration: 50, title: '', duration: 3};
     let k = 0
     while (k < 1) {
         console.log(a.duration);
         k++
-        //a.title ||= 'title is empty.'; //todo: if delete this string - red code
+        // a.title ||= 'title is empty.'; //todo: if delete this string - red code
         console.log(a.title);
 
     }
@@ -89,14 +89,14 @@ enum FileAccess {
 }
 
 //Case9
-enum bad {a, b} //todo:duplicate declaration should works here
+enum bad {a, b}
 
 enum bad {
 
 }
 
 //Case10
-interface face1 { //todo: here too
+interface face1 {
 
 }
 

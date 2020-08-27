@@ -28,7 +28,7 @@ col(1, 2)
 
 //Case4
 function g4(a, b) {
-    console.log("A & B = " + (a & b)); //todo inspection should be here
+    console.log("A & B = " + (a & b));
     if (a & b) console.log(a)
 
     console.log("A | B = " + (a | b));

@@ -12,7 +12,7 @@
 //Case2
 function test1() { //WEB-40325
     let bool, b;
-    const horizontalVector = [0], //todo: inspection should be here
+    const horizontalVector = [0],
         verticalVector = [0],
         hiddenVector = bool ? horizontalVector : verticalVector
     bool = b;
@@ -24,6 +24,18 @@ function fru() {
     let fruits = ["Banana", "Orange", "Apple", "Mango"];
     fruits.push("Kiwi", "Lemon", "Pineapple"); //todo: inspection should be here like in JS sample
     fruits.sort();
+    fruits.pop();
+    fruits.shift();
+    fruits.slice();
+    fruits.unshift();
+    fruits.add('ja'); //todo: obsolete syntax
+    fruits.insert() // like 'slice'
+    fruits.remove()
+    fruits.reverse()
+    fruits.copyWithin(0, 1, 2);
+    fruits.fill('Banana', 1, 2)
+    fruits.sort();
+
 
     return 'f'
 }

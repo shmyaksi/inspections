@@ -33,7 +33,7 @@ class marks {
     }
 
 
-    arr = function () { //TODO no suggestion to convert
+    arr = function () {
 
         return 2;
     }
@@ -95,7 +95,7 @@ class Greeter {
         this.greeting = message;
     }
 
-    greet = function () { //TODO no suggestion to convert
+    greet = function () {
         return "Hello, " + this.greeting; //flipping + causes undesirable result
     }
 }
