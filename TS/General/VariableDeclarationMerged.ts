@@ -16,7 +16,7 @@ function C124() {
 }
 
 
-//Case4
+//Case3
 function C125() {
     let textt = "";
     let j;
@@ -30,14 +30,14 @@ function C125() {
 
 }
 
-//Case5
+//Case4
 let asd
 
 function k3(e) {
     return asd *= e
 }
 
-//Case6
+//Case5
 function MissCheck123() {
     let variable1: number[];
     variable1 = [];
@@ -45,10 +45,9 @@ function MissCheck123() {
 
 }
 
-//Case7
+//Case6
 abstract class MissCheck234 {
     k
-
     merge() {
         let i;
         i = []

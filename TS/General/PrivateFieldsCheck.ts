@@ -70,3 +70,19 @@ class Product2 {
     }
 
 }
+
+//Case7
+interface Person34 {
+    firstName: string;
+    lastName: string;
+    age: number;
+}
+
+class person34 {
+    #key: Person34;
+    #key = 10
+}
+
+
+
+
