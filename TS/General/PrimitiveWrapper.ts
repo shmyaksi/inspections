@@ -34,7 +34,9 @@ let xwa = new String('a');
 //Case5
 let list = new Array
 
-
+//case6
+let me = ("Angus");
+me.length = 2;
 
 
 
