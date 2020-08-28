@@ -107,6 +107,18 @@ class ActionCheck {
 }
 
 
+//Case8
+interface GenericIdentityFn {
+    <T>(arg: T): T;
+}
+
+class identity<T> {
+    a: GenericIdentityFn
+
+    id() {
+        return 'arg';
+    }
+}
 
 
 

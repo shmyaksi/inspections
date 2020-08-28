@@ -72,4 +72,19 @@ class UIElement {
     }
 }
 
+//Case6
+interface Pair<T1, T2> {
+    first: T1;
+    second: T2;
+}
+
+class Pair2 {
+    first: Pair<number, string> = this.second
+    second = this.first
+
+    greet() {
+
+    }
+}
+
 

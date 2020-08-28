@@ -84,6 +84,8 @@ class ActionCheck1 {
     action: TestProps1
     ap: Actions1 = 'asd';
     private myarr2: Array<string>
+    private wer = new Set()
+    private element: number [] = [];
 
     constructor() {
         this.myarr2.push('value')
@@ -92,13 +94,15 @@ class ActionCheck1 {
         this.myarr2.shift();
         this.myarr2.slice(); //todo: doesn't work with this method
         this.myarr2.unshift();
-        this.myarr2.add('ja');
-        this.myarr2.insert() // like 'slice'
-        this.myarr2.remove()
+        this.wer.add('')
+        this.element.insert(3)
+        this.element.remove('')
         this.myarr2.reverse()
         this.myarr2.copyWithin(0, 1, 2);
         this.myarr2.fill('Banana', 1, 2)
         this.myarr2.sort();
     }
 }
+
+
 

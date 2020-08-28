@@ -108,6 +108,19 @@ class UIElement1 {
 }
 
 
+//Case9
+class Greeter1 {
+    #greeting: string | number;
+
+    constructor(message: string) {
+        #greeting = message;
+    }
+
+    greet() {
+        return "Hello, " + #greeting;
+    }
+}
+
 
 
 

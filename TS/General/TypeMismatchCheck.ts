@@ -1,5 +1,5 @@
 //examples are only for JS
-//todo: cases and  change the description
+//todo:   change the description
 
 
 //Case1
@@ -40,6 +40,24 @@ class Impl implements III {
 //case4
 let fullName: string = `Bob Bobbington`;
 let age33: number = '';
+
+//case5
+type Alignment = "Left" | "RIGHT" | "CENTER";
+
+function doAlign(alignment: Alignment): void {
+    console.log(alignment);
+}
+
+doAlign("");
+
+//Case6
+type WIDTH = 100 | 200 | 300;
+
+function setWidth(w: WIDTH) {
+    console.log(w);
+}
+
+setWidth(1000);
 
 
 
