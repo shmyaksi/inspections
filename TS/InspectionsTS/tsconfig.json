@@ -3,9 +3,21 @@
     "module": "commonjs",
     "target": "es5",
     "sourceMap": true,
-    "libs": ["es2017", "dom"]
-  },
-  "exclude": [
-    "node_modules"
-  ]
+    "lib": [
+      "dom",
+      "es5",
+      "scripthost",
+      "es2015.promise"
+    ],
+    "paths": {
+      "jquery": [
+        "node_modules/jquery/dist/jquery"
+      ]
+    },
+    "checkJs": true,
+    "extends": "../base/tsconfig.json",
+    "exclude": [
+      "node_modules"
+    ]
+  }
 }

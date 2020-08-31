@@ -1,3 +1,7 @@
+//Inspection 'Missing augmentation import' is ON
+// TS 3.9.5
+
+//Case1
 export class Pet {
     name: string;
 
@@ -7,3 +11,12 @@ export class Pet {
 }
 
 Pet.prototype.walk = (location: string) => `Likes to walk in the ${location}`
+
+
+//Case2
+export class Flowers123 {
+    name: string
+
+}
+
+Flowers123.prototype.greet = () => `hello + ${name}`

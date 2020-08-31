@@ -45,4 +45,4 @@ let Person45 = (function () {
 })();
 
 let joe = new Person45('Joe');
-joe.greet();
+Greeters.greet();

@@ -1,7 +1,7 @@
 //Inspection is ON by default
 //TS 3.9.5
 
-// todo: it's all 'type mismatch' , i dont know how to fire it
+// todo: discuss: it's all 'type mismatch' , i dont know how to fire it
 
 //case1
 class Queue<T> {
