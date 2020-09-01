@@ -29,7 +29,7 @@ function birth() {
 
 //case5
 class faceExp {
-    numArr: Array<{ name: string; age: number }> = [{name: 'adam', age: 10}]//todo:maybe it's good to propose inspection for types
+    numArr: Array<{ name: string; age: number }> = [{name: 'adam', age: 10}]//todo:maybe it's good to propose inspection for types:example
     numArr1: { name?: string; age?: number }[] = [{name: 'an', age: 10}]
 }
 

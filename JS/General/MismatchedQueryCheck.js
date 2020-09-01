@@ -23,3 +23,25 @@ function fru() {
 }
 
 console.log(fru())
+
+
+class ActionCheck1 {
+    myarr2;
+    wer = new Set()
+
+    constructor() {
+        this.myarr2.push('value')
+        this.myarr2.sort();
+        this.myarr2.pop();
+        this.myarr2.shift();
+        this.myarr2.splice();
+        this.myarr2.unshift();
+        this.wer.add('')
+        this.myarr2.insert(3)
+        this.element.remove('')
+        this.myarr2.reverse()
+        this.myarr2.copyWithin(0, 1, 2);
+        this.myarr2.fill('Banana', 1, 2)
+        this.myarr2.sort();
+    }
+}

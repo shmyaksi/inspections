@@ -20,17 +20,18 @@ function static() {
 }
 
 //Case4
-class public {
+function public() {
 
 }
 
 //Case5
-class protected {
+function protected() {
 
 }
 
 //Case6
 let private = 't'
+
 //Case7
 let package = 'gg'
 
@@ -82,7 +83,7 @@ function continue(){
 
 }
 
-class debugger{
+class Debugger {
 
 }
 
@@ -97,21 +98,29 @@ class else{
 
 }
 
-function enum(){
+function
+
+enum
+()
+{
 
 }
 
-class eval {
+class Eval {
 
 }
 
 let export
 
-function exends() {
+function
+
+extends
+()
+{
 
 }
 
-class false{
+class False {
 
 }
 
@@ -119,11 +128,12 @@ let final
 
 let finally
 
-class float {
+class Float {
 
 }
 
-class for{}
+class For {
+}
 
 let function;
 
@@ -161,7 +171,7 @@ const return
 
 let short
 
-class super{
+class Super {
 
 }
 const switch
@@ -176,11 +186,11 @@ function throw(){
 function throws() {
 }
 
-class transient {
+class Transient {
 
 }
 
-class true {
+class True {
 
 }
 
@@ -192,7 +202,7 @@ let var
 
 let void
 
-class volatile {
+class Volatile {
 
 }
 
@@ -201,5 +211,6 @@ let while
 let with
 
 
-
+//todo: naming according to naming conventions
+//todo: left only cases for this inspection
 

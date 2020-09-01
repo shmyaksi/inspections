@@ -22,11 +22,11 @@ function test1() { //WEB-40325
 //Case3
 function fru() {
     let fruits = ["Banana", "Orange", "Apple", "Mango"];
-    fruits.push("Kiwi", "Lemon", "Pineapple"); //todo: inspection should be here like in JS sample
+    fruits.push("Kiwi", "Lemon", "Pineapple"); //завести : todo: inspection should be here like in JS sample
     fruits.sort();
     fruits.pop();
     fruits.shift();
-    fruits.slice();
+    fruits.splice();
     fruits.unshift();
     fruits.add('ja');
     fruits.insert() // like 'slice'
@@ -92,7 +92,7 @@ class ActionCheck1 {
         this.myarr2.sort();
         this.myarr2.pop();
         this.myarr2.shift();
-        this.myarr2.slice(); //todo: doesn't work with this method
+        this.wer.splice();
         this.myarr2.unshift();
         this.wer.add('')
         this.element.insert(3)
@@ -105,4 +105,4 @@ class ActionCheck1 {
 }
 
 
-
+//todo: check in html file

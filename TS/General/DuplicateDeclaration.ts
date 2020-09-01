@@ -37,20 +37,6 @@ function abcde1() {
 }
 
 
-//Case5
-function func1435() {
-    let a = {duration: 50, title: '', duration: 3};
-    let k = 0
-    while (k < 1) {
-        console.log(a.duration);
-        k++
-        // a.title ||= 'title is empty.'; //todo: if delete this string - red code
-        console.log(a.title);
-
-    }
-}
-
-func143()
 
 //Case6
 class Counter2 {

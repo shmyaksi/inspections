@@ -1,14 +1,9 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "target": "es5",
+    "target": "ES6",
     "sourceMap": true,
-    "lib": [
-      "dom",
-      "es5",
-      "scripthost",
-      "es2015.promise"
-    ],
+    " isolatedModules": false,
     "paths": {
       "jquery": [
         "node_modules/jquery/dist/jquery"

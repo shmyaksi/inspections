@@ -23,7 +23,7 @@ function o2() {
 }
 
 //Case3
-var person6 = Object(); //todo:propose to replace with shorthand like in case below
+var person6 = Object();
 person6.firstName = "John";
 person6.lastName = "Doe";
 

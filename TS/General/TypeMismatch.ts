@@ -1,5 +1,4 @@
-//examples are only for JS
-//todo:   change the description
+//For TS  we have another TypeMismatch in JavaScript and TypeScript | TypeScript | Type mismatch
 
 
 //Case1

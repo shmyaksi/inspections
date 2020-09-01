@@ -7,10 +7,9 @@ function mute1() {
     let data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
     for (let i = 0; i < data.length; i++) {
         var file = data[i];
-
         function nb() {
             if (data !== undefined) {
-                console.log(file); //todo:inspection is here, but description doesn't contain TS
+                console.log(file); //завести: todo:inspection is here, but description doesn't contain TS
             }
         }
     }
