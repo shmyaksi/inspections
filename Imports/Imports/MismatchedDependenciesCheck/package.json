@@ -4,7 +4,7 @@
   "type": "module",
 
   "devDependencies" : {
-    "lodash": "^1.0.0"
+    "lodash": "^4.17.20"
   }
 
 }
