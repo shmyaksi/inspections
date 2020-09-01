@@ -1,5 +1,6 @@
+//TS 3.9.5
 //Inspection 'Missing augmentation import' is ON
-// TS 3.9.5
+
 
 //Case1
 export class Pet {

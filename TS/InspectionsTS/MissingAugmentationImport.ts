@@ -1,6 +1,6 @@
-import {Flowers123, Pet,} from "./AugmentationData";
+import {Flowers123, Pet,} from "./MissingAugmentationImport";
 
-declare module "./AugmentationData" {
+declare module "./Data/MissingAugmentationImport" {
     interface Pet {
         age: number;
 
@@ -12,4 +12,3 @@ declare module "./AugmentationData" {
 
     }
 }
-
