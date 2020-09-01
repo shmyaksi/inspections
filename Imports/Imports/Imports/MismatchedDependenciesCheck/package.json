@@ -1,0 +1,10 @@
+{
+  "name": "Imports",
+  "version": "1.0.0",
+  "type": "module",
+
+  "devDependencies" : {
+    "lodash": "^1.0.0"
+  }
+
+}
