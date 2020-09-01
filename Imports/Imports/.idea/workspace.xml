@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="858a7ff2-6a9f-4f39-a559-614e634315d5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fiLePlzkGKg9ZPr7qlRRg2d0WW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MismatchedDependenciesCheck" />
+      <recent name="$PROJECT_DIR$/ImportCanBeShortened" />
+      <recent name="C:\Users\Anna Nikolskaya\WebstormProjects\Imports" />
+      <recent name="C:\Users\Anna Nikolskaya\WebstormProjects\Imports\f" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.ImportCanBeShortened.js">
+    <configuration name="ImportCanBeShortened.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/ImportCanBeShortened/ImportCanBeShortened.js" working-dir="$PROJECT_DIR$/Data">
+      <method v="2" />
+    </configuration>
+    <configuration name="ImportsValidation.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/ImportsValidation.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="ReactImportCheck.jsx" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/ReactImportCheck.jsx" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="importData.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Data/importData.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.ImportCanBeShortened.js" />
+        <item itemvalue="Node.js.ReactImportCheck.jsx" />
+        <item itemvalue="Node.js.ImportsValidation.js" />
+        <item itemvalue="Node.js.importData.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="858a7ff2-6a9f-4f39-a559-614e634315d5" name="Default Changelist" comment="" />
+      <created>1596696061162</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596696061162</updated>
+      <workItem from="1596696062191" duration="13582000" />
+      <workItem from="1596782522901" duration="630000" />
+      <workItem from="1596783493736" duration="11222000" />
+      <workItem from="1597127271531" duration="6536000" />
+      <workItem from="1597229737421" duration="1382000" />
+      <workItem from="1597245305468" duration="330000" />
+      <workItem from="1597336398465" duration="609000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="371" y="109" key="#Inspections" timestamp="1597336955211">
+      <screen x="0" y="23" width="1440" height="776" />
+    </state>
+    <state x="396" y="91" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1596798635492" />
+    <state x="371" y="109" key="#Inspections/0.23.1440.776@0.23.1440.776" timestamp="1597336955211" />
+    <state x="550" y="168" key="FileChooserDialogImpl" timestamp="1597127283911">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="550" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1597127283911" />
+    <state width="1515" height="211" key="GridCell.Tab.0.bottom" timestamp="1597146330962">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597146330962" />
+    <state width="1515" height="211" key="GridCell.Tab.0.center" timestamp="1597146330962">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="211" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597146330962" />
+    <state width="1515" height="211" key="GridCell.Tab.0.left" timestamp="1597146330962">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="211" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597146330962" />
+    <state width="1515" height="211" key="GridCell.Tab.0.right" timestamp="1597146330962">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="211" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597146330962" />
+    <state x="262" y="77" key="SettingsEditor" timestamp="1597337033617">
+      <screen x="0" y="23" width="1440" height="776" />
+    </state>
+    <state x="279" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1597245636520" />
+    <state x="262" y="77" key="SettingsEditor/0.23.1440.776@0.23.1440.776" timestamp="1597337033617" />
+  </component>
+</project>
