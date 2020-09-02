@@ -81,7 +81,7 @@ enum bad {
 
 }
 
-//Case10
+
 interface face1 {
 
 }

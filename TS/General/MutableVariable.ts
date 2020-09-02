@@ -9,7 +9,7 @@ function mute1() {
         var file = data[i];
         function nb() {
             if (data !== undefined) {
-                console.log(file); //завести: todo:inspection is here, but description doesn't contain TS
+                console.log(file);
             }
         }
     }

@@ -22,7 +22,7 @@ function test1() { //WEB-40325
 //Case3
 function fru() {
     let fruits = ["Banana", "Orange", "Apple", "Mango"];
-    fruits.push("Kiwi", "Lemon", "Pineapple"); //завести : todo: inspection should be here like in JS sample
+   fruits.push("Kiwi", "Lemon", "Pineapple");
     fruits.sort();
     fruits.pop();
     fruits.shift();
@@ -88,7 +88,7 @@ class ActionCheck1 {
     private element: number [] = [];
 
     constructor() {
-        this.myarr2.push('value')
+        /*this.myarr2.push('value')
         this.myarr2.sort();
         this.myarr2.pop();
         this.myarr2.shift();
@@ -100,9 +100,8 @@ class ActionCheck1 {
         this.myarr2.reverse()
         this.myarr2.copyWithin(0, 1, 2);
         this.myarr2.fill('Banana', 1, 2)
-        this.myarr2.sort();
+        this.myarr2.sort();*/
     }
 }
 
 
-//todo: check in html file

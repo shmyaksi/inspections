@@ -18,7 +18,19 @@ function test1() { //WEB-40325
 
 function fru() {
     let fruits = ["Banana", "Orange", "Apple", "Mango"];
-    fruits.push("Kiwi", "Lemon", "Pineapple");
+   // fruits.push("Kiwi", "Lemon", "Pineapple");
+   // fruits.sort();
+    //fruits.pop();
+    //fruits.shift();
+    //fruits.splice();
+    //fruits.unshift();
+    //fruits.add('ja');
+    //fruits.insert() // like 'slice'
+    //fruits.remove()
+    //fruits.reverse()
+    //fruits.copyWithin(0, 1, 2);
+    //fruits.fill('Banana', 1, 2)
+    //fruits.sort();
     return 'f'
 }
 

@@ -19,12 +19,12 @@ function static() {
 }
 
 //Case4
-class public {
+function public () {
 
 }
 
 //Case5
-class protected {
+function protected () {
 
 }
 
@@ -83,110 +83,23 @@ let var
 //case25
 let void
 
-
 //case26
 let while
 //case27
 let with
 
-
-class boolean {
-
-}
-
-class break{
-
-}
-
-function byte() {
-
-}
-
-function case(){}
-
-const catch
-
-const char
-
-class class {}
-
-function const (){}
-
-function continue(){}
-
-class debugger{}
-
-class else{}
-
-function enum() {}
-
-class eval {
-
-}
-
-function exends() {
-
-}
-
-class false {}
-
-let final
-class float {
-
-}
-
-class for{}
-
-
-
-function goto() {
-
-}
-
-class import {}
+//case28
+function debugger(){}
 
 
 
 
-class instanceof {}
-let int
 
 
 
 
-const long
-const native
-
-function new (){}
-
-function null(){
-
-}
 
 
-let short
 
-class super
-{
 
-}
 
-const synchronized
-
-function throw()
-{
-}
-
-function throws() {
-}
-
-class transient {
-
-}
-
-class true{
-
-}
-class volatile {
-
-}

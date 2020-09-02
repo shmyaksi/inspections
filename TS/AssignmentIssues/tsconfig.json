@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2020",
+    "sourceMap": true,
+    "lib": [
+      "dom",
+      "es5",
+      "scripthost",
+      "es2015.collection",
+      "es2020.bigint"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
