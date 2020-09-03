@@ -2,17 +2,17 @@
 //The inspection 'Nested Assignment' is OFF  by default
 
 //Case1
-function dD(){
-    let n,l;
-    let d=n=l=1;
+function dD() {
+    let n, l;
+    let d = n = l = 1;
     return n
 }
 
 console.log(dD())
 
 //Case2
-function mCheck(){
-    let arr = [1,2,3,4]
+function mCheck() {
+    let arr = [1, 2, 3, 4]
     arr[0] = arr[1] = 4;
     console.log(arr)
 }
@@ -21,6 +21,7 @@ function mCheck(){
 class Person {
     age
     age1
+
     constructor(age, age1) {
         this.age = this.age1 = age;
     }
@@ -56,11 +57,11 @@ function isPrime1(p) {
 }
 
 
-
 //Case7
-class Foo{
+class Foo {
     propFoo
 }
+
 let F = new Foo();
 
 class Boo {
@@ -96,4 +97,31 @@ function obj6() {
     b3.name = b2.name = b1.name = "hello"
 }
 
-//todo:cases
+//case9
+class Nested1 implements Nested2 {
+    name
+    age
+
+}
+
+interface Nested2 {
+
+}
+
+
+let Nes = new Nested1()
+Nes.age = Nes.name = '10'
+
+//case10
+enum Nes1{
+    ac,av,ab
+
+}
+
+function comparison(a,b){
+   a=b= Nes1.ab
+}
+
+
+
+

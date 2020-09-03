@@ -4,9 +4,9 @@
 //Case1
 const kok = 10
 
-/*function checkThree(m) {
+function checkThree(m) {
     kok += m
-}*/
+}
 
 //Case2
 function checkFour() {
