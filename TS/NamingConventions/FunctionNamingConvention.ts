@@ -1,4 +1,5 @@
-//Inspection 'function naming convention' is OFF by default
+//TS 3.9.5
+//The inspection 'function naming convention' is OFF  by default
 
 //Case1
 function hel() {
@@ -21,7 +22,7 @@ function qwertyuioplkjhgfdsazxcvbnmqwertyu() {
 }
 
 //Case5
-function  Gak() {
+function* Gak() {
 
 }
 

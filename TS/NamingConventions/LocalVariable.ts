@@ -1,4 +1,6 @@
-//inspection 'Local variable naming convention' is OFF by default
+//TS 3.9.5
+//The inspection 'Local variable naming convention' is OFF  by default
+
 //Case1
 function check1() {
     let a0 = 10;

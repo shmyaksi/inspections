@@ -89,3 +89,7 @@ function iTakeFoo(foo11: Foo) {
     foo11.bar = 10;
 }
 
+//case10
+let me = ("Angus");
+me.length = 2;
+
