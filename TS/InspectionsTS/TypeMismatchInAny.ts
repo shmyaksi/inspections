@@ -3,4 +3,16 @@
 
 //todo:cases
 
+//case1
+function assert(val: any) {
+    if (typeof val !== 'number') {
+        throw new Error('Not a number');
+    }
+}
 
+function yell(val: any) {
+    assert(val);
+
+   return val.toString(4);
+    return val.toArray('1')
+}

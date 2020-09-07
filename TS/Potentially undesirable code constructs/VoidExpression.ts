@@ -24,7 +24,7 @@ function lala():void{
 lala()
 
 //Case4
-function doSomething(callback: () => void) { //shouldn't appear
+function doSomething(callback: () => void) {
 
     const a = callback
     a();
@@ -35,13 +35,13 @@ function doSomething(callback: () => void) { //shouldn't appear
 function aNumberCallback(): number {
     return 2;
 }
-
-
 console.log(doSomething(aNumberCallback))
 
 //Case6
 interface school{
     teacher:void;
 }
+
+
 
 

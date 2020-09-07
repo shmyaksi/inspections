@@ -5,9 +5,8 @@
 import hellogreet from "./ImpotCheck";
 
 //case2
-import {flowe, GenericInterface, Number1} from "./ImportData";
+import {flowe, GenericInterface, Number} from "./Data/ImportData";
 
-hellogreet()
 
 //case3
 let flower1 = new flower('rose')

@@ -4,7 +4,6 @@
 //Case1
 class Plant {
     z;
-
     constructor(readonly x) {
         x = 5;
     }
@@ -45,5 +44,14 @@ class Animal1 implements AnimalProperties {
 
     }
 }
+
+//case5
+class Circle {
+    constructor(readonly foo) {
+        this.foo = foo;
+    }
+}
+
+
 
 

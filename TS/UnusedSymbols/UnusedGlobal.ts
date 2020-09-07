@@ -36,3 +36,8 @@ enum MyEnum{
 //case8
 type MyType = 'red'| 'blue'
 
+//case9
+function tryGetFirstElement<T>(arr?: T[]) {
+    return arr?.[0];
+
+}

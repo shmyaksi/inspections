@@ -63,3 +63,5 @@ function trimHspace(str: string): any {
     let start = 0
     end = str.length
 }
+
+

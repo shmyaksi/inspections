@@ -5,9 +5,6 @@ function Identity<T>(arg: T): T {
     return arg;
 }
 
-
-
-
 //Case1
 type Easing11 = "ease-in" | "ease-out" | "ease-in-out";
 
@@ -88,3 +85,36 @@ function FIRST1(a: any): number {
 
     let ssd = a * a
 }
+
+
+//case11
+type FuncWith2ParamAndReturnVoid = (a: number, b: string) => void;
+
+let func: FuncWith2ParamAndReturnVoid = function (): void {
+    return 0;
+
+}
+
+//case12
+interface A {
+    a: number;
+}
+
+interface B {
+    b: string;
+}
+
+interface C {
+    a?: boolean;
+    b: string;
+}
+
+declare let x: A & B;
+
+declare let y: C;
+
+y = x;
+
+
+
+

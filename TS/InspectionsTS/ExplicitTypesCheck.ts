@@ -34,9 +34,8 @@ class faceExp {
     numArr1: { name?: string; age?: number }[] = [{name: 'an', age: 10}]
 }
 
-//after insp
+//after inspection
 class faceExp1 {
-    //before inspection
     numArr = [{name: 'adam', age: 10}]
 
 }

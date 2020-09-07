@@ -33,7 +33,7 @@ function createPerson(sIdentity) {
 }
 
 var john = createPerson('John Smith')
-console.log(arguments.caller.identity) //todo: inspection caller isn't shown here
+console.log(arguments.caller.identity)
 john()
 
 //Case4

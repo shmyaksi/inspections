@@ -31,16 +31,8 @@ function checkSix() {
 
 }
 
+
 //case5
-class Person{
-    private name:string
-}
-
-let Sasha = new Person()
-console.log (Sasha.name)
-
-
-//case6
 type Foo23 = {
     readonly bar: number;
     readonly bas: number;
@@ -51,7 +43,7 @@ function assignCheck() {
     foo.bar = 10;
 }
 
-//case7:type
+//case6:type
 type Foo25 = {
     bar: number;
     bas: number;
@@ -65,31 +57,7 @@ function assignCheck2() {
     fooReadonly.bar = 10;
 }
 
-//case8:interface
-interface Foo {
-    readonly[x: number]: number;
-}
-
-function assignCheck3() {
-    let foo: Foo = {0: 123, 2: 345};
-    foo[0] = 10; // todo: probably here should be inspection too
-}
-
-
-
-//case9
-interface Foo11 {
-    readonly bar: number;
-}
-let foo11: Foo11 = {
-    bar: 123
-};
-
-function iTakeFoo(foo11: Foo) {
-    foo11.bar = 10;
-}
-
-//case10
+//case7
 let me = ("Angus");
 me.length = 2;
 

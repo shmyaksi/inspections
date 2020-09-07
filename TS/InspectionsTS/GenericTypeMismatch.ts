@@ -3,6 +3,35 @@
 
 // todo: discuss: it's all 'type mismatch' , i dont know how to fire it
 
+declare function smushObjects<T, U>(x, y);
+
+interface Circle {
+    kind: "circle";
+    radius: number;
+}
+
+interface Square {
+    kind ;
+    sideLength: number;
+}
+
+declare let x;
+declare let y: Square;
+
+let z = smushObjects();
+console.log(z.kind);
+
+
+interface Lion {
+    roar(): void;
+}
+
+interface Seal {
+    singKissFromARose(): void;
+}
+
+
+
 //case1
 class Queue<T> {
     private data = [];

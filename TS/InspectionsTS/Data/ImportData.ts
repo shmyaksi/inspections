@@ -24,3 +24,5 @@ export interface GenericInterface1<U> {
 export enum Number1 {
     a, b, c
 }
+
+

@@ -1,7 +1,7 @@
 //Inspection 'Equality operator may cause type coercion' is OFF
 //ts 3.9.5
 
-//Caase1
+//Case1
 function one0(x: number) {
     if (x != 5) return `ok`;
 
@@ -32,4 +32,10 @@ class Vinyl<VinylProps> {
         if (this.name123 != true) return 'false'
         if (this.num == 0) return '0'
     }
+}
+
+//case5
+function foo<T extends any>(arg: T) {
+     if(arg!=9) return 9
+
 }

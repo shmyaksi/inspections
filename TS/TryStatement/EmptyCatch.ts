@@ -35,3 +35,6 @@ function example1(param: number, callback: (err: Error, result: number) => void)
 
     }
 }
+
+
+

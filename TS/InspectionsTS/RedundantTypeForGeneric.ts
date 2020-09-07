@@ -3,11 +3,12 @@
 //todo:cases
 
 
+const sayMessage = <T extends unknown>(message: T): string => `Simon says ${message}`;
+
+
+
 class Queue1<T> {
     private data: any[] = [];
-
-    public Array<T>()
-
 
     push(item: T) {
         this.data.push(item);
