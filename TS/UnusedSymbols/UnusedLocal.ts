@@ -1,7 +1,6 @@
 //TS 3.9.5
 //The inspection 'Unused local symbol' is ON  by default
 
-//todo: description
 
 //Case1
 function a200() {

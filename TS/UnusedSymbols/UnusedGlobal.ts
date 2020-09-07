@@ -1,7 +1,6 @@
 //TS 3.9.5
 //The inspection 'Unused global symbol' is ON  by default
 
-//todo: description too
 
 //Case1
 const aq = 10;

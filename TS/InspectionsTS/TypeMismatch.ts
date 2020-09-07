@@ -21,7 +21,7 @@ function checkType(num: number): number {
     return ''
 }
 
-checkType(3, 4) //todo: here is signature mismatch probably, but got TypeMismatch
+checkType('s') //todo: here is signature mismatch probably, but got TypeMismatch
 
 
 //Case3:WEB-37033
