@@ -3,6 +3,25 @@
 
 //todo: discuss
 
+class Aa {
+    private constructor() {
+    }
+
+    static createInstance() {
+        return new Aa();
+    }
+}
+
+class Ba extends Aa {
+    foo() {
+        return new Aa();
+    }
+}
+
+var f = new Aa();
+console.log(f)
+
+
 //case1
 class A {
     private x: number;

@@ -1,39 +1,46 @@
 //Inspection is ON by default
 //TS 3.9.5
 
-// todo: discuss: it's all 'type mismatch' , i dont know how to fire it
+//case1
+class Foo123<T, U, D = number> {
+}
 
-declare function smushObjects<T, U>(x, y);
+let zz: Foo123;
 
-interface Circle {
+
+//case2
+interface Circle1<T, R = string> {
     kind: "circle";
     radius: number;
 }
 
-interface Square {
-    kind ;
+let zz1: Circle1;
+
+//case3
+interface Square<T, U = number, R = string> {
+    kind;
     sideLength: number;
 }
 
-declare let x;
 declare let y: Square;
 
-let z = smushObjects();
-console.log(z.kind);
 
-
-interface Lion {
+//case4
+interface Lion<T, R, U = any> {
     roar(): void;
 }
 
-interface Seal {
+interface Seal<R, U = number> {
     singKissFromARose(): void;
 }
 
+type SealLion = Lion & Seal
+
+let zz2: SealLion<number>
 
 
-//case1
-class Queue<T> {
+//case5
+class Queue<T, R = number> {
     private data = [];
 
     push(item: T) {
@@ -45,48 +52,6 @@ class Queue<T> {
     }
 }
 
-const queue = new Queue<string>();
-queue.push(0);
+const queue: new Queue;
 
-
-//case2
-function identity<T>(value: number): T {
-    return value;
-}
-
-console.log(identity<Number>(2))
-
-//case3
-interface KeyValueProcessor<T, U> {
-    (key: T, val: U): void;
-}
-
-function processKeyPairs<T, U>(key: T, value: U): void {
-    console.log(`processKeyPairs: key = ${key}, value = ${value}`)
-}
-
-
-interface GenericInterface<U> {
-    value: U
-    getIdentity: () => U
-}
-
-class IdentityClass<T> implements GenericInterface<T> {
-    value: T
-
-    constructor(value: T) {
-        this.value = value
-    }
-
-    getIdentity(): T {
-        return this.value
-    }
-
-}
-
-const myNumberClass = new IdentityClass<Number>(1)
-console.log(myNumberClass.getIdentity())
-
-const myStringClass = new IdentityClass<string>("Hello!")
-console.log(myStringClass.getIdentity())
 

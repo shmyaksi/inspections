@@ -1,57 +1,54 @@
 //inspection 'Redundant type argument for a generic type' is ON by default
 //TS 3.9.5
-//todo:cases
 
+//case1
+class Moo<R, T = string, U = number> {
+}
 
-const sayMessage = <T extends unknown>(message: T): string => `Simon says ${message}`;
+let z1: Moo<number, string>
 
+//case2
+class Moo1<R, T = string, U = number> {
+}
 
+let z11: Moo1<number, number, number>
 
-class Queue1<T> {
-    private data: any[] = [];
+//case3
+interface GenericInterface<R, U = string> {
+    value: U
+    getIdentity: () => U
+}
 
-    push(item: T) {
-        this.data.push(item);
+let int: GenericInterface<number, string>
+
+//case4
+class IdentityClass<T, U = number, R = number> implements GenericInterface<T> {
+    value: T
+
+    constructor(value: T) {
+        this.value = value
     }
 
-    pop(): T | undefined {
-        return this.data.shift();
+    getIdentity(): string {
+        return "";
+    }
+
+}
+
+function redunduncyCheck() {
+    let int1: IdentityClass<number, string, number>
+
+}
+
+//case5
+interface IKeyValueProcessor<T, U> {
+    process(key: T, val: U): void;
+}
+
+class kvProcessor<T, U = string, R = number> implements IKeyValueProcessor<T, U> {
+    process(key: T, val: U): void {
+        console.log(`Key = ${key}, val = ${val}`);
     }
 }
 
-
-class Collection<T> {
-    private _things: T[];
-
-    constructor() {
-        this._things = [];
-    }
-
-    add(something: T): void {
-        this._things.push(something);
-    }
-
-    get(index: number): T {
-        return this._things[index];
-    }
-}
-
-
-function five<N = number, S = string>() {
-}
-
-five<number, string>();
-five<string, string>();
-five<number, number>();
-
-function f<N = number, S = string>() {
-}
-
-f();
-f<string, string>();
-f<number, number>();
-
-
-
-
-
+let kol: kvProcessor<number, number, number> = Object()

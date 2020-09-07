@@ -12,7 +12,7 @@ function assert(val: any) {
 
 function yell(val: any) {
     assert(val);
-
+    val.toArray('1')
    return val.toString(4);
-    //return val.toArray('1')
+
 }

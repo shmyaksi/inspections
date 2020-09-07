@@ -2,7 +2,7 @@
 //The inspection 'Function with inconsistent returns' is OFF by default
 
 
-//todo: no inspection in all cases
+//todo: no inspection in all cases (but it is in JS)
 
 //Case1
 function carry1(m) {
