@@ -1,10 +1,6 @@
 //TS 3.9.5
 //The inspection 'Type mismatch' is ON by default
 
-function Identity<T>(arg: T): T {
-    return arg;
-}
-
 //Case1
 type Easing11 = "ease-in" | "ease-out" | "ease-in-out";
 
@@ -21,7 +17,7 @@ function checkType(num: number): number {
     return ''
 }
 
-checkType('s') //todo: here is signature mismatch probably, but got TypeMismatch
+checkType('s') // todo: here is signature mismatch probably, but got TypeMismatch
 
 
 //Case3:WEB-37033

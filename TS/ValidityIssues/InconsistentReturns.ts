@@ -5,7 +5,7 @@
 //todo: no inspection in all cases (but it is in JS)
 
 //Case1
-function carry1(m) {
+function carry1(m): string {
     if (m > 0) return 'positive'
     if (m < 0) return 'negative'
 }

@@ -43,7 +43,7 @@ let zz2: SealLion<number>
 class Queue<T, R = number> {
     private data = [];
 
-    push(item: T) {
+    push(item: T): void {
         this.data.push(item);
     }
 
@@ -53,5 +53,13 @@ class Queue<T, R = number> {
 }
 
 const queue: new Queue;
+
+
+//case6
+class Book<T, R, U = string> {
+
+}
+
+let book1: Book = 'romeo';
 
 

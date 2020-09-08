@@ -22,22 +22,7 @@ var f = new Aa();
 console.log(f)
 
 
-//case1
-class A {
-    private x: number;
-    protected y: number;
 
-    constructor(x: number, y: number) {
-        this.x = x;
-        this.y = y;
-    }
-}
-
-class B extends A {
-    multiply(): number {
-        return this.x * this.y;
-    }
-}
 
 //case2
 //WEB-21986
@@ -87,6 +72,6 @@ class D extends C {
     }
 }
 
-let instance = new D();
+let instance: D = new D();
 console.log(instance.dHelper());
 console.log(C.foo);

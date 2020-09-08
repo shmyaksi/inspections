@@ -12,7 +12,8 @@ function assert(val: any) {
 
 function yell(val: any) {
     assert(val);
+    val.valueOf(10, 10)
     val.toArray('1')
-   return val.toString(4);
+    return val.toString(4);
 
 }

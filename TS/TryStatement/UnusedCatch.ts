@@ -2,7 +2,7 @@
 //TS 3.9.5
 
 //Case1
-function testAll() {
+function testAll(): void {
     try {
         return;
     } catch (a) { //todo: this inspection doesn't work here
