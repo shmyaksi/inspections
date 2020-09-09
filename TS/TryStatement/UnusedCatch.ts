@@ -5,7 +5,7 @@
 function testAll(): void {
     try {
         return;
-    } catch (a) { //todo: this inspection doesn't work here
+    } catch (a) {
 
     }
 

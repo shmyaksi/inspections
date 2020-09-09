@@ -1,9 +1,6 @@
 //TS 3.9.5
 //The inspection 'Function with inconsistent returns' is OFF by default
 
-
-//todo: no inspection in all cases (but it is in JS)
-
 //Case1
 function carry1(m): string {
     if (m > 0) return 'positive'

@@ -34,8 +34,15 @@ var o1 = {
 var o3 = {
     set p(a, b, c) {
     }
-} //SyntaxError: Setter must have exactly one formal parameter.
+}
 
-//todo (incompatible numeric format left)
+
+class Ginger1 {
+    name
+
+    goto(q) {
+        q *= q //todo: discuss: here is unused assignment too
+    }
+}
 
 

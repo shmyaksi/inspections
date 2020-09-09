@@ -1,20 +1,20 @@
 //inspection 'private' and 'protected' members accessibility' is ON by default
 //TS 3.9.5
 
-//todo: discuss
+//case1: WEB-47356
 
-class Aa {
+class Animals {
     private constructor() {
     }
 
     static createInstance() {
-        return new Aa();
+        return new Animals();
     }
 }
 
-class Ba extends Aa {
+class Tiger extends Animals {
     foo() {
-        return new Aa();
+        return new Animals();
     }
 }
 
@@ -54,7 +54,7 @@ class Foo2 {
     }
 }
 
-let smallfoo = new Foo2().stuff; //todo:no inspection
+let smallfoo = new Foo2().stuff;
 
 //case4
 class C {

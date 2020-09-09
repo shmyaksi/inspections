@@ -1,11 +1,10 @@
 //inspection 'Type mismatch in 'any' type context' is ON
 //TS 3.9.5
 
-//todo:cases
-
 //case1
 function assert(val: any) {
     if (typeof val !== 'number') {
+        val.toLocaleString(10)
         throw new Error('Not a number');
     }
 }

@@ -40,7 +40,7 @@ function has() {
 
 //case4
 function getValue1(val1?: number): number | 'nil' {
-    switch (val1) { //todo inspection should be here
+    switch (val1) {
         case 1:
             let num = 0;
             break;
