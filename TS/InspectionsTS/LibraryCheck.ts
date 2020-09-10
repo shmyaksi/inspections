@@ -10,25 +10,14 @@ function CheckOption1() {
 //case2
 function CheckOption2() {
     let das = 'sl'
-    das.trimEnd(); //todo: no suggestion to add 'es2019' to lib
+    das.trimEnd(); // WEB-36981: this method is for 'es2019' lib and this is ok to the discussion in the issue
 }
 
 //case3
-function CheckOption3() {
-    let arr4 = [1, 2, 3]
-    arr4.includes(5) //todo: add 'es2016' to lib
-}
-
-//case4
-function CheckOption4() {
-    let tarr = Uint8Array.of(12, 5, 3);
-    console.log(tarr.includes(5));
-}
-
-//case5
 function CheckOption5() {
-    let myItems: Array<string> = ["blah", "ok", "jj"];
-    let exists = myItems.includes('bla'); //todo:should suggest to add library "dom","es2017"
+    let myItems: Array<string> = ['a', 'b', 'c'];
+    let exists = myItems.includes('bla'); // WEB-36981: this method is for 'es2015' lib and this is ok to the discussion in the issue
     console.log(exists)
 }
+
 
