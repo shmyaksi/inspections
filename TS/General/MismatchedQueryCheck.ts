@@ -26,11 +26,7 @@ function fru() {
     fruits.sort();
     fruits.pop();
     fruits.shift();
-    fruits.splice();
     fruits.unshift();
-    fruits.add('ja');
-    fruits.insert() // like 'slice'
-    fruits.remove()
     fruits.reverse()
     fruits.copyWithin(0, 1, 2);
     fruits.fill('Banana', 1, 2)
@@ -88,19 +84,16 @@ class ActionCheck1 {
     private element: number [] = [];
 
     constructor() {
-        /*this.myarr2.push('value')
+        this.myarr2.push('value')
         this.myarr2.sort();
         this.myarr2.pop();
         this.myarr2.shift();
-        this.wer.splice();
         this.myarr2.unshift();
-        this.wer.add('')
-        this.element.insert(3)
-        this.element.remove('')
+        this.wer.add('');
         this.myarr2.reverse()
         this.myarr2.copyWithin(0, 1, 2);
         this.myarr2.fill('Banana', 1, 2)
-        this.myarr2.sort();*/
+        this.myarr2.sort();
     }
 }
 
