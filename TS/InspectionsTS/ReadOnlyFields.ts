@@ -1,9 +1,6 @@
 // inspection 'Field is assigned only in the constructor and can be made readonly ' is ON
 //TS 3.9.5
 
-
-//todo: add to description:'If a private field is assigned only in the constructor and used in methods of class, it can be made readonly'
-
 //Case1
 class Animal {
     private name: string;

@@ -41,7 +41,7 @@ class Ginger1 {
     name
 
     goto(q) {
-        q *= q //todo: discuss: here is unused assignment too
+        q *= q
     }
 }
 

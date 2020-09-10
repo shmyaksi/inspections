@@ -25,7 +25,7 @@ class Ginger{
 class Ginger1{
     naming
     goto(q) {
-        this.naming *= q //todo: discuss: here is unused assignment too
+        this.naming *= q
     }
 }
 
