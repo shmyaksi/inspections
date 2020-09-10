@@ -21,7 +21,7 @@ function test1() { //WEB-40325
 
 //Case3
 function fru() {
-    let fruits = ["Banana", "Orange", "Apple", "Mango"];
+    let fruits: string[] = ["Banana", "Orange", "Apple", "Mango"];
    fruits.push("Kiwi", "Lemon", "Pineapple");
     fruits.sort();
     fruits.pop();
